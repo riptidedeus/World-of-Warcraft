@@ -2,8 +2,8 @@
 TukuiDataPerChar = {
 	["ufpos"] = {
 	},
-	["hidebar4"] = false,
-	["hidebar2"] = false,
-	["hidebar3"] = false,
+	["hidebar4"] = true,
+	["hidebar2"] = true,
+	["hidebar3"] = true,
 	["install"] = true,
 }

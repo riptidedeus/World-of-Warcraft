@@ -16,6 +16,9 @@ TukuiConfigPublic = {
 	["actionbar"] = {
 		["ownmetabar"] = false,
 	},
+	["auras"] = {
+		["classictimer"] = true,
+	},
 	["general"] = {
 		["uiscale"] = 0,
 		["backdropcolor"] = {
@@ -24,7 +27,7 @@ TukuiConfigPublic = {
 			0.1, -- [3]
 		},
 	},
-	["auras"] = {
-		["classictimer"] = true,
+	["invite"] = {
+		["autoaccept"] = false,
 	},
 }

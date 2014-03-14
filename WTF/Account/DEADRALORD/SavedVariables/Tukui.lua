@@ -2,7 +2,7 @@
 TukuiData = {
 	["gold"] = {
 		["Darkspear"] = {
-			["Elékk"] = 58435749,
+			["Elékk"] = 58470752,
 			["Ichica"] = 21450956,
 			["Riptidé"] = 25330401,
 			["Vaela"] = 1473274658,

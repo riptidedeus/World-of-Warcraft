@@ -9,8 +9,8 @@ SkadaDB = {
 		["Riptidé - Darkspear"] = "Default",
 		["Ichica - Darkspear"] = "Default",
 		["Aluná - Darkspear"] = "Default",
-		["Tya - Darkspear"] = "Default",
 		["Elékk - Darkspear"] = "Default",
+		["Tya - Darkspear"] = "Default",
 		["Vaela - Darkspear"] = "Default",
 	},
 	["profiles"] = {
@@ -18,8 +18,8 @@ SkadaDB = {
 			["windows"] = {
 				{
 					["barheight"] = 28,
-					["y"] = 193.9994049072266,
-					["x"] = -70.9986572265625,
+					["y"] = 60.99955368041992,
+					["x"] = -86.9986572265625,
 					["title"] = {
 						["fontsize"] = 15,
 						["borderthickness"] = 1,
@@ -27,10 +27,10 @@ SkadaDB = {
 					},
 					["point"] = "BOTTOMRIGHT",
 					["mode"] = "Damage",
-					["barwidth"] = 324.0000305175781,
+					["barwidth"] = 365.0000915527344,
 					["barfontsize"] = 12,
 					["background"] = {
-						["height"] = 224.9999847412109,
+						["height"] = 227.9999084472656,
 					},
 				}, -- [1]
 			},
@@ -61,16 +61,16 @@ SkadaDB = {
 							["g"] = 0.1019607843137255,
 							["r"] = 0.1019607843137255,
 						},
-						["fontsize"] = 15,
 						["borderthickness"] = 1,
+						["fontsize"] = 15,
 						["height"] = 25,
 					},
+					["enabletitle"] = false,
 					["mode"] = "Healing",
+					["point"] = "BOTTOMRIGHT",
 					["background"] = {
 						["height"] = 224.9999847412109,
 					},
-					["point"] = "BOTTOMRIGHT",
-					["enabletitle"] = false,
 				}, -- [1]
 			},
 			["icon"] = {

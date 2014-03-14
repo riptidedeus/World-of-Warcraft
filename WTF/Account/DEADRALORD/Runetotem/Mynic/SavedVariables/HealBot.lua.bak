@@ -13,7 +13,7 @@ HealBot_Config = {
 		0, -- [9]
 		0, -- [10]
 	},
-	["Current_Skin"] = "15-man",
+	["Current_Skin"] = "10-Man",
 	["MacroUse10"] = 0,
 	["SkinDefault"] = {
 		["Ranged"] = 1,
@@ -31,7 +31,7 @@ HealBot_Config = {
 		["10-Man Role"] = 1,
 		["Group"] = 1,
 	},
-	["CurrentSpec"] = 4,
+	["CurrentSpec"] = 1,
 	["CrashProtMacroName"] = "hbCrashProt",
 	["Skin_ID"] = 2,
 	["Profile"] = 1,
@@ -288,21 +288,21 @@ HealBot_Config_Cures = {
 	["CDCshownHB"] = 1,
 	["DebuffWatch"] = 1,
 	["HealBotDebuffText"] = {
-		"Remove Corruption", -- [1]
-		"Nature's Cure", -- [2]
+		"None", -- [1]
+		"None", -- [2]
 		"None", -- [3]
-		["42"] = "Nature's Cure",
+		["42"] = "None",
 		["43"] = "None",
-		["41"] = "Remove Corruption",
+		["41"] = "None",
 		["33"] = "None",
 		["23"] = "None",
 		["13"] = "None",
-		["12"] = "Nature's Cure",
-		["22"] = "Nature's Cure",
-		["31"] = "Remove Corruption",
-		["21"] = "Remove Corruption",
-		["11"] = "Remove Corruption",
-		["32"] = "Nature's Cure",
+		["12"] = "None",
+		["22"] = "None",
+		["31"] = "None",
+		["21"] = "None",
+		["11"] = "None",
+		["32"] = "None",
 	},
 	["IgnoreFastDurDebuffs"] = 1,
 	["ShowDebuffWarning"] = 1,

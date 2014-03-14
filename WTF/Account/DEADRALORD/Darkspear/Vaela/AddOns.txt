@@ -4,3 +4,5 @@ Dominos_Config: disabled
 Dominos_Encounter: disabled
 Dominos_Roll: disabled
 Dominos_XP: disabled
+Bartender4: enabled
+ButtonFacade: enabled

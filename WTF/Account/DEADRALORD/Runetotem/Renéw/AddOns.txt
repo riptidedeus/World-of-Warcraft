@@ -4,3 +4,4 @@ Dominos_Config: enabled
 Dominos_Encounter: enabled
 Dominos_Roll: enabled
 Dominos_XP: enabled
+Bartender4: enabled

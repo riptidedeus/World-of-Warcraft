@@ -27,7 +27,7 @@ HealBot_Config = {
 	["LastVersionSkinUpdate"] = "5.4.2.1",
 	["EnableHealthy"] = 1,
 	["ActionVisible"] = {
-		1, -- [1]
+		0, -- [1]
 		0, -- [2]
 		0, -- [3]
 		0, -- [4]
@@ -45,12 +45,12 @@ HealBot_Config = {
 	["Profile"] = 1,
 	["CrashProt"] = 0,
 	["Version"] = "4.3.0.0",
-	["DisableHealBot"] = 0,
+	["DisableHealBot"] = 1,
 	["DisableSolo"] = 1,
 	["Skin_ID"] = 2,
 	["HealBot_BuffWatchGUID"] = {
 	},
-	["DisabledNow"] = 0,
+	["DisabledNow"] = 1,
 }
 HealBot_Config_Spells = {
 	["EnabledSpellTarget"] = {
@@ -76,13 +76,13 @@ HealBot_Config_Spells = {
 		["Left"] = "Target",
 		["Ctrl-ShiftRight"] = "HBmenu",
 		["Ctrl-ShiftLeft2"] = "Menu",
-		["Ctrl-ShiftRight1"] = "HBmenu",
+		["Ctrl-ShiftLeft3"] = "Menu",
 		["Right1"] = "Assist",
 		["Ctrl-ShiftRight2"] = "HBmenu",
 		["Left3"] = "Target",
 		["Right2"] = "Assist",
 		["Ctrl-ShiftLeft1"] = "Menu",
-		["Ctrl-ShiftLeft3"] = "Menu",
+		["Ctrl-ShiftRight1"] = "HBmenu",
 	},
 	["EnemySpellTrinket1"] = {
 	},
@@ -148,8 +148,8 @@ HealBot_Config_Spells = {
 		["Ctrl-ShiftRight3"] = "HBmenu",
 		["ShiftMiddle"] = "Healing Surge",
 		["Ctrl-ShiftLeft3"] = "Menu",
-		["Ctrl-ShiftLeft"] = "Menu",
 		["ShiftLeft3"] = "Riptide",
+		["Ctrl-ShiftLeft"] = "Menu",
 		["AltRight3"] = "Cleanse",
 		["Alt-ShiftRight"] = "Assist",
 		["CtrlMiddle3"] = "",
@@ -217,7 +217,7 @@ HealBot_Config_Buffs = {
 		["11"] = 2,
 		["32"] = 2,
 	},
-	["HealBotBuffColG"] = {
+	["HealBotBuffColR"] = {
 		1, -- [1]
 		1, -- [2]
 		1, -- [3]
@@ -283,7 +283,7 @@ HealBot_Config_Buffs = {
 		["11"] = "Water Shield",
 		["32"] = "Earthliving Weapon",
 	},
-	["HealBotBuffColR"] = {
+	["HealBotBuffColG"] = {
 		1, -- [1]
 		1, -- [2]
 		1, -- [3]
