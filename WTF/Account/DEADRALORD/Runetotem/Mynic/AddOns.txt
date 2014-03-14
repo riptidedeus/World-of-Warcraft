@@ -1,0 +1,6 @@
+Dominos: disabled
+Dominos_Cast: disabled
+Dominos_Config: disabled
+Dominos_Encounter: disabled
+Dominos_Roll: disabled
+Dominos_XP: disabled

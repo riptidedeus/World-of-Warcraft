@@ -7,7 +7,7 @@ Y: -117
 W: 32
 H: 32
 Frame: f1_HealBot_Action
-FrameLevel: 35
+FrameLevel: 16
 Anchor: BOTTOM
 X: -1
 Y: 173

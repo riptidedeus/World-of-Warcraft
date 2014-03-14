@@ -55,10 +55,10 @@ WeakAurasSaved = {
 				["names"] = {
 				},
 				["subeventPrefix"] = "SPELL",
-				["spellName"] = "Launch Sawblade",
 				["custom_hide"] = "timed",
-				["custom"] = "function(event,msg)\n    if (string.find(msg, \"Siegecrafter Blackfuse faces you and readies\")) then\n        return true;\n    else\n        return false;\n    end\nend\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
 				["debuffType"] = "HELPFUL",
+				["custom"] = "function(event,msg)\n    if (string.find(msg, \"Siegecrafter Blackfuse faces you and readies\")) then\n        return true;\n    else\n        return false;\n    end\nend\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
+				["spellName"] = "Launch Sawblade",
 				["use_spellName"] = true,
 				["use_sourceName"] = false,
 				["subeventSuffix"] = "_CAST_START",
@@ -92,8 +92,8 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["use_combat"] = true,
 				["use_difficulty"] = false,
+				["use_combat"] = true,
 				["role"] = {
 					["multi"] = {
 					},
@@ -116,8 +116,7 @@ WeakAurasSaved = {
 			["zoom"] = 0.3,
 			["auto"] = true,
 			["stickyDuration"] = false,
-			["additional_triggers"] = {
-			},
+			["id"] = "Launch Sawblade (Siegecrafter Blackfuse)",
 			["yOffset"] = 187.6907348632813,
 			["frameStrata"] = 1,
 			["width"] = 40,
@@ -137,7 +136,8 @@ WeakAurasSaved = {
 				["finish"] = {
 				},
 			},
-			["id"] = "Launch Sawblade (Siegecrafter Blackfuse)",
+			["additional_triggers"] = {
+			},
 			["displayIcon"] = "Interface\\Icons\\INV_Misc_SawBlade_01",
 			["cooldown"] = false,
 			["textColor"] = {
@@ -228,8 +228,8 @@ WeakAurasSaved = {
 					},
 				},
 				["use_zone"] = false,
-				["use_difficulty"] = false,
 				["use_combat"] = true,
+				["use_difficulty"] = false,
 				["size"] = {
 					["multi"] = {
 						["party"] = true,
@@ -248,7 +248,8 @@ WeakAurasSaved = {
 			["zoom"] = 0.3,
 			["auto"] = true,
 			["stickyDuration"] = false,
-			["id"] = "Catalytic Reaction: Red",
+			["additional_triggers"] = {
+			},
 			["yOffset"] = 192,
 			["frameStrata"] = 1,
 			["width"] = 40,
@@ -263,8 +264,7 @@ WeakAurasSaved = {
 				["finish"] = {
 				},
 			},
-			["additional_triggers"] = {
-			},
+			["id"] = "Catalytic Reaction: Red",
 			["displayIcon"] = "Interface\\Icons\\ability_xaril_masterpoisoner_red",
 			["stacksPoint"] = "BOTTOMRIGHT",
 			["textColor"] = {
@@ -364,8 +364,8 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["use_combat"] = true,
 				["use_difficulty"] = false,
+				["use_combat"] = true,
 				["use_zone"] = false,
 				["size"] = {
 					["multi"] = {
@@ -497,8 +497,8 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["use_combat"] = true,
 				["use_difficulty"] = false,
+				["use_combat"] = true,
 				["use_zone"] = false,
 				["size"] = {
 					["multi"] = {
@@ -518,8 +518,7 @@ WeakAurasSaved = {
 			["zoom"] = 0.3,
 			["auto"] = true,
 			["stickyDuration"] = false,
-			["additional_triggers"] = {
-			},
+			["id"] = "Clash",
 			["yOffset"] = 57.0001220703125,
 			["frameStrata"] = 1,
 			["width"] = 40,
@@ -536,7 +535,8 @@ WeakAurasSaved = {
 				["finish"] = {
 				},
 			},
-			["id"] = "Clash",
+			["additional_triggers"] = {
+			},
 			["displayIcon"] = "Interface\\Icons\\ability_monk_clashingoxcharge",
 			["stacksPoint"] = "BOTTOMRIGHT",
 			["textColor"] = {
@@ -595,20 +595,20 @@ WeakAurasSaved = {
 					},
 				},
 				["use_level"] = true,
+				["level"] = "90",
 				["spec"] = {
 					["single"] = 4,
 					["multi"] = {
 						[4] = true,
 					},
 				},
-				["level"] = "90",
-				["level_operator"] = ">=",
 				["class"] = {
 					["single"] = "DRUID",
 					["multi"] = {
 						["DRUID"] = true,
 					},
 				},
+				["level_operator"] = ">=",
 				["size"] = {
 					["multi"] = {
 						["party"] = true,
@@ -700,14 +700,14 @@ WeakAurasSaved = {
 					["type"] = "custom",
 					["scaleType"] = "pulse",
 					["scaleFunc"] = "return function(progress, startX, startY, scaleX, scaleY)\n  local angle = (progress * 2 * math.pi) - (math.pi / 2)\n  return startX + (((math.sin(angle) + 1)/2) * (scaleX - 1)), startY + (((math.sin(angle) + 1)/2) * (scaleY - 1))\nend\n",
-					["use_color"] = false,
-					["translateFunc"] = "return function(progress, startX, startY, deltaX, deltaY)\n  local angle = (progress + 0.25) * 2 * math.pi\n  return startX + (math.cos(angle) * deltaX * math.cos(angle*2)), startY + (math.abs(math.cos(angle)) * deltaY * math.sin(angle*2))\nend\n",
 					["preset"] = "bounce",
+					["translateFunc"] = "return function(progress, startX, startY, deltaX, deltaY)\n  local angle = (progress + 0.25) * 2 * math.pi\n  return startX + (math.cos(angle) * deltaX * math.cos(angle*2)), startY + (math.abs(math.cos(angle)) * deltaY * math.sin(angle*2))\nend\n",
+					["use_color"] = false,
 					["alpha"] = 0.449999988079071,
 					["scaley"] = 1.1,
 					["y"] = 5,
-					["colorType"] = "pulseColor",
 					["x"] = 5,
+					["colorType"] = "pulseColor",
 					["translateType"] = "spiralandpulse",
 					["colorFunc"] = "return function(progress, r1, g1, b1, a1, r2, g2, b2, a2)\n  local angle = (progress * 2 * math.pi) - (math.pi / 2)\n  local newProgress = ((math.sin(angle) + 1)/2);\n  return r1 + (newProgress * (r2 - r1)),\n       g1 + (newProgress * (g2 - g1)),\n       b1 + (newProgress * (b2 - b1)),\n       a1 + (newProgress * (a2 - a1))\nend\n",
 					["rotate"] = 0,
@@ -730,22 +730,22 @@ WeakAurasSaved = {
 				["autoclone"] = false,
 				["type"] = "aura",
 				["use_totemType"] = true,
-				["custom_hide"] = "timed",
-				["inverse"] = true,
-				["name_operator"] = "==",
+				["debuffType"] = "HELPFUL",
 				["count"] = "5",
-				["unevent"] = "auto",
+				["name_operator"] = "==",
+				["inverse"] = true,
+				["subeventSuffix"] = "_CAST_START",
 				["use_spellId"] = true,
-				["event"] = "Action Usable",
 				["countOperator"] = "<=",
-				["totemType"] = 1,
+				["event"] = "Action Usable",
 				["totemName"] = "Wild Mushroom",
+				["totemType"] = 1,
 				["use_spellName"] = true,
 				["name"] = "137247",
-				["subeventSuffix"] = "_CAST_START",
+				["unevent"] = "auto",
 				["remOperator"] = "<=",
-				["debuffType"] = "HELPFUL",
 				["spellName"] = 48505,
+				["custom_hide"] = "timed",
 				["names"] = {
 					"Flask of the Warm Sun", -- [1]
 					"Visions of Insanity", -- [2]
@@ -762,19 +762,19 @@ WeakAurasSaved = {
 			["height"] = 40,
 			["timerFlags"] = "None",
 			["timer"] = false,
-			["fontSize"] = 15,
+			["backgroundTexture"] = "Textures\\SpellActivationOverlays\\Eclipse_Sun",
 			["backdropColor"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 				0.5, -- [4]
 			},
-			["backgroundTexture"] = "Textures\\SpellActivationOverlays\\Eclipse_Sun",
+			["fontSize"] = 15,
 			["displayStacks"] = "%c",
 			["desaturateForeground"] = false,
 			["progressPrecision"] = 0,
 			["disjunctive"] = false,
-			["border"] = false,
+			["mirror"] = false,
 			["borderEdge"] = "None",
 			["id"] = "Flask",
 			["borderSize"] = 1,
@@ -800,7 +800,7 @@ WeakAurasSaved = {
 			["barInFront"] = false,
 			["additional_triggers"] = {
 			},
-			["mirror"] = false,
+			["border"] = false,
 			["frameStrata"] = 1,
 			["width"] = 40,
 			["rotate"] = true,
@@ -905,8 +905,8 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["use_combat"] = true,
 				["use_difficulty"] = false,
+				["use_combat"] = true,
 				["use_zone"] = false,
 				["size"] = {
 					["multi"] = {
@@ -933,7 +933,8 @@ WeakAurasSaved = {
 				0.9019607843137255, -- [3]
 				0.6465578079223633, -- [4]
 			},
-			["id"] = "Store Kinetic Energy",
+			["additional_triggers"] = {
+			},
 			["yOffset"] = -20,
 			["frameStrata"] = 1,
 			["width"] = 40,
@@ -941,8 +942,7 @@ WeakAurasSaved = {
 			["selfPoint"] = "CENTER",
 			["numTriggers"] = 1,
 			["icon"] = true,
-			["additional_triggers"] = {
-			},
+			["id"] = "Store Kinetic Energy",
 			["displayIcon"] = "Interface\\Icons\\Ability_Rogue_Sprint",
 			["cooldown"] = false,
 			["textColor"] = {
@@ -985,15 +985,34 @@ WeakAurasSaved = {
 				},
 			},
 			["yOffset"] = 98,
-			["regionType"] = "icon",
+			["anchorPoint"] = "CENTER",
 			["untrigger"] = {
 			},
 			["xOffset"] = -34,
 			["numTriggers"] = 1,
 			["customTextUpdate"] = "update",
 			["selfPoint"] = "CENTER",
-			["icon"] = true,
-			["id"] = "Blood Plague",
+			["actions"] = {
+				["start"] = {
+					["do_glow"] = false,
+				},
+				["finish"] = {
+				},
+			},
+			["trigger"] = {
+				["type"] = "aura",
+				["unevent"] = "auto",
+				["ownOnly"] = true,
+				["event"] = "Health",
+				["unit"] = "target",
+				["use_unit"] = true,
+				["subeventSuffix"] = "_CAST_START",
+				["subeventPrefix"] = "SPELL",
+				["names"] = {
+					"Blood Plague", -- [1]
+				},
+				["debuffType"] = "HARMFUL",
+			},
 			["stacksContainment"] = "INSIDE",
 			["zoom"] = 0,
 			["auto"] = true,
@@ -1011,35 +1030,16 @@ WeakAurasSaved = {
 					["type"] = "none",
 				},
 			},
-			["trigger"] = {
-				["type"] = "aura",
-				["unevent"] = "auto",
-				["ownOnly"] = true,
-				["event"] = "Health",
-				["unit"] = "target",
-				["use_unit"] = true,
-				["subeventSuffix"] = "_CAST_START",
-				["subeventPrefix"] = "SPELL",
-				["names"] = {
-					"Blood Plague", -- [1]
-				},
-				["debuffType"] = "HARMFUL",
-			},
+			["id"] = "Blood Plague",
 			["stickyDuration"] = false,
 			["frameStrata"] = 1,
-			["width"] = 64,
 			["desaturate"] = false,
+			["width"] = 64,
 			["font"] = "Friz Quadrata TT",
 			["inverse"] = false,
-			["actions"] = {
-				["start"] = {
-					["do_glow"] = false,
-				},
-				["finish"] = {
-				},
-			},
+			["icon"] = true,
 			["height"] = 64,
-			["anchorPoint"] = "CENTER",
+			["regionType"] = "icon",
 			["cooldown"] = false,
 			["textColor"] = {
 				1, -- [1]
@@ -1181,9 +1181,9 @@ WeakAurasSaved = {
 			["actions"] = {
 				["start"] = {
 					["do_sound"] = true,
-					["do_custom"] = false,
 					["sound_path"] = "interface\\addons\\kauction\\sounds\\cast.ogg",
 					["sound"] = " custom",
+					["do_custom"] = false,
 					["sound_channel"] = "Master",
 				},
 				["finish"] = {
@@ -1195,7 +1195,7 @@ WeakAurasSaved = {
 			["untrigger"] = {
 				["custom"] = "function()\n    -- === CONFIG SETTINGS BEGIN ===\n    -- id: Exact spellId used by the DBM timer creation code\n    --    Can also be partially matched string contained in the localized\n    --    bar title within DBM .lua (if no spell ID exists).\n    local id = 133597\n    -- subId: Additional identifier to prevent timer corruption if multiple triggers exist\n    --    with the same \"id\" value.\n    local subId = 0;         \n    -- === CONFIG SETTINGS END ===\n    if DBM then    \n        local tId = id..subId;    \n        if not (WeakAuras.CustomValues and WeakAuras.CustomValues.DBMTimers and WeakAuras.CustomValues.DBMTimers[tId]) then return false; end\n        local config = WeakAuras.CustomValues.DBMTimers[tId].config;\n        local bar;\n        for b in DBM.Bars:GetBarIterator() do\n            if strfind(b.id, id) then\n                bar = b\n            end\n        end   \n        local tElapsed = bar and (bar.totalTime - bar.timer) or 0, (bar and bar.totalTime) or 0;\n        local tRemaining = bar and (bar.timer) or 0, (bar and bar.totalTime) or 0;\n        if not bar then -- Bar doesn't exist\n            WeakAuras.CustomValues.DBMTimers[tId].fired = false;\n            return true;\n        else\n            if config.time <= 0 then config.time = bar.totalTime; end\n            if not WeakAuras.CustomValues.DBMTimers[tId].fired then return false; end\n            if config.checkTimeElapsed then -- Trigger if time elapsed < time\n                if config.duration > 0 then\n                    if tElapsed < configtime or tElapsed > (config.time + config.duration) then\n                        WeakAuras.CustomValues.DBMTimers[tId].fired = false;\n                        return true;                    \n                    end\n                elseif tElapsed < config.time then\n                    WeakAuras.CustomValues.DBMTimers[tId].fired = false;\n                    return true;\n                end\n            else -- Trigger if time remaining > time\n                if config.duration > 0 then\n                    if (config.time - config.duration) >= 0 and tRemaining <= (config.time - config.duration) then\n                        WeakAuras.CustomValues.DBMTimers[tId].fired = false;\n                        return true;\n                    end\n                elseif tRemaining > config.time then\n                    WeakAuras.CustomValues.DBMTimers[tId].fired = false;\n                    return true;\n                end                \n            end\n        end\n    end\n    return false;\nend",
 			},
-			["displayTextRight"] = "%p",
+			["justify"] = "CENTER",
 			["stacksContainment"] = "OUTSIDE",
 			["stacksColor"] = {
 				1, -- [1]
@@ -1203,7 +1203,7 @@ WeakAurasSaved = {
 				0.9803921568627451, -- [3]
 				1, -- [4]
 			},
-			["timerSize"] = 24,
+			["displayTextRight"] = "%p",
 			["inverse"] = true,
 			["additional_triggers"] = {
 			},
@@ -1213,7 +1213,7 @@ WeakAurasSaved = {
 			["id"] = "Durumu - Dark Parasite - DBM CD",
 			["textSize"] = 24,
 			["numTriggers"] = 1,
-			["justify"] = "CENTER",
+			["timerSize"] = 24,
 			["orientation"] = "HORIZONTAL",
 			["displayText"] = "",
 			["backgroundColor"] = {
@@ -1312,8 +1312,8 @@ WeakAurasSaved = {
 					},
 				},
 				["use_zone"] = false,
-				["use_difficulty"] = false,
 				["use_combat"] = true,
+				["use_difficulty"] = false,
 				["size"] = {
 					["multi"] = {
 						["party"] = true,
@@ -1440,8 +1440,8 @@ WeakAurasSaved = {
 					},
 				},
 				["use_zone"] = false,
-				["use_difficulty"] = false,
 				["use_combat"] = true,
+				["use_difficulty"] = false,
 				["size"] = {
 					["multi"] = {
 						["party"] = true,
@@ -1552,8 +1552,8 @@ WeakAurasSaved = {
 					},
 				},
 				["use_zone"] = false,
-				["use_combat"] = true,
 				["use_difficulty"] = false,
+				["use_combat"] = true,
 				["size"] = {
 					["multi"] = {
 						["ten"] = true,
@@ -1570,9 +1570,9 @@ WeakAurasSaved = {
 			["stacksContainment"] = "INSIDE",
 			["zoom"] = 0.3,
 			["auto"] = true,
+			["id"] = "Accel 2",
 			["additional_triggers"] = {
 			},
-			["id"] = "Accel 2",
 			["color"] = {
 				0.6862745098039216, -- [1]
 				0.6901960784313725, -- [2]
@@ -1685,8 +1685,8 @@ WeakAurasSaved = {
 					},
 				},
 				["use_zone"] = false,
-				["use_difficulty"] = false,
 				["use_combat"] = true,
+				["use_difficulty"] = false,
 				["size"] = {
 					["multi"] = {
 						["party"] = true,
@@ -1705,8 +1705,7 @@ WeakAurasSaved = {
 			["zoom"] = 0.3,
 			["auto"] = true,
 			["stickyDuration"] = false,
-			["additional_triggers"] = {
-			},
+			["id"] = "Catalytic Reaction: Green",
 			["yOffset"] = 192.000244140625,
 			["frameStrata"] = 1,
 			["width"] = 40,
@@ -1721,7 +1720,8 @@ WeakAurasSaved = {
 				["finish"] = {
 				},
 			},
-			["id"] = "Catalytic Reaction: Green",
+			["additional_triggers"] = {
+			},
 			["displayIcon"] = "Interface\\Icons\\ability_xaril_masterpoisoner_green",
 			["cooldown"] = false,
 			["textColor"] = {
@@ -1813,8 +1813,8 @@ WeakAurasSaved = {
 					},
 				},
 				["use_zone"] = false,
-				["use_difficulty"] = false,
 				["use_combat"] = true,
+				["use_difficulty"] = false,
 				["size"] = {
 					["multi"] = {
 						["party"] = true,
@@ -1833,8 +1833,7 @@ WeakAurasSaved = {
 			["zoom"] = 0.3,
 			["auto"] = true,
 			["stickyDuration"] = false,
-			["additional_triggers"] = {
-			},
+			["id"] = "Hurl Amber",
 			["yOffset"] = -71,
 			["frameStrata"] = 1,
 			["width"] = 40,
@@ -1849,7 +1848,8 @@ WeakAurasSaved = {
 				["finish"] = {
 				},
 			},
-			["id"] = "Hurl Amber",
+			["additional_triggers"] = {
+			},
 			["displayIcon"] = "Interface\\Icons\\ability_creature_amber_02",
 			["stacksPoint"] = "BOTTOMRIGHT",
 			["textColor"] = {
@@ -1942,8 +1942,8 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["use_combat"] = true,
 				["use_difficulty"] = false,
+				["use_combat"] = true,
 				["role"] = {
 					["multi"] = {
 					},
@@ -1966,7 +1966,8 @@ WeakAurasSaved = {
 			["zoom"] = 0.3,
 			["auto"] = true,
 			["stickyDuration"] = false,
-			["id"] = "War Song",
+			["additional_triggers"] = {
+			},
 			["yOffset"] = 57.0001220703125,
 			["frameStrata"] = 1,
 			["width"] = 40,
@@ -1983,8 +1984,7 @@ WeakAurasSaved = {
 				["finish"] = {
 				},
 			},
-			["additional_triggers"] = {
-			},
+			["id"] = "War Song",
 			["displayIcon"] = "Interface\\Icons\\Ability_Warrior_Rampage",
 			["stacksPoint"] = "BOTTOMRIGHT",
 			["textColor"] = {
@@ -2075,8 +2075,8 @@ WeakAurasSaved = {
 					},
 				},
 				["use_zone"] = false,
-				["use_difficulty"] = false,
 				["use_combat"] = true,
+				["use_difficulty"] = false,
 				["size"] = {
 					["multi"] = {
 						["party"] = true,
@@ -2095,8 +2095,7 @@ WeakAurasSaved = {
 			["zoom"] = 0.3,
 			["auto"] = true,
 			["stickyDuration"] = false,
-			["additional_triggers"] = {
-			},
+			["id"] = "Catalytic Reaction: Orange",
 			["yOffset"] = 192,
 			["frameStrata"] = 1,
 			["width"] = 40,
@@ -2111,7 +2110,8 @@ WeakAurasSaved = {
 				["finish"] = {
 				},
 			},
-			["id"] = "Catalytic Reaction: Orange",
+			["additional_triggers"] = {
+			},
 			["displayIcon"] = "Interface\\Icons\\ability_xaril_masterpoisoner_orange",
 			["cooldown"] = false,
 			["textColor"] = {
@@ -2152,35 +2152,17 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["yOffset"] = 32,
 			["untrigger"] = {
 			},
-			["anchorPoint"] = "CENTER",
+			["yOffset"] = 32,
+			["regionType"] = "icon",
 			["stacksPoint"] = "BOTTOMRIGHT",
 			["xOffset"] = -34,
 			["inverse"] = false,
 			["customTextUpdate"] = "update",
 			["selfPoint"] = "CENTER",
-			["actions"] = {
-				["start"] = {
-				},
-				["finish"] = {
-				},
-			},
-			["trigger"] = {
-				["type"] = "aura",
-				["subeventSuffix"] = "_CAST_START",
-				["ownOnly"] = true,
-				["event"] = "Health",
-				["unit"] = "target",
-				["use_unit"] = true,
-				["names"] = {
-					"Frost Fever", -- [1]
-				},
-				["subeventPrefix"] = "SPELL",
-				["unevent"] = "auto",
-				["debuffType"] = "HARMFUL",
-			},
+			["icon"] = true,
+			["id"] = "Frost Fever",
 			["stacksContainment"] = "INSIDE",
 			["zoom"] = 0,
 			["auto"] = true,
@@ -2198,16 +2180,34 @@ WeakAurasSaved = {
 					["duration_type"] = "seconds",
 				},
 			},
-			["id"] = "Frost Fever",
+			["trigger"] = {
+				["type"] = "aura",
+				["subeventSuffix"] = "_CAST_START",
+				["ownOnly"] = true,
+				["event"] = "Health",
+				["unit"] = "target",
+				["use_unit"] = true,
+				["names"] = {
+					"Frost Fever", -- [1]
+				},
+				["subeventPrefix"] = "SPELL",
+				["unevent"] = "auto",
+				["debuffType"] = "HARMFUL",
+			},
 			["width"] = 64,
 			["frameStrata"] = 1,
-			["desaturate"] = false,
 			["stickyDuration"] = false,
+			["desaturate"] = false,
 			["font"] = "Friz Quadrata TT",
 			["numTriggers"] = 1,
-			["icon"] = true,
+			["actions"] = {
+				["start"] = {
+				},
+				["finish"] = {
+				},
+			},
 			["height"] = 64,
-			["regionType"] = "icon",
+			["anchorPoint"] = "CENTER",
 			["cooldown"] = false,
 			["textColor"] = {
 				1, -- [1]
@@ -2297,8 +2297,8 @@ WeakAurasSaved = {
 					},
 				},
 				["use_zone"] = false,
-				["use_difficulty"] = false,
 				["use_combat"] = true,
+				["use_difficulty"] = false,
 				["size"] = {
 					["multi"] = {
 						["party"] = true,
@@ -2317,8 +2317,7 @@ WeakAurasSaved = {
 			["zoom"] = 0.3,
 			["auto"] = true,
 			["stickyDuration"] = false,
-			["additional_triggers"] = {
-			},
+			["id"] = "Catalytic Reaction: Purple",
 			["yOffset"] = 192,
 			["frameStrata"] = 1,
 			["width"] = 40,
@@ -2333,7 +2332,8 @@ WeakAurasSaved = {
 				["finish"] = {
 				},
 			},
-			["id"] = "Catalytic Reaction: Purple",
+			["additional_triggers"] = {
+			},
 			["displayIcon"] = "Interface\\Icons\\ability_xaril_masterpoisoner_purple",
 			["cooldown"] = false,
 			["textColor"] = {
@@ -2420,8 +2420,8 @@ WeakAurasSaved = {
 					},
 				},
 				["use_zone"] = false,
-				["use_difficulty"] = false,
 				["use_combat"] = true,
+				["use_difficulty"] = false,
 				["size"] = {
 					["multi"] = {
 						["party"] = true,
@@ -2548,8 +2548,8 @@ WeakAurasSaved = {
 					},
 				},
 				["use_zone"] = false,
-				["use_difficulty"] = false,
 				["use_combat"] = true,
+				["use_difficulty"] = false,
 				["size"] = {
 					["multi"] = {
 						["party"] = true,
@@ -2568,8 +2568,7 @@ WeakAurasSaved = {
 			["zoom"] = 0.3,
 			["auto"] = true,
 			["stickyDuration"] = false,
-			["additional_triggers"] = {
-			},
+			["id"] = "Catalytic Reaction: Blue",
 			["yOffset"] = 192,
 			["frameStrata"] = 1,
 			["width"] = 40,
@@ -2584,7 +2583,8 @@ WeakAurasSaved = {
 				["finish"] = {
 				},
 			},
-			["id"] = "Catalytic Reaction: Blue",
+			["additional_triggers"] = {
+			},
 			["displayIcon"] = "Interface\\Icons\\ability_xaril_masterpoisoner_blue",
 			["cooldown"] = false,
 			["textColor"] = {
@@ -2700,8 +2700,8 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["use_combat"] = true,
 				["use_difficulty"] = false,
+				["use_combat"] = true,
 				["role"] = {
 					["multi"] = {
 					},
@@ -2831,8 +2831,8 @@ WeakAurasSaved = {
 					},
 				},
 				["use_zone"] = false,
-				["use_difficulty"] = false,
 				["use_combat"] = true,
+				["use_difficulty"] = false,
 				["size"] = {
 					["multi"] = {
 						["party"] = true,
@@ -3040,8 +3040,8 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["use_combat"] = true,
 				["use_difficulty"] = false,
+				["use_combat"] = true,
 				["use_zone"] = false,
 				["size"] = {
 					["multi"] = {
@@ -3153,8 +3153,8 @@ WeakAurasSaved = {
 					},
 				},
 				["use_zone"] = false,
-				["use_difficulty"] = false,
 				["use_combat"] = true,
+				["use_difficulty"] = false,
 				["size"] = {
 					["multi"] = {
 						["party"] = true,
@@ -3171,9 +3171,9 @@ WeakAurasSaved = {
 			["stacksContainment"] = "INSIDE",
 			["zoom"] = 0.3,
 			["auto"] = true,
-			["id"] = "Faulty Mutation",
 			["additional_triggers"] = {
 			},
+			["id"] = "Faulty Mutation",
 			["color"] = {
 				0.6862745098039216, -- [1]
 				0.6901960784313725, -- [2]
@@ -3238,14 +3238,15 @@ WeakAurasSaved = {
 			},
 			["animate"] = false,
 			["xOffset"] = -425.9996337890625,
-			["yOffset"] = -360.9996490478516,
-			["border"] = "None",
 			["untrigger"] = {
 			},
-			["regionType"] = "dynamicgroup",
+			["border"] = "None",
+			["yOffset"] = -360.9996490478516,
+			["anchorPoint"] = "CENTER",
 			["expanded"] = true,
 			["sort"] = "none",
-			["id"] = "V",
+			["additional_triggers"] = {
+			},
 			["space"] = 2,
 			["background"] = "None",
 			["actions"] = {
@@ -3269,17 +3270,9 @@ WeakAurasSaved = {
 					["type"] = "none",
 				},
 			},
-			["backgroundInset"] = 0,
-			["additional_triggers"] = {
-			},
-			["selfPoint"] = "BOTTOM",
+			["borderOffset"] = 16,
 			["align"] = "CENTER",
-			["radius"] = 200,
-			["frameStrata"] = 1,
-			["width"] = 39.99995422363281,
-			["rotation"] = 0,
-			["stagger"] = 0,
-			["numTriggers"] = 1,
+			["selfPoint"] = "BOTTOM",
 			["trigger"] = {
 				["type"] = "aura",
 				["subeventPrefix"] = "SPELL",
@@ -3290,8 +3283,15 @@ WeakAurasSaved = {
 				["event"] = "Health",
 				["unit"] = "player",
 			},
+			["radius"] = 200,
+			["frameStrata"] = 1,
+			["width"] = 39.99995422363281,
+			["rotation"] = 0,
+			["stagger"] = 0,
+			["numTriggers"] = 1,
+			["id"] = "V",
 			["height"] = 1132.000005722046,
-			["borderOffset"] = 16,
+			["backgroundInset"] = 0,
 			["load"] = {
 				["class"] = {
 					["multi"] = {
@@ -3310,7 +3310,7 @@ WeakAurasSaved = {
 					},
 				},
 			},
-			["anchorPoint"] = "CENTER",
+			["regionType"] = "dynamicgroup",
 		},
 		["SoO - Malice Ticks"] = {
 			["xOffset"] = 0,
@@ -3387,8 +3387,8 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["use_difficulty"] = false,
 				["use_combat"] = true,
+				["use_difficulty"] = false,
 				["use_zone"] = false,
 				["size"] = {
 					["multi"] = {
@@ -3413,7 +3413,8 @@ WeakAurasSaved = {
 			["zoom"] = 0.3,
 			["auto"] = true,
 			["stickyDuration"] = false,
-			["id"] = "SoO - Malice Ticks",
+			["additional_triggers"] = {
+			},
 			["yOffset"] = 150,
 			["frameStrata"] = 1,
 			["width"] = 40,
@@ -3426,8 +3427,7 @@ WeakAurasSaved = {
 				["finish"] = {
 				},
 			},
-			["additional_triggers"] = {
-			},
+			["id"] = "SoO - Malice Ticks",
 			["displayIcon"] = "Interface\\Icons\\Ability_Warlock_Eradication",
 			["stacksPoint"] = "BOTTOMRIGHT",
 			["textColor"] = {
@@ -3520,8 +3520,8 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["use_combat"] = true,
 				["use_difficulty"] = false,
+				["use_combat"] = true,
 				["role"] = {
 					["multi"] = {
 					},
@@ -3544,7 +3544,8 @@ WeakAurasSaved = {
 			["zoom"] = 0.3,
 			["auto"] = true,
 			["stickyDuration"] = false,
-			["id"] = "Swelling Pride",
+			["additional_triggers"] = {
+			},
 			["yOffset"] = 33,
 			["frameStrata"] = 1,
 			["width"] = 40,
@@ -3561,8 +3562,7 @@ WeakAurasSaved = {
 				["finish"] = {
 				},
 			},
-			["additional_triggers"] = {
-			},
+			["id"] = "Swelling Pride",
 			["displayIcon"] = "INTERFACE\\ICONS\\spell_warlock_demonsoul",
 			["stacksPoint"] = "BOTTOMRIGHT",
 			["textColor"] = {
@@ -3593,45 +3593,30 @@ WeakAurasSaved = {
 					},
 				},
 				["talent"] = 13,
+				["spec"] = {
+					["single"] = 2,
+					["multi"] = {
+					},
+				},
 				["use_combat"] = true,
 				["class"] = {
 					["single"] = "DEATHKNIGHT",
 					["multi"] = {
 					},
 				},
-				["spec"] = {
-					["single"] = 2,
-					["multi"] = {
-					},
-				},
 				["use_talent"] = true,
 			},
-			["yOffset"] = 164.0000419616699,
 			["untrigger"] = {
 			},
-			["anchorPoint"] = "CENTER",
+			["yOffset"] = 164.0000419616699,
+			["regionType"] = "icon",
 			["stacksPoint"] = "BOTTOMRIGHT",
 			["xOffset"] = -34.00017166137695,
 			["inverse"] = false,
 			["customTextUpdate"] = "update",
 			["selfPoint"] = "CENTER",
-			["actions"] = {
-				["start"] = {
-				},
-				["finish"] = {
-				},
-			},
-			["trigger"] = {
-				["type"] = "aura",
-				["unit"] = "player",
-				["subeventSuffix"] = "_CAST_START",
-				["debuffType"] = "HELPFUL",
-				["names"] = {
-					"Blood Charge", -- [1]
-				},
-				["event"] = "Health",
-				["subeventPrefix"] = "SPELL",
-			},
+			["icon"] = true,
+			["id"] = "Blood Tab",
 			["stacksContainment"] = "INSIDE",
 			["zoom"] = 0,
 			["auto"] = true,
@@ -3649,16 +3634,31 @@ WeakAurasSaved = {
 					["duration_type"] = "seconds",
 				},
 			},
-			["id"] = "Blood Tab",
+			["trigger"] = {
+				["type"] = "aura",
+				["unit"] = "player",
+				["subeventSuffix"] = "_CAST_START",
+				["debuffType"] = "HELPFUL",
+				["names"] = {
+					"Blood Charge", -- [1]
+				},
+				["event"] = "Health",
+				["subeventPrefix"] = "SPELL",
+			},
 			["width"] = 64.00034332275391,
 			["frameStrata"] = 1,
-			["desaturate"] = false,
 			["stickyDuration"] = false,
+			["desaturate"] = false,
 			["font"] = "Friz Quadrata TT",
 			["numTriggers"] = 1,
-			["icon"] = true,
+			["actions"] = {
+				["start"] = {
+				},
+				["finish"] = {
+				},
+			},
 			["height"] = 64.00008392333984,
-			["regionType"] = "icon",
+			["anchorPoint"] = "CENTER",
 			["cooldown"] = false,
 			["textColor"] = {
 				1, -- [1]
@@ -3748,8 +3748,8 @@ WeakAurasSaved = {
 					},
 				},
 				["use_zone"] = false,
-				["use_difficulty"] = false,
 				["use_combat"] = true,
+				["use_difficulty"] = false,
 				["size"] = {
 					["multi"] = {
 						["party"] = true,
@@ -3768,7 +3768,8 @@ WeakAurasSaved = {
 			["zoom"] = 0.3,
 			["auto"] = true,
 			["stickyDuration"] = false,
-			["id"] = "Catalytic Reaction: Yellow",
+			["additional_triggers"] = {
+			},
 			["yOffset"] = 192,
 			["frameStrata"] = 1,
 			["width"] = 40,
@@ -3783,8 +3784,7 @@ WeakAurasSaved = {
 				["finish"] = {
 				},
 			},
-			["additional_triggers"] = {
-			},
+			["id"] = "Catalytic Reaction: Yellow",
 			["displayIcon"] = "Interface\\Icons\\ability_xaril_masterpoisoner_yellow",
 			["stacksPoint"] = "BOTTOMRIGHT",
 			["textColor"] = {
@@ -3880,8 +3880,8 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["use_combat"] = true,
 				["use_difficulty"] = false,
+				["use_combat"] = true,
 				["use_zone"] = false,
 				["size"] = {
 					["multi"] = {
@@ -3901,7 +3901,8 @@ WeakAurasSaved = {
 			["zoom"] = 0.3,
 			["auto"] = true,
 			["stickyDuration"] = false,
-			["id"] = "Self-Reflection",
+			["additional_triggers"] = {
+			},
 			["yOffset"] = 11.0001220703125,
 			["frameStrata"] = 1,
 			["width"] = 40,
@@ -3918,8 +3919,7 @@ WeakAurasSaved = {
 				["finish"] = {
 				},
 			},
-			["additional_triggers"] = {
-			},
+			["id"] = "Self-Reflection",
 			["displayIcon"] = "Interface\\Icons\\sha_ability_rogue_bloodyeye",
 			["cooldown"] = false,
 			["textColor"] = {
@@ -3977,17 +3977,17 @@ WeakAurasSaved = {
 					},
 				},
 				["use_size"] = false,
+				["spec"] = {
+					["single"] = 4,
+					["multi"] = {
+						[4] = true,
+					},
+				},
 				["use_combat"] = false,
 				["class"] = {
 					["single"] = "DRUID",
 					["multi"] = {
 						["DRUID"] = true,
-					},
-				},
-				["spec"] = {
-					["single"] = 4,
-					["multi"] = {
-						[4] = true,
 					},
 				},
 				["size"] = {
@@ -4071,15 +4071,15 @@ WeakAurasSaved = {
 					["scaleType"] = "pulse",
 					["type"] = "custom",
 					["scaleFunc"] = "return function(progress, startX, startY, scaleX, scaleY)\n  local angle = (progress * 2 * math.pi) - (math.pi / 2)\n  return startX + (((math.sin(angle) + 1)/2) * (scaleX - 1)), startY + (((math.sin(angle) + 1)/2) * (scaleY - 1))\nend\n",
-					["use_color"] = false,
-					["translateFunc"] = "return function(progress, startX, startY, deltaX, deltaY)\n  local angle = (progress + 0.25) * 2 * math.pi\n  return startX + (math.cos(angle) * deltaX * math.cos(angle*2)), startY + (math.abs(math.cos(angle)) * deltaY * math.sin(angle*2))\nend\n",
-					["scaley"] = 1.1,
-					["alpha"] = 0.449999988079071,
-					["x"] = 5,
-					["y"] = 5,
-					["colorType"] = "pulseColor",
-					["translateType"] = "spiralandpulse",
 					["preset"] = "bounce",
+					["translateFunc"] = "return function(progress, startX, startY, deltaX, deltaY)\n  local angle = (progress + 0.25) * 2 * math.pi\n  return startX + (math.cos(angle) * deltaX * math.cos(angle*2)), startY + (math.abs(math.cos(angle)) * deltaY * math.sin(angle*2))\nend\n",
+					["use_color"] = false,
+					["alpha"] = 0.449999988079071,
+					["colorType"] = "pulseColor",
+					["y"] = 5,
+					["x"] = 5,
+					["translateType"] = "spiralandpulse",
+					["scaley"] = 1.1,
 					["colorFunc"] = "return function(progress, r1, g1, b1, a1, r2, g2, b2, a2)\n  local angle = (progress * 2 * math.pi) - (math.pi / 2)\n  local newProgress = ((math.sin(angle) + 1)/2);\n  return r1 + (newProgress * (r2 - r1)),\n       g1 + (newProgress * (g2 - g1)),\n       b1 + (newProgress * (b2 - b1)),\n       a1 + (newProgress * (a2 - a1))\nend\n",
 					["rotate"] = 0,
 					["duration"] = "1",
@@ -4100,24 +4100,24 @@ WeakAurasSaved = {
 				},
 				["subeventPrefix"] = "SPELL",
 				["unit"] = "player",
-				["debuffType"] = "HELPFUL",
+				["spellName"] = 48505,
 				["name_operator"] = "==",
 				["use_totemType"] = true,
-				["custom_hide"] = "timed",
-				["subeventSuffix"] = "_CAST_START",
+				["debuffType"] = "HELPFUL",
+				["unevent"] = "auto",
 				["type"] = "aura",
 				["count"] = "5",
-				["unevent"] = "auto",
+				["subeventSuffix"] = "_CAST_START",
 				["use_spellId"] = true,
-				["totemType"] = 1,
-				["countOperator"] = "<=",
 				["totemName"] = "Wild Mushroom",
 				["event"] = "Action Usable",
+				["totemType"] = 1,
+				["countOperator"] = "<=",
 				["use_spellName"] = true,
-				["inverse"] = true,
 				["name"] = "137247",
+				["inverse"] = true,
 				["remOperator"] = "<=",
-				["spellName"] = 48505,
+				["custom_hide"] = "timed",
 				["autoclone"] = false,
 				["use_unit"] = true,
 			},
@@ -4143,12 +4143,12 @@ WeakAurasSaved = {
 				1, -- [3]
 				0.5, -- [4]
 			},
-			["fontSize"] = 15,
+			["backgroundTexture"] = "Textures\\SpellActivationOverlays\\Eclipse_Sun",
 			["displayStacks"] = "%c",
 			["textSize"] = 10,
 			["rotate"] = true,
-			["mirror"] = false,
 			["border"] = false,
+			["mirror"] = false,
 			["borderEdge"] = "None",
 			["additional_triggers"] = {
 			},
@@ -4179,7 +4179,7 @@ WeakAurasSaved = {
 			},
 			["frameStrata"] = 1,
 			["width"] = 40,
-			["backgroundTexture"] = "Textures\\SpellActivationOverlays\\Eclipse_Sun",
+			["fontSize"] = 15,
 			["timer"] = false,
 			["numTriggers"] = 1,
 			["crop_y"] = 0.41,
@@ -4277,8 +4277,8 @@ WeakAurasSaved = {
 					["multi"] = {
 					},
 				},
-				["use_combat"] = true,
 				["use_difficulty"] = false,
+				["use_combat"] = true,
 				["use_zone"] = false,
 				["size"] = {
 					["multi"] = {
@@ -4437,14 +4437,14 @@ WeakAurasSaved = {
 					["type"] = "custom",
 					["scaleType"] = "pulse",
 					["colorR"] = 0.5490196078431373,
-					["preset"] = "bounce",
-					["translateFunc"] = "return function(progress, startX, startY, deltaX, deltaY)\n  local angle = (progress + 0.25) * 2 * math.pi\n  return startX + (math.cos(angle) * deltaX * math.cos(angle*2)), startY + (math.abs(math.cos(angle)) * deltaY * math.sin(angle*2))\nend\n",
 					["scaley"] = 1.1,
+					["translateFunc"] = "return function(progress, startX, startY, deltaX, deltaY)\n  local angle = (progress + 0.25) * 2 * math.pi\n  return startX + (math.cos(angle) * deltaX * math.cos(angle*2)), startY + (math.abs(math.cos(angle)) * deltaY * math.sin(angle*2))\nend\n",
+					["preset"] = "bounce",
 					["alpha"] = 0.449999988079071,
 					["use_color"] = false,
 					["y"] = 5,
-					["colorType"] = "pulseColor",
 					["x"] = 5,
+					["colorType"] = "pulseColor",
 					["translateType"] = "spiralandpulse",
 					["colorFunc"] = "return function(progress, r1, g1, b1, a1, r2, g2, b2, a2)\n  local angle = (progress * 2 * math.pi) - (math.pi / 2)\n  local newProgress = ((math.sin(angle) + 1)/2);\n  return r1 + (newProgress * (r2 - r1)),\n       g1 + (newProgress * (g2 - g1)),\n       b1 + (newProgress * (b2 - b1)),\n       a1 + (newProgress * (a2 - a1))\nend\n",
 					["rotate"] = 0,
@@ -4461,35 +4461,35 @@ WeakAurasSaved = {
 				["enchant"] = "Earthliving",
 				["autoclone"] = false,
 				["spellId"] = "16870",
-				["use_enchant"] = true,
+				["subeventPrefix"] = "SPELL",
 				["use_inverse"] = true,
-				["use_unit"] = true,
 				["unit"] = "player",
+				["use_unit"] = true,
 				["names"] = {
 					"Harmony", -- [1]
 				},
-				["count"] = "5",
-				["use_weapon"] = true,
-				["custom_hide"] = "timed",
 				["name"] = "137247",
+				["use_weapon"] = true,
+				["debuffType"] = "HELPFUL",
+				["inverse"] = true,
 				["use_spellId"] = true,
 				["use_totemType"] = true,
-				["spellName"] = 48505,
-				["subeventSuffix"] = "_CAST_START",
-				["name_operator"] = "==",
-				["totemName"] = "Wild Mushroom",
+				["custom_hide"] = "timed",
 				["unevent"] = "auto",
+				["type"] = "status",
+				["totemName"] = "Wild Mushroom",
+				["subeventSuffix"] = "_CAST_START",
 				["countOperator"] = "<=",
 				["rem"] = "4",
 				["event"] = "Weapon Enchant",
 				["totemType"] = 1,
-				["type"] = "status",
+				["name_operator"] = "==",
 				["use_spellName"] = true,
-				["inverse"] = true,
-				["debuffType"] = "HELPFUL",
+				["count"] = "5",
+				["spellName"] = 48505,
 				["remOperator"] = "<=",
 				["use_totemName"] = true,
-				["subeventPrefix"] = "SPELL",
+				["use_enchant"] = true,
 				["weapon"] = "main",
 			},
 			["text"] = true,

@@ -7,9 +7,9 @@ SkadaDB = {
 	["profileKeys"] = {
 		["Mynic - Runetotem"] = "Default",
 		["Vaela - Darkspear"] = "Default",
-		["Tya - Darkspear"] = "Default",
-		["Aluná - Darkspear"] = "Default",
 		["Elékk - Darkspear"] = "Default",
+		["Aluná - Darkspear"] = "Default",
+		["Tya - Darkspear"] = "Default",
 		["Ichica - Darkspear"] = "Default",
 		["Riptidé - Darkspear"] = "Default",
 	},
@@ -31,15 +31,15 @@ SkadaDB = {
 							["b"] = 0.3019607843137255,
 						},
 						["height"] = 25,
-						["borderthickness"] = 1,
 						["fontsize"] = 15,
+						["borderthickness"] = 1,
 					},
-					["enabletitle"] = false,
-					["mode"] = "Healing",
-					["point"] = "BOTTOMRIGHT",
 					["background"] = {
 						["height"] = 224.9999847412109,
 					},
+					["enabletitle"] = false,
+					["point"] = "BOTTOMRIGHT",
+					["mode"] = "Healing",
 				}, -- [1]
 			},
 			["icon"] = {
