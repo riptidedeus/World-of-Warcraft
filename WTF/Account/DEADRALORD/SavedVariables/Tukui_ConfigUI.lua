@@ -1,33 +1,33 @@
 
 TukuiConfigAll = {
+	["Runetotem"] = {
+		["Mynic"] = false,
+	},
 	["Darkspear"] = {
 		["Elékk"] = false,
 		["Ichica"] = false,
 		["Riptidé"] = false,
 		["Vaela"] = false,
-		["Tya"] = false,
 		["Daenes"] = false,
-	},
-	["Runetotem"] = {
-		["Mynic"] = false,
+		["Tya"] = false,
 	},
 }
 TukuiConfigPublic = {
-	["actionbar"] = {
-		["ownmetabar"] = false,
+	["invite"] = {
+		["autoaccept"] = false,
 	},
 	["auras"] = {
 		["classictimer"] = true,
 	},
 	["general"] = {
-		["uiscale"] = 0,
 		["backdropcolor"] = {
 			0.1, -- [1]
 			0.1, -- [2]
 			0.1, -- [3]
 		},
+		["uiscale"] = 0,
 	},
-	["invite"] = {
-		["autoaccept"] = false,
+	["actionbar"] = {
+		["ownmetabar"] = false,
 	},
 }

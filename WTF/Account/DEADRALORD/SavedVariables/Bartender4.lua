@@ -3,138 +3,12 @@ Bartender4DB = {
 	["namespaces"] = {
 		["ActionBars"] = {
 			["profiles"] = {
-				["Elékk - Darkspear"] = {
-					["actionbars"] = {
-						{
-							["hideequipped"] = true,
-							["fadeout"] = true,
-							["position"] = {
-								["scale"] = 0.8899999856948853,
-								["x"] = -196.6899696779256,
-								["point"] = "BOTTOM",
-								["y"] = 40.3,
-							},
-							["version"] = 3,
-							["padding"] = 0,
-							["fadeoutalpha"] = 0.9,
-							["hidemacrotext"] = true,
-						}, -- [1]
-						{
-							["enabled"] = false,
-							["version"] = 3,
-							["position"] = {
-								["y"] = -189.4999084472656,
-								["x"] = -231.5001831054688,
-								["point"] = "CENTER",
-							},
-						}, -- [2]
-						{
-							["rows"] = 12,
-							["fadeoutdelay"] = 0.5,
-							["hideequipped"] = true,
-							["fadeoutalpha"] = 0,
-							["position"] = {
-								["scale"] = 0.8899999856948853,
-								["x"] = -36.49016210989794,
-								["point"] = "RIGHT",
-								["y"] = 163.1372054952371,
-							},
-							["fadeout"] = true,
-							["padding"] = 0,
-							["hidemacrotext"] = true,
-							["version"] = 3,
-						}, -- [3]
-						{
-							["hideequipped"] = true,
-							["version"] = 3,
-							["position"] = {
-								["scale"] = 0.8899999856948853,
-								["x"] = -196.6899696779256,
-								["point"] = "TOP",
-								["y"] = -278.3,
-							},
-							["padding"] = 0,
-							["visibility"] = {
-								["always"] = true,
-								["vehicle"] = false,
-							},
-							["hidemacrotext"] = true,
-						}, -- [4]
-						{
-							["hideequipped"] = true,
-							["version"] = 3,
-							["position"] = {
-								["scale"] = 0.8899999856948853,
-								["x"] = -196.6899696779256,
-								["point"] = "TOP",
-								["y"] = -246.3,
-							},
-							["padding"] = 0,
-							["visibility"] = {
-								["always"] = true,
-							},
-							["hidemacrotext"] = true,
-						}, -- [5]
-						{
-							["hideequipped"] = true,
-							["version"] = 3,
-							["position"] = {
-								["scale"] = 0.8899999856948853,
-								["x"] = -196.2451325152142,
-								["point"] = "TOP",
-								["y"] = -214.3,
-							},
-							["padding"] = 0,
-							["visibility"] = {
-								["combat"] = false,
-								["always"] = true,
-							},
-							["hidemacrotext"] = true,
-						}, -- [6]
-						{
-							["padding"] = 0,
-							["version"] = 3,
-							["position"] = {
-								["scale"] = 0.8899999856948853,
-								["x"] = -196.6899696779256,
-								["point"] = "TOP",
-								["y"] = -182.3,
-							},
-						}, -- [7]
-						{
-							["padding"] = 0,
-							["version"] = 3,
-							["position"] = {
-								["scale"] = 0.8899999856948853,
-								["x"] = -196.2449152300615,
-								["point"] = "TOP",
-								["y"] = -150,
-							},
-						}, -- [8]
-						{
-							["version"] = 3,
-							["position"] = {
-								["y"] = 76.50006103515625,
-								["x"] = -231.5001831054688,
-								["point"] = "CENTER",
-							},
-						}, -- [9]
-						{
-							["version"] = 3,
-							["position"] = {
-								["y"] = 114.5001220703125,
-								["x"] = -231.5001831054688,
-								["point"] = "CENTER",
-							},
-						}, -- [10]
-					},
-				},
 				["Mynic - Runetotem"] = {
 					["actionbars"] = {
 						{
 							["hideequipped"] = true,
 							["fadeout"] = true,
-							["hidemacrotext"] = true,
+							["padding"] = 0,
 							["fadeoutalpha"] = 0.9,
 							["position"] = {
 								["y"] = 40.3,
@@ -143,7 +17,7 @@ Bartender4DB = {
 								["scale"] = 0.8899999856948853,
 							},
 							["version"] = 3,
-							["padding"] = 0,
+							["hidemacrotext"] = true,
 						}, -- [1]
 						{
 							["enabled"] = false,
@@ -157,9 +31,9 @@ Bartender4DB = {
 						{
 							["rows"] = 12,
 							["hideequipped"] = true,
+							["fadeout"] = true,
 							["fadeoutdelay"] = 0.5,
 							["version"] = 3,
-							["hidemacrotext"] = true,
 							["fadeoutalpha"] = 0,
 							["position"] = {
 								["y"] = 163.1372054952371,
@@ -167,8 +41,8 @@ Bartender4DB = {
 								["point"] = "RIGHT",
 								["scale"] = 0.8899999856948853,
 							},
-							["fadeout"] = true,
 							["padding"] = 0,
+							["hidemacrotext"] = true,
 							["visibility"] = {
 								["always"] = false,
 							},
@@ -257,6 +131,132 @@ Bartender4DB = {
 						}, -- [10]
 					},
 				},
+				["Elékk - Darkspear"] = {
+					["actionbars"] = {
+						{
+							["hideequipped"] = true,
+							["fadeout"] = true,
+							["position"] = {
+								["scale"] = 0.8899999856948853,
+								["x"] = -196.6899696779256,
+								["point"] = "BOTTOM",
+								["y"] = 40.3,
+							},
+							["hidemacrotext"] = true,
+							["padding"] = 0,
+							["fadeoutalpha"] = 0.9,
+							["version"] = 3,
+						}, -- [1]
+						{
+							["enabled"] = false,
+							["version"] = 3,
+							["position"] = {
+								["y"] = -189.4999084472656,
+								["x"] = -231.5001831054688,
+								["point"] = "CENTER",
+							},
+						}, -- [2]
+						{
+							["rows"] = 12,
+							["version"] = 3,
+							["hideequipped"] = true,
+							["fadeoutdelay"] = 0.5,
+							["position"] = {
+								["scale"] = 0.8899999856948853,
+								["x"] = -36.49016210989794,
+								["point"] = "RIGHT",
+								["y"] = 163.1372054952371,
+							},
+							["hidemacrotext"] = true,
+							["padding"] = 0,
+							["fadeout"] = true,
+							["fadeoutalpha"] = 0,
+						}, -- [3]
+						{
+							["hideequipped"] = true,
+							["version"] = 3,
+							["position"] = {
+								["scale"] = 0.8899999856948853,
+								["x"] = -196.6899696779256,
+								["point"] = "TOP",
+								["y"] = -278.3,
+							},
+							["padding"] = 0,
+							["visibility"] = {
+								["always"] = true,
+								["vehicle"] = false,
+							},
+							["hidemacrotext"] = true,
+						}, -- [4]
+						{
+							["hideequipped"] = true,
+							["version"] = 3,
+							["position"] = {
+								["scale"] = 0.8899999856948853,
+								["x"] = -196.6899696779256,
+								["point"] = "TOP",
+								["y"] = -246.3,
+							},
+							["padding"] = 0,
+							["visibility"] = {
+								["always"] = true,
+							},
+							["hidemacrotext"] = true,
+						}, -- [5]
+						{
+							["hideequipped"] = true,
+							["version"] = 3,
+							["position"] = {
+								["scale"] = 0.8899999856948853,
+								["x"] = -196.2451325152142,
+								["point"] = "TOP",
+								["y"] = -214.3,
+							},
+							["padding"] = 0,
+							["visibility"] = {
+								["combat"] = false,
+								["always"] = true,
+							},
+							["hidemacrotext"] = true,
+						}, -- [6]
+						{
+							["padding"] = 0,
+							["version"] = 3,
+							["position"] = {
+								["scale"] = 0.8899999856948853,
+								["x"] = -196.6899696779256,
+								["point"] = "TOP",
+								["y"] = -182.3,
+							},
+						}, -- [7]
+						{
+							["padding"] = 0,
+							["version"] = 3,
+							["position"] = {
+								["scale"] = 0.8899999856948853,
+								["x"] = -196.2449152300615,
+								["point"] = "TOP",
+								["y"] = -150,
+							},
+						}, -- [8]
+						{
+							["version"] = 3,
+							["position"] = {
+								["y"] = 76.50006103515625,
+								["x"] = -231.5001831054688,
+								["point"] = "CENTER",
+							},
+						}, -- [9]
+						{
+							["version"] = 3,
+							["position"] = {
+								["y"] = 114.5001220703125,
+								["x"] = -231.5001831054688,
+								["point"] = "CENTER",
+							},
+						}, -- [10]
+					},
+				},
 				["Tya - Darkspear"] = {
 					["actionbars"] = {
 						{
@@ -278,8 +278,8 @@ Bartender4DB = {
 							},
 						}, -- [2]
 						{
-							["rows"] = 12,
 							["padding"] = 5,
+							["rows"] = 12,
 							["version"] = 3,
 							["position"] = {
 								["y"] = 610,
@@ -288,8 +288,8 @@ Bartender4DB = {
 							},
 						}, -- [3]
 						{
-							["rows"] = 12,
 							["padding"] = 5,
+							["rows"] = 12,
 							["version"] = 3,
 							["position"] = {
 								["y"] = 610,
@@ -344,8 +344,8 @@ Bartender4DB = {
 							},
 						}, -- [2]
 						{
-							["rows"] = 12,
 							["padding"] = 0,
+							["rows"] = 12,
 							["version"] = 3,
 							["position"] = {
 								["y"] = 248.0000610351563,
@@ -354,8 +354,8 @@ Bartender4DB = {
 							},
 						}, -- [3]
 						{
-							["rows"] = 12,
 							["padding"] = 0,
+							["rows"] = 12,
 							["version"] = 3,
 							["position"] = {
 								["y"] = 248.0000610351563,
@@ -419,14 +419,6 @@ Bartender4DB = {
 		},
 		["ExtraActionBar"] = {
 			["profiles"] = {
-				["Elékk - Darkspear"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = -60.2110595703125,
-						["x"] = 128.3778686523438,
-						["point"] = "LEFT",
-					},
-				},
 				["Mynic - Runetotem"] = {
 					["position"] = {
 						["y"] = -60.2110595703125,
@@ -434,6 +426,14 @@ Bartender4DB = {
 						["point"] = "LEFT",
 					},
 					["version"] = 3,
+				},
+				["Elékk - Darkspear"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = -60.2110595703125,
+						["x"] = 128.3778686523438,
+						["point"] = "LEFT",
+					},
 				},
 				["Tya - Darkspear"] = {
 					["version"] = 3,
@@ -455,16 +455,6 @@ Bartender4DB = {
 		},
 		["MicroMenu"] = {
 			["profiles"] = {
-				["Elékk - Darkspear"] = {
-					["enabled"] = false,
-					["version"] = 3,
-					["position"] = {
-						["scale"] = 0.800000011920929,
-						["x"] = -208.799939978122,
-						["point"] = "CENTER",
-						["y"] = 42.40011854171826,
-					},
-				},
 				["Mynic - Runetotem"] = {
 					["enabled"] = false,
 					["position"] = {
@@ -474,6 +464,16 @@ Bartender4DB = {
 						["scale"] = 0.800000011920929,
 					},
 					["version"] = 3,
+				},
+				["Elékk - Darkspear"] = {
+					["enabled"] = false,
+					["version"] = 3,
+					["position"] = {
+						["scale"] = 0.800000011920929,
+						["x"] = -208.799939978122,
+						["point"] = "CENTER",
+						["y"] = 42.40011854171826,
+					},
 				},
 				["Tya - Darkspear"] = {
 					["version"] = 3,
@@ -498,15 +498,6 @@ Bartender4DB = {
 		},
 		["XPBar"] = {
 			["profiles"] = {
-				["Elékk - Darkspear"] = {
-					["version"] = 3,
-					["position"] = {
-						["scale"] = 0.4900000095367432,
-						["x"] = -252.85,
-						["point"] = "BOTTOM",
-						["y"] = 52,
-					},
-				},
 				["Mynic - Runetotem"] = {
 					["position"] = {
 						["y"] = 52,
@@ -515,20 +506,20 @@ Bartender4DB = {
 						["scale"] = 0.4900000095367432,
 					},
 					["version"] = 3,
+				},
+				["Elékk - Darkspear"] = {
+					["version"] = 3,
+					["position"] = {
+						["scale"] = 0.4900000095367432,
+						["x"] = -252.85,
+						["point"] = "BOTTOM",
+						["y"] = 52,
+					},
 				},
 			},
 		},
 		["BlizzardArt"] = {
 			["profiles"] = {
-				["Elékk - Darkspear"] = {
-					["artLayout"] = "ONEBAR",
-					["version"] = 3,
-					["position"] = {
-						["y"] = 47,
-						["x"] = -256,
-						["point"] = "BOTTOM",
-					},
-				},
 				["Mynic - Runetotem"] = {
 					["artLayout"] = "ONEBAR",
 					["position"] = {
@@ -537,6 +528,15 @@ Bartender4DB = {
 						["point"] = "BOTTOM",
 					},
 					["version"] = 3,
+				},
+				["Elékk - Darkspear"] = {
+					["position"] = {
+						["y"] = 47,
+						["x"] = -256,
+						["point"] = "BOTTOM",
+					},
+					["version"] = 3,
+					["artLayout"] = "ONEBAR",
 				},
 				["Tya - Darkspear"] = {
 					["enabled"] = true,
@@ -559,7 +559,7 @@ Bartender4DB = {
 		},
 		["BagBar"] = {
 			["profiles"] = {
-				["Elékk - Darkspear"] = {
+				["Mynic - Runetotem"] = {
 					["enabled"] = false,
 					["version"] = 3,
 					["position"] = {
@@ -568,7 +568,7 @@ Bartender4DB = {
 						["point"] = "CENTER",
 					},
 				},
-				["Mynic - Runetotem"] = {
+				["Elékk - Darkspear"] = {
 					["enabled"] = false,
 					["version"] = 3,
 					["position"] = {
@@ -594,58 +594,12 @@ Bartender4DB = {
 						["y"] = 41.75,
 						["x"] = 463.5,
 						["point"] = "BOTTOM",
-					},
-				},
-			},
-		},
-		["Vehicle"] = {
-			["profiles"] = {
-				["Elékk - Darkspear"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = -81.29458618164063,
-						["x"] = 212.2465057373047,
-						["point"] = "LEFT",
-					},
-				},
-				["Mynic - Runetotem"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = -81.29458618164063,
-						["x"] = 212.2465057373047,
-						["point"] = "LEFT",
-					},
-				},
-				["Tya - Darkspear"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 47.50003051757813,
-						["x"] = 99.5,
-						["point"] = "CENTER",
-					},
-				},
-				["Vaela - Darkspear"] = {
-					["enabled"] = false,
-					["version"] = 3,
-					["position"] = {
-						["y"] = 47.50003051757813,
-						["x"] = 99.5,
-						["point"] = "CENTER",
 					},
 				},
 			},
 		},
 		["StanceBar"] = {
 			["profiles"] = {
-				["Elékk - Darkspear"] = {
-					["enabled"] = false,
-					["version"] = 3,
-					["position"] = {
-						["y"] = 14.25010681152344,
-						["x"] = -207.750114440918,
-						["point"] = "CENTER",
-					},
-				},
 				["Mynic - Runetotem"] = {
 					["enabled"] = false,
 					["position"] = {
@@ -654,6 +608,15 @@ Bartender4DB = {
 						["point"] = "CENTER",
 					},
 					["version"] = 3,
+				},
+				["Elékk - Darkspear"] = {
+					["enabled"] = false,
+					["version"] = 3,
+					["position"] = {
+						["y"] = 14.25010681152344,
+						["x"] = -207.750114440918,
+						["point"] = "CENTER",
+					},
 				},
 				["Tya - Darkspear"] = {
 					["version"] = 3,
@@ -668,6 +631,43 @@ Bartender4DB = {
 					["position"] = {
 						["y"] = -14.99996185302734,
 						["x"] = -82.5,
+						["point"] = "CENTER",
+					},
+				},
+			},
+		},
+		["Vehicle"] = {
+			["profiles"] = {
+				["Mynic - Runetotem"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = -81.29458618164063,
+						["x"] = 212.2465057373047,
+						["point"] = "LEFT",
+					},
+				},
+				["Elékk - Darkspear"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = -81.29458618164063,
+						["x"] = 212.2465057373047,
+						["point"] = "LEFT",
+					},
+				},
+				["Tya - Darkspear"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 47.50003051757813,
+						["x"] = 99.5,
+						["point"] = "CENTER",
+					},
+				},
+				["Vaela - Darkspear"] = {
+					["enabled"] = false,
+					["version"] = 3,
+					["position"] = {
+						["y"] = 47.50003051757813,
+						["x"] = 99.5,
 						["point"] = "CENTER",
 					},
 				},
@@ -675,7 +675,7 @@ Bartender4DB = {
 		},
 		["PetBar"] = {
 			["profiles"] = {
-				["Elékk - Darkspear"] = {
+				["Mynic - Runetotem"] = {
 					["enabled"] = false,
 					["version"] = 3,
 					["position"] = {
@@ -684,7 +684,7 @@ Bartender4DB = {
 						["point"] = "TOPLEFT",
 					},
 				},
-				["Mynic - Runetotem"] = {
+				["Elékk - Darkspear"] = {
 					["enabled"] = false,
 					["version"] = 3,
 					["position"] = {
@@ -714,15 +714,6 @@ Bartender4DB = {
 		},
 		["RepBar"] = {
 			["profiles"] = {
-				["Elékk - Darkspear"] = {
-					["version"] = 3,
-					["position"] = {
-						["scale"] = 0.4399999976158142,
-						["x"] = -283.6960485864984,
-						["point"] = "CENTER",
-						["y"] = -119.9604295221216,
-					},
-				},
 				["Mynic - Runetotem"] = {
 					["position"] = {
 						["y"] = -119.9604295221216,
@@ -732,30 +723,39 @@ Bartender4DB = {
 					},
 					["version"] = 3,
 				},
+				["Elékk - Darkspear"] = {
+					["version"] = 3,
+					["position"] = {
+						["scale"] = 0.4399999976158142,
+						["x"] = -283.6960485864984,
+						["point"] = "CENTER",
+						["y"] = -119.9604295221216,
+					},
+				},
 			},
 		},
 	},
 	["profileKeys"] = {
-		["Elékk - Darkspear"] = "Elékk - Darkspear",
 		["Mynic - Runetotem"] = "Mynic - Runetotem",
+		["Elékk - Darkspear"] = "Elékk - Darkspear",
 		["Tya - Darkspear"] = "Mynic - Runetotem",
 		["Vaela - Darkspear"] = "Mynic - Runetotem",
 	},
 	["profiles"] = {
-		["Elékk - Darkspear"] = {
-			["focuscastmodifier"] = false,
-			["minimapIcon"] = {
-				["hide"] = true,
-			},
-			["onkeydown"] = false,
-			["outofrange"] = "hotkey",
-		},
 		["Mynic - Runetotem"] = {
 			["focuscastmodifier"] = false,
 			["onkeydown"] = false,
 			["minimapIcon"] = {
 				["hide"] = true,
 			},
+			["outofrange"] = "hotkey",
+		},
+		["Elékk - Darkspear"] = {
+			["focuscastmodifier"] = false,
+			["minimapIcon"] = {
+				["hide"] = true,
+			},
+			["onkeydown"] = false,
 			["outofrange"] = "hotkey",
 		},
 		["Tya - Darkspear"] = {
