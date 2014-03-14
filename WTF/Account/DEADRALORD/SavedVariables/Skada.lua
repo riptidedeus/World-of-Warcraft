@@ -6,11 +6,11 @@ SkadaDB = {
 	},
 	["profileKeys"] = {
 		["Mynic - Runetotem"] = "Default",
-		["Vaela - Darkspear"] = "Default",
+		["Riptidé - Darkspear"] = "Default",
 		["Aluná - Darkspear"] = "Default",
 		["Tya - Darkspear"] = "Default",
 		["Elékk - Darkspear"] = "Default",
-		["Riptidé - Darkspear"] = "Default",
+		["Vaela - Darkspear"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
@@ -38,11 +38,54 @@ SkadaDB = {
 				["number"] = 5,
 				["channel"] = "guild",
 				["target"] = "Ferrold",
-				["set"] = 2,
+				["mode"] = "Healing",
+				["set"] = "total",
 			},
 			["icon"] = {
 				["minimapPos"] = 46.2018348825504,
 			},
+		},
+		["Skada Test"] = {
+			["windows"] = {
+				{
+					["barheight"] = 28,
+					["enabletitle"] = false,
+					["set"] = "total",
+					["y"] = 182.9993743896484,
+					["mode"] = "Healing",
+					["point"] = "BOTTOMRIGHT",
+					["barwidth"] = 324.0000305175781,
+					["x"] = -71.9986572265625,
+					["background"] = {
+						["height"] = 224.9999847412109,
+					},
+					["barfontsize"] = 12,
+					["title"] = {
+						["color"] = {
+							["a"] = 0,
+							["b"] = 0.3019607843137255,
+							["g"] = 0.1019607843137255,
+							["r"] = 0.1019607843137255,
+						},
+						["fontsize"] = 15,
+						["borderthickness"] = 1,
+						["height"] = 25,
+					},
+				}, -- [1]
+			},
+			["icon"] = {
+				["minimapPos"] = 46.2018348825504,
+				["hide"] = true,
+			},
+			["report"] = {
+				["number"] = 5,
+				["set"] = "total",
+				["target"] = "Ferrold",
+				["mode"] = "Healing",
+				["channel"] = "guild",
+			},
+		},
+		["Vaela - Darkspear"] = {
 		},
 	},
 }
