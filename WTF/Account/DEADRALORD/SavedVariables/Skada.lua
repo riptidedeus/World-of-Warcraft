@@ -6,11 +6,11 @@ SkadaDB = {
 	},
 	["profileKeys"] = {
 		["Mynic - Runetotem"] = "Default",
-		["Riptidé - Darkspear"] = "Default",
+		["Vaela - Darkspear"] = "Default",
 		["Aluná - Darkspear"] = "Default",
 		["Tya - Darkspear"] = "Default",
 		["Elékk - Darkspear"] = "Default",
-		["Vaela - Darkspear"] = "Default",
+		["Riptidé - Darkspear"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {

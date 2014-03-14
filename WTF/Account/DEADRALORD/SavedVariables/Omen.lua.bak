@@ -1,0 +1,17 @@
+
+Omen3DB = {
+	["profileKeys"] = {
+		["Aluná - Darkspear"] = "Aluná - Darkspear",
+	},
+	["profiles"] = {
+		["Aluná - Darkspear"] = {
+			["PositionW"] = 196.9998928371958,
+			["PositionH"] = 276.0000265342489,
+			["VGrip2"] = 113.2749467476733,
+			["PositionY"] = 374.999784101485,
+			["Shown"] = true,
+			["PositionX"] = 1627.500366931733,
+			["VGrip1"] = 83.72496063958465,
+		},
+	},
+}

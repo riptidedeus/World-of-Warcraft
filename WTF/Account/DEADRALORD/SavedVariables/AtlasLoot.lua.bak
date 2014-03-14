@@ -1,0 +1,33 @@
+
+AtlasLootDB = {
+	["namespaces"] = {
+		["DefaultFrame"] = {
+			["profiles"] = {
+				["Vaela - Darkspear"] = {
+					["NEWpoint"] = {
+						nil, -- [1]
+						nil, -- [2]
+						"CENTER", -- [3]
+						-6.565174988242524e-005, -- [4]
+						-3.282587494121262e-005, -- [5]
+					},
+					["instance"] = "CoTWellOfEternity",
+				},
+			},
+		},
+		["AtlasLootPanel"] = {
+		},
+		["WishList"] = {
+		},
+		["Filter"] = {
+		},
+	},
+	["showWarning"] = true,
+	["profileKeys"] = {
+		["Vaela - Darkspear"] = "Vaela - Darkspear",
+	},
+	["profiles"] = {
+		["Vaela - Darkspear"] = {
+		},
+	},
+}
