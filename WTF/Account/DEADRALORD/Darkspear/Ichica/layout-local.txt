@@ -1,0 +1,15 @@
+Version: 1
+Frame: DBMMinimapButton
+FrameLevel: 4
+Anchor: TOPRIGHT
+X: -145
+Y: -117
+W: 32
+H: 32
+Frame: TukuiWatchFrameAnchor
+FrameLevel: 10
+Anchor: TOPRIGHT
+X: -183
+Y: -82
+W: 250
+H: 20
