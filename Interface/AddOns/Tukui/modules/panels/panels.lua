@@ -7,6 +7,7 @@ TukuiBar1:SetHeight((T.buttonsize * 1) + (T.buttonspacing * 2))
 TukuiBar1:SetPoint("BOTTOM", UIParent, "BOTTOM", 0, 14)
 TukuiBar1:SetFrameStrata("BACKGROUND")
 TukuiBar1:SetFrameLevel(1)
+TukuiBar1:SetAlpha(0)
 G.ActionBars.Bar1 = TukuiBar1
 
 local TukuiBar2 = CreateFrame("Frame", "TukuiBar2", UIParent, "SecureHandlerStateTemplate")
@@ -56,6 +57,12 @@ TukuiBar5:SetFrameStrata("BACKGROUND")
 TukuiBar5:SetFrameLevel(2)
 TukuiBar5:SetAlpha(0)
 G.ActionBars.Bar5 = TukuiBar5
+
+TukuiBar1:SetBackdrop(nil)
+TukuiBar2:SetBackdrop(nil)
+TukuiBar3:SetBackdrop(nil)
+TukuiBar4:SetBackdrop(nil)
+TukuiBar5:SetBackdrop(nil)
 
 local TukuiBar6 = CreateFrame("Frame", "TukuiBar6", UIParent, "SecureHandlerStateTemplate")
 TukuiBar6:SetWidth((T.buttonsize * 1) + (T.buttonspacing * 2))
@@ -109,6 +116,7 @@ ileftlv:SetTemplate()
 ileftlv:Size(2, 130)
 ileftlv:Point("BOTTOMLEFT", UIParent, "BOTTOMLEFT", 22, 30)
 ileftlv:SetFrameLevel(1)
+ileftlv:SetAlpha(0)
 ileftlv:SetFrameStrata("BACKGROUND")
 G.Panels.BottomLeftVerticalLine = ileftlv
 
@@ -118,6 +126,7 @@ irightlv:SetTemplate()
 irightlv:Size(2, 130)
 irightlv:Point("BOTTOMRIGHT", UIParent, "BOTTOMRIGHT", -22, 30)
 irightlv:SetFrameLevel(1)
+irightlv:SetAlpha(0)
 irightlv:SetFrameStrata("BACKGROUND")
 G.Panels.BottomRightVerticalLine = irightlv
 
@@ -171,6 +180,7 @@ ltoabl:Point("BOTTOMLEFT", ileftlv, "BOTTOMLEFT", 0, 0)
 ltoabl:Point("RIGHT", TukuiBar1, "BOTTOMLEFT", -1, 17)
 ltoabl:SetFrameStrata("BACKGROUND")
 ltoabl:SetFrameLevel(1)
+ltoabl:SetAlpha(0)
 G.Panels.BottomLeftLine = ltoabl
 
 -- HORIZONTAL LINE RIGHT
@@ -181,6 +191,7 @@ ltoabr:Point("LEFT", TukuiBar1, "BOTTOMRIGHT", 1, 17)
 ltoabr:Point("BOTTOMRIGHT", irightlv, "BOTTOMRIGHT", 0, 0)
 ltoabr:SetFrameStrata("BACKGROUND")
 ltoabr:SetFrameLevel(1)
+ltoabr:SetAlpha(0)
 G.Panels.BottomRightLine = ltoabr
 
 -- MOVE/HIDE SOME ELEMENTS IF CHAT BACKGROUND IS ENABLED

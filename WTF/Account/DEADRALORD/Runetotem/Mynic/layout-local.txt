@@ -6,3 +6,10 @@ X: -145
 Y: -117
 W: 32
 H: 32
+Frame: HealBot_Options
+FrameLevel: 20
+Anchor: CENTER
+X: -1
+Y: 1
+W: 860
+H: 750

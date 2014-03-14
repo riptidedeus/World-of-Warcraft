@@ -1,0 +1,200 @@
+
+Bartender4DB = {
+	["namespaces"] = {
+		["ActionBars"] = {
+			["profiles"] = {
+				["Mynic - Runetotem"] = {
+					["actionbars"] = {
+						{
+							["version"] = 3,
+							["position"] = {
+								["x"] = 287.8669128417969,
+								["point"] = "LEFT",
+								["y"] = 104.933349609375,
+							},
+						}, -- [1]
+						{
+							["enabled"] = false,
+							["version"] = 3,
+							["position"] = {
+								["x"] = -231.5001831054688,
+								["point"] = "CENTER",
+								["y"] = -189.4999084472656,
+							},
+						}, -- [2]
+						{
+							["rows"] = 12,
+							["version"] = 3,
+							["position"] = {
+								["x"] = -43.4998779296875,
+								["point"] = "TOPRIGHT",
+								["y"] = -257.5220947265625,
+							},
+							["padding"] = 5,
+						}, -- [3]
+						{
+							["version"] = 3,
+							["position"] = {
+								["x"] = 287.8669738769531,
+								["point"] = "LEFT",
+								["y"] = 224.9334106445313,
+							},
+						}, -- [4]
+						{
+							["version"] = 3,
+							["position"] = {
+								["x"] = 287.8669738769531,
+								["point"] = "LEFT",
+								["y"] = 184.9334716796875,
+							},
+						}, -- [5]
+						{
+							["version"] = 3,
+							["position"] = {
+								["x"] = 287.8669738769531,
+								["point"] = "LEFT",
+								["y"] = 144.9334716796875,
+							},
+						}, -- [6]
+						{
+						}, -- [7]
+						{
+						}, -- [8]
+						[10] = {
+						},
+					},
+				},
+			},
+		},
+		["LibDualSpec-1.0"] = {
+		},
+		["ExtraActionBar"] = {
+			["profiles"] = {
+				["Mynic - Runetotem"] = {
+					["version"] = 3,
+					["position"] = {
+						["x"] = 168.0888061523438,
+						["point"] = "LEFT",
+						["y"] = -161.5667266845703,
+					},
+				},
+			},
+		},
+		["MicroMenu"] = {
+			["profiles"] = {
+				["Mynic - Runetotem"] = {
+					["enabled"] = false,
+					["version"] = 3,
+					["position"] = {
+						["x"] = -208.799939978122,
+						["point"] = "CENTER",
+						["scale"] = 0.800000011920929,
+						["y"] = 42.40011854171826,
+					},
+				},
+			},
+		},
+		["XPBar"] = {
+			["profiles"] = {
+				["Mynic - Runetotem"] = {
+					["version"] = 3,
+					["position"] = {
+						["x"] = -252.85,
+						["point"] = "BOTTOM",
+						["scale"] = 0.4900000095367432,
+						["y"] = 52,
+					},
+				},
+			},
+		},
+		["BlizzardArt"] = {
+			["profiles"] = {
+				["Mynic - Runetotem"] = {
+					["version"] = 3,
+					["artLayout"] = "ONEBAR",
+					["position"] = {
+						["x"] = -256,
+						["point"] = "BOTTOM",
+						["y"] = 47,
+					},
+				},
+			},
+		},
+		["Vehicle"] = {
+			["profiles"] = {
+				["Mynic - Runetotem"] = {
+					["version"] = 3,
+					["position"] = {
+						["x"] = 99.5,
+						["point"] = "CENTER",
+						["y"] = 47.50003051757813,
+					},
+				},
+			},
+		},
+		["BagBar"] = {
+			["profiles"] = {
+				["Mynic - Runetotem"] = {
+					["enabled"] = false,
+					["version"] = 3,
+					["position"] = {
+						["x"] = 58.4998779296875,
+						["point"] = "CENTER",
+						["y"] = 1.50006103515625,
+					},
+				},
+			},
+		},
+		["StanceBar"] = {
+			["profiles"] = {
+				["Mynic - Runetotem"] = {
+					["enabled"] = false,
+					["version"] = 3,
+					["position"] = {
+						["x"] = -207.750114440918,
+						["point"] = "CENTER",
+						["y"] = 14.25010681152344,
+					},
+				},
+			},
+		},
+		["PetBar"] = {
+			["profiles"] = {
+				["Mynic - Runetotem"] = {
+					["enabled"] = false,
+					["version"] = 3,
+					["position"] = {
+						["x"] = 54.84432601928711,
+						["point"] = "TOPLEFT",
+						["y"] = -222.4221801757813,
+					},
+				},
+			},
+		},
+		["RepBar"] = {
+			["profiles"] = {
+				["Mynic - Runetotem"] = {
+					["version"] = 3,
+					["position"] = {
+						["x"] = -283.6960485864984,
+						["point"] = "CENTER",
+						["scale"] = 0.4399999976158142,
+						["y"] = -119.9604295221216,
+					},
+				},
+			},
+		},
+	},
+	["profileKeys"] = {
+		["Mynic - Runetotem"] = "Mynic - Runetotem",
+	},
+	["profiles"] = {
+		["Mynic - Runetotem"] = {
+			["minimapIcon"] = {
+				["hide"] = true,
+			},
+			["focuscastmodifier"] = false,
+			["outofrange"] = "hotkey",
+		},
+	},
+}

@@ -1,6 +1,6 @@
-Dominos: disabled
-Dominos_Cast: disabled
-Dominos_Config: disabled
-Dominos_Encounter: disabled
-Dominos_Roll: disabled
-Dominos_XP: disabled
+Dominos: enabled
+Dominos_Cast: enabled
+Dominos_Config: enabled
+Dominos_Encounter: enabled
+Dominos_Roll: enabled
+Dominos_XP: enabled

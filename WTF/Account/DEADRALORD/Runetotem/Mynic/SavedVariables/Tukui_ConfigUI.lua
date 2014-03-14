@@ -1,2 +1,6 @@
 
-TukuiConfigPrivate = nil
+TukuiConfigPrivate = {
+	["general"] = {
+		["multiplescreendamage"] = false,
+	},
+}
