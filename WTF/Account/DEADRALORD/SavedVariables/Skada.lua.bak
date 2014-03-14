@@ -1,0 +1,34 @@
+
+SkadaDB = {
+	["profileKeys"] = {
+		["Vaela - Darkspear"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+			["windows"] = {
+				{
+					["barheight"] = 25,
+					["set"] = "total",
+					["y"] = 166.9997406005859,
+					["mode"] = "DPS",
+					["point"] = "BOTTOMRIGHT",
+					["barwidth"] = 297.000244140625,
+					["background"] = {
+						["height"] = 260.0000915527344,
+					},
+					["x"] = -61.9990234375,
+					["barfontsize"] = 12,
+					["title"] = {
+						["fontsize"] = 15,
+						["borderthickness"] = 1,
+						["height"] = 25,
+					},
+				}, -- [1]
+			},
+			["report"] = {
+				["set"] = "total",
+				["mode"] = "Healing",
+			},
+		},
+	},
+}
