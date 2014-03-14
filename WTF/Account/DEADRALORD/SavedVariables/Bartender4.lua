@@ -6,12 +6,18 @@ Bartender4DB = {
 				["Mynic - Runetotem"] = {
 					["actionbars"] = {
 						{
+							["hideequipped"] = true,
+							["fadeout"] = true,
+							["padding"] = 0,
+							["fadeoutalpha"] = 0.9,
 							["version"] = 3,
 							["position"] = {
-								["y"] = 104.933349609375,
-								["x"] = 287.8669128417969,
-								["point"] = "LEFT",
+								["y"] = -1040.3,
+								["x"] = -196.6899696779256,
+								["point"] = "TOP",
+								["scale"] = 0.8899999856948853,
 							},
+							["hidemacrotext"] = true,
 						}, -- [1]
 						{
 							["enabled"] = false,
@@ -24,36 +30,60 @@ Bartender4DB = {
 						}, -- [2]
 						{
 							["rows"] = 12,
+							["hideequipped"] = true,
+							["hidemacrotext"] = true,
 							["version"] = 3,
 							["position"] = {
-								["y"] = -257.5220947265625,
-								["x"] = -43.4998779296875,
-								["point"] = "TOPRIGHT",
+								["y"] = 163.1372054952371,
+								["x"] = -36.49016210989794,
+								["point"] = "RIGHT",
+								["scale"] = 0.8899999856948853,
 							},
-							["padding"] = 5,
+							["padding"] = 0,
 						}, -- [3]
 						{
+							["hideequipped"] = true,
+							["padding"] = 0,
 							["version"] = 3,
 							["position"] = {
-								["y"] = 224.9334106445313,
-								["x"] = 287.8669738769531,
-								["point"] = "LEFT",
+								["y"] = -194.3,
+								["x"] = -196.6899696779256,
+								["point"] = "TOP",
+								["scale"] = 0.8899999856948853,
+							},
+							["hidemacrotext"] = true,
+							["visibility"] = {
+								["always"] = true,
 							},
 						}, -- [4]
 						{
+							["hideequipped"] = true,
+							["padding"] = 0,
 							["version"] = 3,
 							["position"] = {
-								["y"] = 184.9334716796875,
-								["x"] = 287.8669738769531,
-								["point"] = "LEFT",
+								["y"] = -162.3,
+								["x"] = -196.6900104188917,
+								["point"] = "TOP",
+								["scale"] = 0.8899999856948853,
+							},
+							["hidemacrotext"] = true,
+							["visibility"] = {
+								["always"] = true,
 							},
 						}, -- [5]
 						{
+							["hideequipped"] = true,
+							["padding"] = 0,
 							["version"] = 3,
 							["position"] = {
-								["y"] = 144.9334716796875,
-								["x"] = 287.8669738769531,
-								["point"] = "LEFT",
+								["y"] = -130,
+								["x"] = -196.6899696779256,
+								["point"] = "TOP",
+								["scale"] = 0.8899999856948853,
+							},
+							["hidemacrotext"] = true,
+							["visibility"] = {
+								["always"] = true,
 							},
 						}, -- [6]
 						{
@@ -73,8 +103,8 @@ Bartender4DB = {
 			["profiles"] = {
 				["Mynic - Runetotem"] = {
 					["position"] = {
-						["y"] = -161.5667266845703,
-						["x"] = 168.0888061523438,
+						["y"] = -60.2110595703125,
+						["x"] = 128.3778686523438,
 						["point"] = "LEFT",
 					},
 					["version"] = 3,
@@ -152,9 +182,9 @@ Bartender4DB = {
 				["Mynic - Runetotem"] = {
 					["version"] = 3,
 					["position"] = {
-						["y"] = 47.50003051757813,
-						["x"] = 99.5,
-						["point"] = "CENTER",
+						["y"] = -81.29458618164063,
+						["x"] = 212.2465057373047,
+						["point"] = "LEFT",
 					},
 				},
 			},
@@ -195,6 +225,7 @@ Bartender4DB = {
 				["hide"] = true,
 			},
 			["focuscastmodifier"] = false,
+			["onkeydown"] = false,
 			["outofrange"] = "hotkey",
 		},
 	},
