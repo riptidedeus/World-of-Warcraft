@@ -35,10 +35,10 @@ HealBot_Config = {
 	["Current_Skin"] = "15-man",
 	["Skin_ID"] = 2,
 	["Profile"] = 1,
-	["EnableHealthy"] = 1,
+	["DisableSolo"] = 0,
 	["Version"] = "5.4.2.1",
 	["LastVersionSkinUpdate"] = "5.4.2.1",
-	["DisableSolo"] = 0,
+	["EnableHealthy"] = 1,
 	["DisableHealBot"] = 0,
 	["HealBot_BuffWatchGUID"] = {
 	},
@@ -159,13 +159,13 @@ HealBot_Config_Spells = {
 		["CtrlMiddle4"] = "Divine Hymn",
 		["Middle2"] = "Renew",
 		["CtrlLeft3"] = "Purify",
-		["ShiftLeft3"] = "Binding Heal",
+		["Ctrl-ShiftLeft"] = "Flash Heal",
 		["CtrlLeft1"] = "Purify",
 		["Alt-ShiftRight"] = "Assist",
 		["CtrlRight4"] = "Purify",
 		["ShiftRight4"] = "Power Word: Shield",
 		["Left"] = "Heal",
-		["Ctrl-ShiftLeft"] = "Flash Heal",
+		["ShiftLeft3"] = "Binding Heal",
 		["ShiftLeft4"] = "Binding Heal",
 		["Ctrl-ShiftLeft3"] = "Flash Heal",
 		["ShiftRight2"] = "Power Word: Shield",
@@ -200,7 +200,7 @@ HealBot_Config_Buffs = {
 	},
 	["BuffWatch"] = 1,
 	["NoAuraWhenRested"] = 0,
-	["HealBotBuffColR"] = {
+	["HealBotBuffColG"] = {
 		1, -- [1]
 		1, -- [2]
 		1, -- [3]
@@ -254,7 +254,7 @@ HealBot_Config_Buffs = {
 		["11"] = "Power Word: Fortitude",
 		["32"] = "Inner Fire",
 	},
-	["HealBotBuffColG"] = {
+	["HealBotBuffColR"] = {
 		1, -- [1]
 		1, -- [2]
 		1, -- [3]
@@ -364,25 +364,25 @@ HealBot_Config_Cures = {
 		["32"] = 4,
 	},
 	["CDCBarColour"] = {
-		["Disease"] = {
-			["B"] = 0.7,
-			["G"] = 0.19,
-			["R"] = 0.55,
-		},
 		["Poison"] = {
 			["B"] = 0.24,
 			["G"] = 0.46,
 			["R"] = 0.12,
+		},
+		["Curse"] = {
+			["B"] = 0.09,
+			["G"] = 0.43,
+			["R"] = 0.83,
 		},
 		["Magic"] = {
 			["B"] = 0.83,
 			["G"] = 0.33,
 			["R"] = 0.26,
 		},
-		["Curse"] = {
-			["B"] = 0.09,
-			["G"] = 0.43,
-			["R"] = 0.83,
+		["Disease"] = {
+			["B"] = 0.7,
+			["G"] = 0.19,
+			["R"] = 0.55,
 		},
 	},
 	["HealBotDebuffPriority"] = {
@@ -393,9 +393,9 @@ HealBot_Config_Cures = {
 		["Curse"] = 14,
 	},
 	["HealBot_Custom_Defuffs_All"] = {
-		["Disease"] = 0,
 		["Poison"] = 0,
-		["Magic"] = 0,
 		["Curse"] = 0,
+		["Magic"] = 0,
+		["Disease"] = 0,
 	},
 }

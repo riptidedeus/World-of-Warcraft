@@ -21,6 +21,7 @@ AtlasLootDB = {
 				["Aluná - Darkspear"] = {
 					["instance"] = "BlackTemple",
 					["module"] = "AtlasLootBurningCrusade",
+					["DefaultFrameLocked"] = true,
 					["NEWpoint"] = {
 						nil, -- [1]
 						nil, -- [2]
@@ -28,7 +29,6 @@ AtlasLootDB = {
 						-6.999986527713826, -- [4]
 						-16.00008753566651, -- [5]
 					},
-					["DefaultFrameLocked"] = true,
 				},
 				["Elékk - Darkspear"] = {
 					["module"] = "AtlasLootMoP",
@@ -63,7 +63,7 @@ AtlasLootDB = {
 					},
 				},
 				["Mynic - Runetotem"] = {
-					["module"] = "AtlasLootClassicWoW",
+					["module"] = "AtlasLootMoP",
 					["NEWpoint"] = {
 						nil, -- [1]
 						nil, -- [2]
@@ -71,7 +71,7 @@ AtlasLootDB = {
 						-1.000073075294495, -- [4]
 						-3.282587567809969e-005, -- [5]
 					},
-					["instance"] = "BlackrockDepths",
+					["instance"] = "SiegeofOrgrimmar",
 				},
 				["Daenes - Darkspear"] = {
 					["instance"] = "Ulduar",
@@ -109,6 +109,40 @@ AtlasLootDB = {
 		},
 		["Filter"] = {
 			["profiles"] = {
+				["Tya - Darkspear"] = {
+					["enable"] = true,
+				},
+				["Mynic - Runetotem"] = {
+					["enable"] = true,
+					["filterSlots"] = {
+						["Stats"] = {
+							["PARRY_RATING"] = false,
+							["DODGE_RATING"] = false,
+							["STRENGTH"] = false,
+						},
+						["Armor"] = {
+							["#a3#"] = false,
+							["#a1#"] = false,
+							["#a4#"] = false,
+						},
+						["WeaponsMeeleTwoHand"] = {
+							["#w1#"] = false,
+							["#w10#"] = false,
+						},
+						["WeaponsMeele"] = {
+							["#w13#"] = false,
+							["#w10#"] = false,
+							["#w1#"] = false,
+							["#w8#"] = false,
+						},
+						["WeaponsRanged"] = {
+							["#w3#"] = false,
+							["#w2#"] = false,
+							["#w5#"] = false,
+							["#w12#"] = false,
+						},
+					},
+				},
 				["Vaela - Darkspear"] = {
 					["filterSlots"] = {
 						["Stats"] = {
@@ -116,8 +150,8 @@ AtlasLootDB = {
 							["DODGE_RATING"] = false,
 							["RESILIENCE_RATING"] = false,
 							["EXPERTISE_RATING"] = false,
-							["STRENGTH"] = false,
 							["AGILITY"] = false,
+							["STRENGTH"] = false,
 						},
 						["Armor"] = {
 							["#a2#"] = false,
@@ -138,9 +172,6 @@ AtlasLootDB = {
 							["#w10#"] = false,
 						},
 					},
-				},
-				["Tya - Darkspear"] = {
-					["enable"] = true,
 				},
 			},
 		},
@@ -172,13 +203,14 @@ AtlasLootDB = {
 			["ShowLootTablePrice"] = false,
 		},
 		["Vaela - Darkspear"] = {
-			["LastSearch"] = "Picnic",
 			["LootTableType"] = "Heroic",
+			["LastSearch"] = "Picnic",
 		},
 		["Riptidé - Runetotem"] = {
 			["LastSearch"] = "Renevant",
 		},
 		["Mynic - Runetotem"] = {
+			["LootTableType"] = "RaidFinder",
 		},
 		["Tya - Darkspear"] = {
 			["LootTableType"] = "Flexible",
