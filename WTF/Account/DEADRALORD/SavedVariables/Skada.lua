@@ -9,8 +9,8 @@ SkadaDB = {
 		["Riptidé - Darkspear"] = "Default",
 		["Ichica - Darkspear"] = "Default",
 		["Aluná - Darkspear"] = "Default",
-		["Elékk - Darkspear"] = "Default",
 		["Tya - Darkspear"] = "Default",
+		["Elékk - Darkspear"] = "Default",
 		["Vaela - Darkspear"] = "Default",
 	},
 	["profiles"] = {
@@ -26,7 +26,7 @@ SkadaDB = {
 						["height"] = 25,
 					},
 					["point"] = "BOTTOMRIGHT",
-					["mode"] = "Healing",
+					["mode"] = "Damage",
 					["barwidth"] = 322.0000305175781,
 					["barfontsize"] = 12,
 					["background"] = {
@@ -62,16 +62,16 @@ SkadaDB = {
 							["g"] = 0.1019607843137255,
 							["r"] = 0.1019607843137255,
 						},
-						["borderthickness"] = 1,
 						["fontsize"] = 15,
+						["borderthickness"] = 1,
 						["height"] = 25,
 					},
-					["enabletitle"] = false,
-					["mode"] = "Healing",
-					["point"] = "BOTTOMRIGHT",
 					["background"] = {
 						["height"] = 224.9999847412109,
 					},
+					["enabletitle"] = false,
+					["point"] = "BOTTOMRIGHT",
+					["mode"] = "Healing",
 				}, -- [1]
 			},
 			["icon"] = {

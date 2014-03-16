@@ -7,7 +7,7 @@ Y: -117
 W: 32
 H: 32
 Frame: TukuiWatchFrameAnchor
-FrameLevel: 10
+FrameLevel: 8
 Anchor: TOPRIGHT
 X: -183
 Y: -82
