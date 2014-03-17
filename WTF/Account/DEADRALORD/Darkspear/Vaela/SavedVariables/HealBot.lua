@@ -75,8 +75,8 @@ HealBot_Config_Spells = {
 		["Right"] = "Assist",
 		["Left"] = "Target",
 		["Ctrl-ShiftRight"] = "HBmenu",
-		["Ctrl-ShiftRight1"] = "HBmenu",
 		["Ctrl-ShiftLeft3"] = "Menu",
+		["Ctrl-ShiftRight1"] = "HBmenu",
 		["Right1"] = "Assist",
 		["Ctrl-ShiftRight2"] = "HBmenu",
 		["Left3"] = "Target",
@@ -148,7 +148,7 @@ HealBot_Config_Spells = {
 		["ShiftMiddle"] = "Healing Surge",
 		["Right3"] = "Healing Wave",
 		["ShiftLeft"] = "Chain Heal",
-		["ShiftLeft3"] = "Riptide",
+		["Ctrl-ShiftLeft"] = "Menu",
 		["AltRight3"] = "Cleanse",
 		["Alt-ShiftRight"] = "Assist",
 		["Button43"] = "Target",
@@ -157,7 +157,7 @@ HealBot_Config_Spells = {
 		["Alt-ShiftMiddle3"] = "",
 		["Middle3"] = "Unleash Elements",
 		["CtrlMiddle3"] = "",
-		["Ctrl-ShiftLeft"] = "Menu",
+		["ShiftLeft3"] = "Riptide",
 		["Ctrl-ShiftLeft3"] = "Menu",
 		["CtrlLeft2"] = "Cleanse Spirit",
 	},
@@ -191,7 +191,7 @@ HealBot_Config_Buffs = {
 	},
 	["BuffWatch"] = 0,
 	["NoAuraWhenRested"] = 0,
-	["HealBotBuffColR"] = {
+	["HealBotBuffColG"] = {
 		1, -- [1]
 		1, -- [2]
 		1, -- [3]
@@ -245,7 +245,7 @@ HealBot_Config_Buffs = {
 		["22"] = "None",
 		["23"] = "None",
 	},
-	["HealBotBuffColG"] = {
+	["HealBotBuffColR"] = {
 		1, -- [1]
 		1, -- [2]
 		1, -- [3]
@@ -349,25 +349,25 @@ HealBot_Config_Cures = {
 		["23"] = 4,
 	},
 	["CDCBarColour"] = {
-		["Curse"] = {
-			["R"] = 0.992,
-			["G"] = 0,
-			["B"] = 0.525,
-		},
 		["Disease"] = {
 			["R"] = 0.55,
 			["G"] = 0.19,
 			["B"] = 0.7,
+		},
+		["Poison"] = {
+			["R"] = 0.12,
+			["G"] = 0.46,
+			["B"] = 0.24,
 		},
 		["Magic"] = {
 			["R"] = 0.2588235294117647,
 			["G"] = 0.3294117647058824,
 			["B"] = 0.8313725490196078,
 		},
-		["Poison"] = {
-			["R"] = 0.12,
-			["G"] = 0.46,
-			["B"] = 0.24,
+		["Curse"] = {
+			["R"] = 0.992,
+			["G"] = 0,
+			["B"] = 0.525,
 		},
 	},
 	["HealBotDebuffPriority"] = {
@@ -378,9 +378,9 @@ HealBot_Config_Cures = {
 		["Curse"] = 1,
 	},
 	["HealBot_Custom_Defuffs_All"] = {
-		["Curse"] = 1,
 		["Disease"] = 0,
-		["Magic"] = 1,
 		["Poison"] = 0,
+		["Magic"] = 1,
+		["Curse"] = 1,
 	},
 }
