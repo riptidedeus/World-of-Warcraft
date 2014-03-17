@@ -6,11 +6,11 @@ MasqueDB = {
 	},
 	["profileKeys"] = {
 		["Mynic - Runetotem"] = "Default",
-		["Vaela - Darkspear"] = "Default",
-		["Ichica - Darkspear"] = "Default",
+		["Riptidé - Darkspear"] = "Default",
 		["Tya - Darkspear"] = "Default",
 		["Elékk - Darkspear"] = "Default",
-		["Riptidé - Darkspear"] = "Default",
+		["Ichica - Darkspear"] = "Default",
+		["Vaela - Darkspear"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
@@ -53,21 +53,21 @@ MasqueDB = {
 					["Inherit"] = false,
 					["SkinID"] = "Touchy 64px buffs",
 				},
-				["Bartender4"] = {
+				["Bartender4_8"] = {
 					["Inherit"] = false,
-					["SkinID"] = "Touchy 64px buffs",
-				},
-				["Bartender4_MicroMenu"] = {
 					["SkinID"] = "Touchy 64px buffs",
 				},
 				["Bartender4_PetBar"] = {
 					["SkinID"] = "Touchy 64px buffs",
 				},
-				["Bartender4_1"] = {
+				["Bartender4_MicroMenu"] = {
+					["SkinID"] = "Touchy 64px buffs",
+				},
+				["Bartender4"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Touchy 64px buffs",
 				},
-				["Bartender4_8"] = {
+				["Bartender4_1"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Touchy 64px buffs",
 				},
