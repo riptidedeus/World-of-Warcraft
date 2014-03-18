@@ -1,0 +1,186 @@
+
+ReforgeLiteDB = {
+	["windowHeight"] = 564,
+	["activeWindowTitle"] = {
+		0.8, -- [1]
+		0, -- [2]
+		0, -- [3]
+	},
+	["reforgeCheat"] = 5,
+	["profiles"] = {
+		["Tya - Darkspear"] = {
+			["method"] = {
+				["items"] = {
+					{
+					}, -- [1]
+					{
+						["src"] = 4,
+						["reforge"] = 26,
+						["dst"] = 6,
+						["amount"] = 357,
+					}, -- [2]
+					{
+						["src"] = 5,
+						["reforge"] = 35,
+						["dst"] = 8,
+						["amount"] = 216,
+					}, -- [3]
+					{
+						["src"] = 5,
+						["reforge"] = 35,
+						["dst"] = 8,
+						["amount"] = 218,
+					}, -- [4]
+					{
+						["src"] = 5,
+						["reforge"] = 33,
+						["dst"] = 6,
+						["amount"] = 505,
+					}, -- [5]
+					{
+						["src"] = 5,
+						["reforge"] = 35,
+						["dst"] = 8,
+						["amount"] = 218,
+					}, -- [6]
+					{
+						["src"] = 4,
+						["reforge"] = 28,
+						["dst"] = 8,
+						["amount"] = 209,
+					}, -- [7]
+					{
+						["src"] = 4,
+						["reforge"] = 28,
+						["dst"] = 8,
+						["amount"] = 418,
+					}, -- [8]
+					{
+						["src"] = 5,
+						["reforge"] = 33,
+						["dst"] = 6,
+						["amount"] = 488,
+					}, -- [9]
+					{
+						["src"] = 5,
+						["reforge"] = 33,
+						["dst"] = 6,
+						["amount"] = 326,
+					}, -- [10]
+					{
+						["src"] = 4,
+						["reforge"] = 28,
+						["dst"] = 8,
+						["amount"] = 295,
+					}, -- [11]
+					{
+						["src"] = 4,
+						["reforge"] = 28,
+						["dst"] = 8,
+						["amount"] = 316,
+					}, -- [12]
+					{
+					}, -- [13]
+					{
+					}, -- [14]
+					{
+						["src"] = 5,
+						["reforge"] = 35,
+						["dst"] = 8,
+						["amount"] = 224,
+					}, -- [15]
+					{
+					}, -- [16]
+				},
+				["stats"] = {
+					303, -- [1]
+					0, -- [2]
+					0, -- [3]
+					4936, -- [4]
+					4210, -- [5]
+					8295, -- [6]
+					1770, -- [7]
+					11789, -- [8]
+				},
+			},
+			["weights"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+				180, -- [4]
+				120, -- [5]
+				140, -- [6]
+				0, -- [7]
+				160, -- [8]
+			},
+			["caps"] = {
+				{
+					["stat"] = 4,
+					["points"] = {
+						{
+							["value"] = 4760,
+							["preset"] = 3,
+							["method"] = 1,
+							["after"] = 0,
+						}, -- [1]
+					},
+				}, -- [1]
+				{
+					["stat"] = 0,
+					["points"] = {
+						{
+							["value"] = 0,
+							["preset"] = 1,
+							["method"] = 1,
+							["after"] = 0,
+						}, -- [1]
+					},
+				}, -- [2]
+			},
+			["ilvlCap"] = 0,
+			["targetLevel"] = 3,
+			["prio"] = {
+				{
+					["value"] = 4760,
+					["preset"] = 3,
+					["stat"] = 4,
+					["capped"] = true,
+				}, -- [1]
+				{
+					["value"] = 0,
+					["preset"] = 1,
+					["capped"] = false,
+					["stat"] = 8,
+				}, -- [2]
+				{
+					["value"] = 0,
+					["preset"] = 1,
+					["capped"] = false,
+					["stat"] = 6,
+				}, -- [3]
+				{
+					["value"] = 0,
+					["preset"] = 1,
+					["capped"] = false,
+					["stat"] = 5,
+				}, -- [4]
+			},
+			["buffs"] = {
+			},
+			["itemsLocked"] = {
+			},
+			["customMethodPresets"] = {
+			},
+		},
+	},
+	["windowWidth"] = 800,
+	["itemSize"] = 24,
+	["openOnReforge"] = true,
+	["customPresets"] = {
+	},
+	["inactiveWindowTitle"] = {
+		0.5, -- [1]
+		0.5, -- [2]
+		0.5, -- [3]
+	},
+}

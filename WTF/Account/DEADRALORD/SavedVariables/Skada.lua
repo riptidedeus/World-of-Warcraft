@@ -6,14 +6,46 @@ SkadaDB = {
 	},
 	["profileKeys"] = {
 		["Mynic - Runetotem"] = "Default",
-		["Vaela - Darkspear"] = "Default",
-		["Elékk - Darkspear"] = "Default",
+		["Riptidé - Darkspear"] = "Default",
+		["Ichica - Darkspear"] = "Default",
 		["Aluná - Darkspear"] = "Default",
 		["Tya - Darkspear"] = "Default",
-		["Ichica - Darkspear"] = "Default",
-		["Riptidé - Darkspear"] = "Default",
+		["Elékk - Darkspear"] = "Default",
+		["Vaela - Darkspear"] = "Default",
 	},
 	["profiles"] = {
+		["Default"] = {
+			["windows"] = {
+				{
+					["barheight"] = 28,
+					["y"] = 40.99981689453125,
+					["x"] = -36.9996337890625,
+					["title"] = {
+						["fontsize"] = 15,
+						["borderthickness"] = 1,
+						["height"] = 25,
+					},
+					["point"] = "BOTTOMRIGHT",
+					["mode"] = "Damage",
+					["barwidth"] = 365.0000915527344,
+					["barfontsize"] = 12,
+					["background"] = {
+						["height"] = 225.9999389648438,
+					},
+				}, -- [1]
+			},
+			["report"] = {
+				["number"] = 5,
+				["chantype"] = "whisper",
+				["channel"] = "whisper",
+				["target"] = "Galgaroth",
+				["mode"] = "Healing",
+			},
+			["icon"] = {
+				["minimapPos"] = 46.2018348825504,
+				["hide"] = true,
+			},
+		},
 		["Skada Test"] = {
 			["windows"] = {
 				{
@@ -26,13 +58,13 @@ SkadaDB = {
 					["title"] = {
 						["color"] = {
 							["a"] = 0,
-							["r"] = 0.1019607843137255,
-							["g"] = 0.1019607843137255,
 							["b"] = 0.3019607843137255,
+							["g"] = 0.1019607843137255,
+							["r"] = 0.1019607843137255,
 						},
-						["height"] = 25,
 						["fontsize"] = 15,
 						["borderthickness"] = 1,
+						["height"] = 25,
 					},
 					["enabletitle"] = false,
 					["mode"] = "Healing",
@@ -52,38 +84,6 @@ SkadaDB = {
 				["target"] = "Ferrold",
 				["mode"] = "Healing",
 				["channel"] = "guild",
-			},
-		},
-		["Default"] = {
-			["windows"] = {
-				{
-					["barheight"] = 28,
-					["y"] = 172.9999694824219,
-					["x"] = -38.99951171875,
-					["title"] = {
-						["fontsize"] = 15,
-						["borderthickness"] = 1,
-						["height"] = 25,
-					},
-					["point"] = "BOTTOMRIGHT",
-					["mode"] = "Healing",
-					["barwidth"] = 322.0000305175781,
-					["barfontsize"] = 12,
-					["background"] = {
-						["height"] = 225.9999237060547,
-					},
-				}, -- [1]
-			},
-			["report"] = {
-				["number"] = 5,
-				["channel"] = "guild",
-				["target"] = "Ferrold",
-				["mode"] = "Healing",
-				["set"] = "total",
-			},
-			["icon"] = {
-				["minimapPos"] = 46.2018348825504,
-				["hide"] = true,
 			},
 		},
 		["Vaela - Darkspear"] = {

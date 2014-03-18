@@ -14,12 +14,12 @@ Y: -117
 W: 32
 H: 32
 Frame: f1_HealBot_Action
-FrameLevel: 17
+FrameLevel: 15
 Anchor: BOTTOM
 X: -2
-Y: 137
-W: 163
-H: 44
+Y: 143
+W: 317
+H: 56
 Frame: HealBot_Options
 FrameLevel: 4
 Anchor: CENTER
@@ -41,3 +41,10 @@ X: -184
 Y: -25
 W: 420
 H: 30
+Frame: SkadaBarWindowSkada
+FrameLevel: 1
+Anchor: BOTTOMRIGHT
+X: -37
+Y: 41
+W: 365
+H: 226
