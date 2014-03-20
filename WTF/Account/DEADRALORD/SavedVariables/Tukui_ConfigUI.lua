@@ -10,6 +10,7 @@ TukuiConfigAll = {
 	},
 	["Runetotem"] = {
 		["Mynic"] = false,
+		["Renéw"] = false,
 	},
 }
 TukuiConfigPublic = {
