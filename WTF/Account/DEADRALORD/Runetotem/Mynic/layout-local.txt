@@ -21,10 +21,10 @@ Y: 141
 W: 163
 H: 44
 Frame: HealBot_Options
-FrameLevel: 9
+FrameLevel: 12
 Anchor: TOPLEFT
-X: 204
-Y: -14
+X: 203
+Y: -13
 W: 860
 H: 750
 Frame: TukuiWatchFrameAnchor

@@ -1,6 +1,10 @@
 
 AtlasLootDB = {
 	["namespaces"] = {
+		["WishList"] = {
+		},
+		["AtlasLootPanel"] = {
+		},
 		["DefaultFrame"] = {
 			["profiles"] = {
 				["Ichica - Darkspear"] = {
@@ -16,6 +20,7 @@ AtlasLootDB = {
 				},
 				["Aluná - Darkspear"] = {
 					["instance"] = "BlackTemple",
+					["module"] = "AtlasLootBurningCrusade",
 					["DefaultFrameLocked"] = true,
 					["NEWpoint"] = {
 						nil, -- [1]
@@ -24,7 +29,6 @@ AtlasLootDB = {
 						-6.999986527713826, -- [4]
 						-16.00008753566651, -- [5]
 					},
-					["module"] = "AtlasLootBurningCrusade",
 				},
 				["Elékk - Darkspear"] = {
 					["module"] = "AtlasLootMoP",
@@ -64,8 +68,8 @@ AtlasLootDB = {
 						nil, -- [1]
 						nil, -- [2]
 						"CENTER", -- [3]
-						-6.99998664855957, -- [4]
-						0.9999746084213257, -- [5]
+						-7.999993801116943, -- [4]
+						2.99998950958252, -- [5]
 					},
 					["instance"] = "SiegeofOrgrimmar",
 				},
@@ -81,15 +85,15 @@ AtlasLootDB = {
 					["module"] = "AtlasLootWotLK",
 				},
 				["Tya - Darkspear"] = {
-					["module"] = "AtlasLootMoP",
+					["module"] = "AtlasLootBurningCrusade",
 					["NEWpoint"] = {
 						nil, -- [1]
 						nil, -- [2]
 						"CENTER", -- [3]
-						2.000080585479736, -- [4]
-						85.99988555908203, -- [5]
+						13.00003147125244, -- [4]
+						99.99993133544922, -- [5]
 					},
-					["instance"] = "SiegeofOrgrimmar",
+					["instance"] = "BlackTemple",
 				},
 				["Riptidé - Darkspear"] = {
 					["instance"] = "CoTDragonSoul",
@@ -102,10 +106,6 @@ AtlasLootDB = {
 					},
 				},
 			},
-		},
-		["AtlasLootPanel"] = {
-		},
-		["WishList"] = {
 		},
 		["Filter"] = {
 			["profiles"] = {
@@ -129,17 +129,17 @@ AtlasLootDB = {
 							["#w1#"] = false,
 							["#w10#"] = false,
 						},
-						["WeaponsRanged"] = {
-							["#w3#"] = false,
-							["#w2#"] = false,
-							["#w5#"] = false,
-							["#w12#"] = false,
-						},
 						["WeaponsMeele"] = {
 							["#w13#"] = false,
 							["#w10#"] = false,
 							["#w1#"] = false,
 							["#w8#"] = false,
+						},
+						["WeaponsRanged"] = {
+							["#w3#"] = false,
+							["#w2#"] = false,
+							["#w5#"] = false,
+							["#w12#"] = false,
 						},
 					},
 				},
@@ -149,9 +149,9 @@ AtlasLootDB = {
 							["PARRY_RATING"] = false,
 							["DODGE_RATING"] = false,
 							["RESILIENCE_RATING"] = false,
+							["EXPERTISE_RATING"] = false,
 							["AGILITY"] = false,
 							["STRENGTH"] = false,
-							["EXPERTISE_RATING"] = false,
 						},
 						["Armor"] = {
 							["#a2#"] = false,
@@ -161,22 +161,21 @@ AtlasLootDB = {
 						["WeaponsMeeleTwoHand"] = {
 							["#w10#"] = false,
 						},
-						["WeaponsMeele"] = {
-							["#w7#"] = false,
-							["#w10#"] = false,
-						},
 						["WeaponsRanged"] = {
 							["#w3#"] = false,
 							["#w2#"] = false,
 							["#w5#"] = false,
 							["#w12#"] = false,
 						},
+						["WeaponsMeele"] = {
+							["#w7#"] = false,
+							["#w10#"] = false,
+						},
 					},
 				},
 			},
 		},
 	},
-	["showWarning"] = true,
 	["profileKeys"] = {
 		["Ichica - Darkspear"] = "Ichica - Darkspear",
 		["Aluná - Darkspear"] = "Aluná - Darkspear",
@@ -188,6 +187,7 @@ AtlasLootDB = {
 		["Daenes - Darkspear"] = "Daenes - Darkspear",
 		["Riptidé - Darkspear"] = "Riptidé - Darkspear",
 	},
+	["showWarning"] = true,
 	["profiles"] = {
 		["Ichica - Darkspear"] = {
 			["LastSearch"] = "Blue Primal",
@@ -210,7 +210,7 @@ AtlasLootDB = {
 			["LastSearch"] = "Renevant",
 		},
 		["Mynic - Runetotem"] = {
-			["LootTableType"] = "RaidFinder",
+			["LootTableType"] = "Flexible",
 		},
 		["Tya - Darkspear"] = {
 			["LootTableType"] = "Flexible",

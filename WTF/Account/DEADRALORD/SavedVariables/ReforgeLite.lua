@@ -12,10 +12,6 @@ ReforgeLiteDB = {
 			["method"] = {
 				["items"] = {
 					{
-						["dst"] = 6,
-						["src"] = 8,
-						["reforge"] = 55,
-						["amount"] = 391,
 					}, -- [1]
 					{
 					}, -- [2]
@@ -34,12 +30,16 @@ ReforgeLiteDB = {
 					{
 					}, -- [5]
 					{
-						["dst"] = 6,
+						["dst"] = 8,
 						["src"] = 5,
-						["reforge"] = 33,
+						["reforge"] = 35,
 						["amount"] = 275,
 					}, -- [6]
 					{
+						["dst"] = 8,
+						["src"] = 6,
+						["reforge"] = 42,
+						["amount"] = 366,
 					}, -- [7]
 					{
 						["dst"] = 8,
@@ -54,10 +54,18 @@ ReforgeLiteDB = {
 						["amount"] = 270,
 					}, -- [9]
 					{
+						["dst"] = 8,
+						["src"] = 5,
+						["reforge"] = 35,
+						["amount"] = 368,
 					}, -- [10]
 					{
 					}, -- [11]
 					{
+						["dst"] = 8,
+						["src"] = 5,
+						["reforge"] = 35,
+						["amount"] = 227,
 					}, -- [12]
 					{
 					}, -- [13]
@@ -73,14 +81,14 @@ ReforgeLiteDB = {
 					}, -- [16]
 				},
 				["stats"] = {
-					13954, -- [1]
+					16425, -- [1]
 					0, -- [2]
 					0, -- [3]
 					0, -- [4]
-					2529, -- [5]
-					3043, -- [6]
+					3423, -- [5]
+					3313, -- [6]
 					0, -- [7]
-					5810, -- [8]
+					6326, -- [8]
 				},
 			},
 			["weights"] = {
@@ -187,6 +195,10 @@ ReforgeLiteDB = {
 			["targetLevel"] = 3,
 			["customMethodPresets"] = {
 			},
+			["buffs"] = {
+			},
+			["itemsLocked"] = {
+			},
 			["weights"] = {
 				0, -- [1]
 				0, -- [2]
@@ -196,10 +208,6 @@ ReforgeLiteDB = {
 				0, -- [6]
 				0, -- [7]
 				0, -- [8]
-			},
-			["itemsLocked"] = {
-			},
-			["buffs"] = {
 			},
 		},
 		["Tya - Darkspear"] = {
@@ -395,6 +403,10 @@ ReforgeLiteDB = {
 			["targetLevel"] = 3,
 			["customMethodPresets"] = {
 			},
+			["buffs"] = {
+			},
+			["itemsLocked"] = {
+			},
 			["weights"] = {
 				0, -- [1]
 				0, -- [2]
@@ -404,10 +416,6 @@ ReforgeLiteDB = {
 				0, -- [6]
 				0, -- [7]
 				0, -- [8]
-			},
-			["itemsLocked"] = {
-			},
-			["buffs"] = {
 			},
 		},
 		["Vaela - Darkspear"] = {
@@ -439,6 +447,10 @@ ReforgeLiteDB = {
 			["targetLevel"] = 3,
 			["customMethodPresets"] = {
 			},
+			["buffs"] = {
+			},
+			["itemsLocked"] = {
+			},
 			["weights"] = {
 				0, -- [1]
 				0, -- [2]
@@ -448,10 +460,6 @@ ReforgeLiteDB = {
 				0, -- [6]
 				0, -- [7]
 				0, -- [8]
-			},
-			["itemsLocked"] = {
-			},
-			["buffs"] = {
 			},
 		},
 	},

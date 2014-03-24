@@ -14,9 +14,16 @@ Y: -117
 W: 32
 H: 32
 Frame: HealBot_Options
-FrameLevel: 9
+FrameLevel: 14
 Anchor: CENTER
 X: -1
 Y: 1
 W: 860
 H: 750
+Frame: AtlasLootDefaultFrame
+FrameLevel: 61
+Anchor: CENTER
+X: 13
+Y: 100
+W: 921
+H: 601

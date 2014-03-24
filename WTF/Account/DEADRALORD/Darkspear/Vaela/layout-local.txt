@@ -4,8 +4,8 @@ FrameLevel: 1
 Anchor: CENTER
 X: -260
 Y: -180
-W: 187
-H: 270
+W: 267
+H: 100
 Frame: DBMMinimapButton
 FrameLevel: 4
 Anchor: TOPRIGHT
@@ -16,10 +16,10 @@ H: 32
 Frame: f1_HealBot_Action
 FrameLevel: 12
 Anchor: BOTTOM
-X: -3
+X: 2
 Y: 141
-W: 779
-H: 104
+W: 163
+H: 44
 Frame: HealBot_Options
 FrameLevel: 14
 Anchor: CENTER
@@ -41,3 +41,10 @@ X: -184
 Y: -25
 W: 420
 H: 30
+Frame: SkadaBarWindowSkada
+FrameLevel: 1
+Anchor: BOTTOMRIGHT
+X: -41
+Y: 39
+W: 365
+H: 226
