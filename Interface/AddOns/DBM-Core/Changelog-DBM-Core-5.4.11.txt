@@ -1,0 +1,84 @@
+tag 5.4.11
+ddfdde096517cc59b34f44d99e0b3ca633163569
+subversion <svn@deadlybossmods.com>
+2014-03-25 02:34:25 +0100
+
+Tagging as 5.4.11
+
+
+--------------------
+
+subversion:
+	- increment version number to 5.4.11
+	- Omega via svn r11129: actually, just remove that for now.
+	- Omega via svn r11128: fix some fail, maybe
+	- Omega via svn r11127: Add some timer debug to better catch when CD timers may be too long (even if only by sub 1 sec)
+	- Omega via svn r11126: Try to fix raid warning position issues with other mods
+	- Omega via svn r11125: change health threshold on afk warning, cause as long as blizzard continues with AFK content like timeless isle, people need a sturdy mod that helps them survive douchbag attacks
+	- Omega via svn r11124: fix error
+	- Omega via svn r11123: Add storeroom guard trash infusion spell
+	- Omega via svn r11122: move arrow to correct location
+	- Omega via svn r11121: fix self doubt warning
+	- Omega via svn r11120: Redid world boss syncs to use modid instead of localized name, because localized name breaks between different language clients.
+	- Omega via svn r11119: Improve mod load behavior so it's faster on faster computers with faster internet, and even slower on shitty computers/internet. (basically, for a very small subset of users, calling GetInstanceInfo() 1.5 seconds after a loading screen STILL has no return after changing zones.) This should make it more likely for load to work correctly for users on the slower end.
+	- Omega via svn r11118: k kept forgetting to do this, but change kolt to koltrane per koltrane's request. :)
+	- nbluewiz via svn r11117: # koKR update.
+	- Omega via svn r11116: commited wrong file, this is right one.
+	- Omega via svn r11115: probably not most cpu efficient way in world, but help prevent deaths by douchbag when you are afk.
+	- Omega via svn r11114: Add note to option as well
+	- Omega via svn r11113: do to inability to accurately detect crz pulls though, change it to "possibly"
+	- Omega via svn r11112: all world boss syncing is good, so remove all debug
+	- Omega via svn r11111: #Malorak: Added runto arrow to current tank when blood rage is cast.
+	- Omega via svn r11110: #Dark Shaman: Fixed a bug that caused Kardris tank to get stack/taunt warnings for Haromm when using 3 tank strat. #Improved taunt/stack warnings on norushen. #Improved taunt warnings on Sha of Pride. ##Added new prototype for Taunt warnings, since "Target" warnings weren't really meant for that but just sort of got used for that. Now there are actual taunt warnings. ##Added new generic for DBM Arrow options
+	- Omega via svn r11109: Complete a couple requests that made sense.
+	- oscarucb via svn r11108: Iron Jugg: add a special warning for Ricochet (off by default)
+	- ultrashining via svn r11107: zhTW update
+	- Omega via svn r11106: include sender in WBE/WBD, remove that debug
+	- Omega via svn r11105: fixed another logic issue
+	- Omega via svn r11104: people are getting like 30 update notification warnings (or rather 1 for every person in raid newer than them). this should improve and prevent that.)
+	- Omega via svn r11103: This should hopefully fix last bug
+	- Omega via svn r11102: Slighty better info
+	- Omega via svn r11101: use toonname instead of presence ID for sender. I plan to add sender to DBM messages after observing more debug
+	- Omega via svn r11100: Add DFA timer in, despite it's 34-43 second variation and pretty much unavoidability. Might help people find the timing window they need to spread out for i suppose.
+	- Omega via svn r11099: More debug checks, if this still doesn't work i'm just removing the antispam and flooding addon coms with syncs, cause working inefficiently is better than not working efficiently
+	- Omega via svn r11098: missed a spot
+	- Omega via svn r11097: more fix attempts
+	- Omega via svn r11096: Hopefully fix passon
+	- Omega via svn r11095: Pointless comment update because i need curse to see an update
+	- Omega via svn r11094: Fix one small logic bug
+	- Omega via svn r11093: Add more debug to troubleshoot
+	- Omega via svn r11092: very minor efficiency changes. Whether or not it makes any diff at all, we'll see.
+	- Omega via svn r11091: Allow max bar with up to 400. people play at pretty large resolutions these days.
+	- Omega via svn r11090: fix some errors
+	- Omega via svn r11089: Add missing GetPlayerMapPosition as well as try to get curse to packaege 11089 since it missed 11088
+	- Omega via svn r11088: Also ignore world boss alerts if fighting a raid boss.
+	- Omega via svn r11087: Add some prints too for my own sake
+	- Omega via svn r11086: Actually improve code more, and don't filter darkmoon rabbit, that's a rare spawn, only filter moonfang
+	- Omega via svn r11085: And here too
+	- Omega via svn r11084: Also filter moonfang and darkmoon rabbit.
+	- Omega via svn r11083: Support disabling distance filter (raid leader request).
+	- Omega via svn r11082: math.floor health percentages instead of showing 44.426342141253467347
+	- Omega via svn r11081: Improvements to World boss alerts. 1. Syncs should now pass on from guild to realid or realid to guild to increase alert spreading greatly. 2. More protection against loop backs that may cause double alerts on connected realms(especially clusters with > 2) 3. Syncs should be sent even if your own personal alert status is off in all situations.
+	Requires some thorough testing so may contain errors.
+	- Omega via svn r11080: Disable range frame on heroic garrosh, I would have thought map would be fixed by now but it's not. the range frame is worthless until map returns player positions in stormwind harbor.
+	- Omega via svn r11079: fix breaking realid auto replies. have to put ambiguate somewhere else
+	- ebmor via svn r11078: deDE update
+	- Omega via svn r11077: Done correctly this time
+	- Omega via svn r11076: #Fix siegecrafter charge warnings not working for tank strats that never reset their stats (they cap at 10 then only fire SPELL_AURA_REFRESH)
+	- Omega via svn r11075: ##Fix DBM auto responding to whispers from people fighting same boss (missed a spot that needed ambiguate) #Fixed an issue with norushen pre pull timer from starting on some wipes. #Fixed an issue where 2 of the 4 prisons were missing warnings on sha of pride.
+	- Omega via svn r11074: Fix Ricochet icon
+	- Omega via svn r11073: move falling ash pre warning (cause 17 seconds before is not useful Fix a bug that could cuase multiple berserk timers/warnings on spoils
+	- Omega via svn r11072: Fix terrible logic in will of empower that made combo warnings/arrows NEVER work. (self.vb.comboMob was set to nil, and then never changed to anything else because setting to variable to anything OTHER than nil, required it first to not be nil. Completely busted logic.) Not to mention regression in targeting logic, i wish i had notice this when it was busted weeks ago.
+	- Omega via svn r11071: Ignore bad spaces that may case spellId to be nil
+	- Omega via svn r11070: Support disabling player regen specifically (ie Yorsahj and zonozz)
+	- Omega via svn r11069: remove useless unused shakeframe code
+	- Omega via svn r11068: upvalues cleanup and additions.
+	- Omega via svn r11067: Naming convention change, this should appear in same place as rest of dbm addons in addon control panel
+	- Omega via svn r11066: raise antispam on galakras, i got some bad syncs from someone tonight
+	- Omega via svn r11065: Make sure latest alpha is newer than release
+	- Omega via svn r11064: incriment
+	- Omega via svn r11063: Small tweak
+	- Omega via svn r11061: fix norushen too
+	- Omega via svn r11060: Also, oops, probably not cpu efficient to Ambiguate ALL messages.
+	- Omega via svn r11059: fix sync lua error
+	- tandanu via svn r11058: increment version number for alpha builds

@@ -36,10 +36,10 @@ HealBot_Config = {
 	["Current_Skin"] = "25-man",
 	["Skin_ID"] = 4,
 	["Profile"] = 1,
-	["DisableSolo"] = 1,
+	["EnableHealthy"] = 1,
 	["Version"] = "5.4.2.1",
 	["LastVersionSkinUpdate"] = "5.4.2.1",
-	["EnableHealthy"] = 1,
+	["DisableSolo"] = 1,
 	["DisableHealBot"] = 1,
 	["HealBot_BuffWatchGUID"] = {
 	},
@@ -75,13 +75,13 @@ HealBot_Config_Spells = {
 		["Ctrl-ShiftRight2"] = "HBmenu",
 		["Ctrl-ShiftLeft4"] = "Menu",
 		["Right4"] = "Assist",
-		["Ctrl-ShiftRight1"] = "HBmenu",
+		["Ctrl-ShiftLeft3"] = "Menu",
 		["ShiftLeft1"] = "Unknown",
 		["Left4"] = "Target",
 		["ShiftLeft"] = "Unknown",
 		["Right2"] = "Assist",
 		["Ctrl-ShiftLeft"] = "Menu",
-		["Ctrl-ShiftLeft3"] = "Menu",
+		["Ctrl-ShiftRight1"] = "HBmenu",
 	},
 	["EnemySpellTrinket1"] = {
 	},
@@ -104,22 +104,22 @@ HealBot_Config_Spells = {
 		["Left3"] = "Target",
 		["Left2"] = "Unknown",
 		["Ctrl-ShiftLeft1"] = "Menu",
-		["Ctrl-ShiftLeft"] = "Menu",
-		["Alt-ShiftLeft4"] = "Target",
-		["Ctrl-ShiftRight4"] = "HBmenu",
-		["Alt-CtrlLeft3"] = "",
-		["Ctrl-ShiftLeft2"] = "Menu",
 		["ShiftLeft3"] = "",
-		["Ctrl-ShiftRight3"] = "HBmenu",
-		["Alt-ShiftRight"] = "Assist",
-		["Ctrl-ShiftLeft4"] = "Menu",
-		["AltLeft3"] = "",
-		["Ctrl-ShiftRight1"] = "HBmenu",
-		["Ctrl-ShiftLeft3"] = "Menu",
-		["Ctrl-ShiftRight2"] = "HBmenu",
-		["Alt-ShiftRight3"] = "Assist",
+		["Alt-ShiftLeft4"] = "Target",
 		["Alt-ShiftLeft1"] = "Target",
 		["Left4"] = "Unknown",
+		["Ctrl-ShiftLeft2"] = "Menu",
+		["Ctrl-ShiftLeft"] = "Menu",
+		["Ctrl-ShiftRight3"] = "HBmenu",
+		["Ctrl-ShiftRight2"] = "HBmenu",
+		["Ctrl-ShiftLeft4"] = "Menu",
+		["AltLeft3"] = "",
+		["Ctrl-ShiftLeft3"] = "Menu",
+		["Ctrl-ShiftRight1"] = "HBmenu",
+		["Alt-ShiftRight"] = "Assist",
+		["Alt-ShiftRight3"] = "Assist",
+		["Ctrl-ShiftRight4"] = "HBmenu",
+		["Alt-CtrlLeft3"] = "",
 		["Alt-ShiftRight2"] = "Assist",
 	},
 	["DisabledAvoidBlueCursor"] = {
@@ -150,7 +150,7 @@ HealBot_Config_Buffs = {
 	},
 	["BuffWatch"] = 1,
 	["NoAuraWhenRested"] = 0,
-	["HealBotBuffColG"] = {
+	["HealBotBuffColR"] = {
 		1, -- [1]
 		1, -- [2]
 		1, -- [3]
@@ -204,7 +204,7 @@ HealBot_Config_Buffs = {
 		["11"] = "None",
 		["32"] = "None",
 	},
-	["HealBotBuffColR"] = {
+	["HealBotBuffColG"] = {
 		1, -- [1]
 		1, -- [2]
 		1, -- [3]

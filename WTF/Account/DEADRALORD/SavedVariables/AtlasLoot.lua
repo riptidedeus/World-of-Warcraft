@@ -85,15 +85,15 @@ AtlasLootDB = {
 					["module"] = "AtlasLootWotLK",
 				},
 				["Tya - Darkspear"] = {
-					["module"] = "AtlasLootBurningCrusade",
+					["module"] = "AtlasLootMoP",
 					["NEWpoint"] = {
 						nil, -- [1]
 						nil, -- [2]
 						"CENTER", -- [3]
-						13.00003147125244, -- [4]
+						14.00016975402832, -- [4]
 						99.99993133544922, -- [5]
 					},
-					["instance"] = "BlackTemple",
+					["instance"] = "SiegeofOrgrimmar",
 				},
 				["Riptidé - Darkspear"] = {
 					["instance"] = "CoTDragonSoul",
@@ -210,7 +210,7 @@ AtlasLootDB = {
 			["LastSearch"] = "Renevant",
 		},
 		["Mynic - Runetotem"] = {
-			["LootTableType"] = "Flexible",
+			["LootTableType"] = "Heroic",
 		},
 		["Tya - Darkspear"] = {
 			["LootTableType"] = "Flexible",

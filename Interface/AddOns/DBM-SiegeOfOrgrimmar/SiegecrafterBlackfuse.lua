@@ -1,11 +1,11 @@
 local mod	= DBM:NewMod(865, "DBM-SiegeOfOrgrimmar", nil, 369)
 local L		= mod:GetLocalizedStrings()
 
-mod:SetRevision(("$Revision: 10977 $"):sub(12, -3))
+mod:SetRevision(("$Revision: 11124 $"):sub(12, -3))
 mod:SetCreatureID(71504)--71591 Automated Shredder
 mod:SetEncounterID(1601)
 mod:SetZone()
-mod:SetUsedIcons(8, 7, 6, 5, 4, 3, 2, 1)--Not sure how many mines spawn on 25 man, even more of them on heroic 25, so maybe all 8 used?
+mod:SetUsedIcons(8, 7, 6, 5, 4, 3, 2, 1)--More mines than ew can give icons to on 25 man. it uses all 8 and then runs out on heroic :\
 
 mod:RegisterCombat("combat")
 
@@ -15,6 +15,7 @@ mod:RegisterEventsInCombat(
 	"SPELL_SUMMON 143641",
 	"SPELL_AURA_APPLIED 145365 143385 145444 144210 144236 145269 145580 144466 143856",
 	"SPELL_AURA_APPLIED_DOSE 143385 145444 143856",
+	"SPELL_AURA_REFRESH 143385",
 	"SPELL_AURA_REMOVED 143385 144236 145269",
 	"UNIT_DIED",
 	"CHAT_MSG_RAID_BOSS_EMOTE",
@@ -90,6 +91,8 @@ local soundLaserFixate					= mod:NewSound(143828, false)
 
 mod:AddInfoFrameOption("ej8202")
 mod:AddSetIconOption("SetIconOnMines", "ej8212", false, true)
+mod:AddSetIconOption("SetIconOnlaserFixate", 143828, false)
+mod:AddSetIconOption("SetIconOnSawBlade", 143265, false)
 
 --Upvales, don't need variables
 --Names very long in english, makes frame HUGE, may switch to shorter localized names
@@ -143,6 +146,9 @@ end
 
 function mod:LaunchSawBladeTarget(targetname, uId)
 	warnLaunchSawblade:Show(targetname)
+	if self.Options.SetIconOnSawBlade then
+		self:SetIcon(targetname, 1, 3)
+	end
 end
 
 --May be two up at once so can't use generic boss scanner.
@@ -273,6 +279,17 @@ function mod:SPELL_AURA_APPLIED(args)
 end
 mod.SPELL_AURA_APPLIED_DOSE = mod.SPELL_AURA_APPLIED
 
+function mod:SPELL_AURA_REFRESH(args)
+	local spellId = args.spellId
+	if spellId == 143385 and args:IsDestTypePlayer() then
+		local amount = args.amount or 1
+		warnElectroStaticCharge:Show(args.destName, amount)
+		timerElectroStaticCharge:Start(args.destName)
+		timerElectroStaticChargeCD:Start()
+		countdownElectroStatic:Start()
+	end
+end
+
 function mod:SPELL_AURA_REMOVED(args)
 	local spellId = args.spellId
 	if spellId == 143385 then
@@ -335,5 +352,8 @@ function mod:OnSync(msg, guid)
 	if msg == "LockedOnTarget" and guid then
 		local targetName = DBM:GetFullPlayerNameByGUID(guid)
 		warnLaserFixate:Show(targetName)
+		if self.Options.SetIconOnlaserFixate then
+			self:SetIcon(targetName, 7, 6)--Maybe adjust timing or add smart code to remove right away if that target dies.
+		end
 	end
 end

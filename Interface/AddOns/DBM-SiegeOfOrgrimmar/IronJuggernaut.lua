@@ -1,7 +1,7 @@
 local mod	= DBM:NewMod(864, "DBM-SiegeOfOrgrimmar", nil, 369)
 local L		= mod:GetLocalizedStrings()
 
-mod:SetRevision(("$Revision: 10977 $"):sub(12, -3))
+mod:SetRevision(("$Revision: 11110 $"):sub(12, -3))
 mod:SetCreatureID(71466)
 mod:SetEncounterID(1600)
 mod:SetZone()
@@ -28,7 +28,7 @@ local warnLaserBurn				= mod:NewTargetAnnounce("OptionVersion2", 144459, 2, nil,
 local warnMortarCannon			= mod:NewSpellAnnounce("OptionVersion2", 144316, 3, nil, false)--Could not get target scanning working.
 local warnCrawlerMine			= mod:NewSpellAnnounce(144673, 3)
 local warnIgniteArmor			= mod:NewStackAnnounce(144467, 2, nil, mod:IsTank())--Seems redundant to count debuffs and warn for breath, so just do debuffs
-local warnRicochet				= mod:NewSpellAnnounce(144356, 3)
+local warnRicochet				= mod:NewSpellAnnounce(144356, 3, 144327)
 --Siege Mode
 local warnSeismicActivity		= mod:NewSpellAnnounce(144483, 2)--A mere activation of phase
 local warnExplosiveTar			= mod:NewSpellAnnounce(144492, 3)
@@ -38,9 +38,10 @@ local warnMortarBarrage			= mod:NewSpellAnnounce(144555, 4)--Heroic
 
 --Assault Mode
 local specWarnIgniteArmor		= mod:NewSpecialWarningStack(144467, mod:IsTank(), 3)
-local specWarnIgniteArmorOther	= mod:NewSpecialWarningTarget(144467, mod:IsTank())
+local specWarnIgniteArmorOther	= mod:NewSpecialWarningTaunt(144467, mod:IsTank())
 local specWarnBorerDrill		= mod:NewSpecialWarningSpell(144218, false, nil, nil, 2)
 local specWarnBorerDrillMove	= mod:NewSpecialWarningMove(144218)
+local specWarnRicochet				= mod:NewSpecialWarningSpell(144356, false, nil, nil, 3)
 --Siege Mode
 local specWarnSeismicActivity	= mod:NewSpecialWarningSpell(144483, nil, nil, nil, 2)
 local specWarnShockPulse		= mod:NewSpecialWarningCount(144485, nil, nil, nil, 2)
@@ -57,7 +58,7 @@ local timerIgniteArmorCD		= mod:NewCDTimer(10, 144467, nil, mod:IsTank())
 local timerLaserBurnCD			= mod:NewCDTimer("OptionVersion2", 11.5, 144459, nil, false)--Also off by default(bar spam)
 local timerBorerDrillCD			= mod:NewCDTimer(17, 144218)
 local timerCrawlerMineCD		= mod:NewCDTimer(30, 144673)
-local timerRicochetCD			= mod:NewCDTimer(15, 144356)
+local timerRicochetCD			= mod:NewCDTimer(15, 144356, nil, nil, nil, 144327)
 --Siege Mode
 local timerSiegeModeCD			= mod:NewNextTimer(114, 84974, nil, nil, "timerSiegeModeCD")--Wish spell name was a litlte shorter but still better than localizing
 local timerCutterLaser			= mod:NewBuffFadesTimer(10, 146325)--Spell tooltip says 15 but combat log showed 10
@@ -229,6 +230,7 @@ function mod:UNIT_SPELLCAST_SUCCEEDED(uId, _, _, _, spellId)
 		end
 	elseif spellId == 144356 then
 		warnRicochet:Show()
+		specWarnRicochet:Show()
 		timerRicochetCD:Start()
 	end
 end

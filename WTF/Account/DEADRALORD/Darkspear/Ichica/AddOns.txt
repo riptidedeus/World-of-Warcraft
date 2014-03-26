@@ -6,3 +6,4 @@ Dominos_Roll: disabled
 Dominos_XP: disabled
 Bartender4: enabled
 ButtonFacade: enabled
+Tukui: enabled

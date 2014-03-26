@@ -33,8 +33,8 @@ HealBot_Config = {
 		["10-Man Role"] = 1,
 	},
 	["CurrentSpec"] = 4,
-	["Current_Skin"] = "25-man",
-	["Skin_ID"] = 4,
+	["Current_Skin"] = "15-man",
+	["Skin_ID"] = 3,
 	["Profile"] = 1,
 	["EnableHealthy"] = 1,
 	["Version"] = "5.4.2.1",
@@ -358,25 +358,25 @@ HealBot_Config_Cures = {
 		["32"] = 4,
 	},
 	["CDCBarColour"] = {
-		["Curse"] = {
-			["B"] = 0.09,
-			["G"] = 0.43,
-			["R"] = 0.83,
-		},
 		["Disease"] = {
 			["B"] = 0.7,
 			["G"] = 0.19,
 			["R"] = 0.55,
+		},
+		["Poison"] = {
+			["B"] = 0.24,
+			["G"] = 0.46,
+			["R"] = 0.12,
 		},
 		["Magic"] = {
 			["B"] = 0.83,
 			["G"] = 0.33,
 			["R"] = 0.26,
 		},
-		["Poison"] = {
-			["B"] = 0.24,
-			["G"] = 0.46,
-			["R"] = 0.12,
+		["Curse"] = {
+			["B"] = 0.09,
+			["G"] = 0.43,
+			["R"] = 0.83,
 		},
 	},
 	["HealBotDebuffPriority"] = {
@@ -387,9 +387,9 @@ HealBot_Config_Cures = {
 		["Curse"] = 1,
 	},
 	["HealBot_Custom_Defuffs_All"] = {
-		["Curse"] = 1,
 		["Disease"] = 0,
-		["Magic"] = 1,
 		["Poison"] = 1,
+		["Magic"] = 1,
+		["Curse"] = 1,
 	},
 }

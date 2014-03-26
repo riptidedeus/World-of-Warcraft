@@ -1,7 +1,7 @@
 local mod	= DBM:NewMod(856, "DBM-SiegeOfOrgrimmar", nil, 369)
 local L		= mod:GetLocalizedStrings()
 
-mod:SetRevision(("$Revision: 11043 $"):sub(12, -3))
+mod:SetRevision(("$Revision: 11110 $"):sub(12, -3))
 mod:SetCreatureID(71859, 71858)--haromm, Kardris
 mod:SetEncounterID(1606)
 mod:SetZone()
@@ -35,12 +35,12 @@ local warnIronTomb					= mod:NewSpellAnnounce(144328, 3)
 --Wavebinder Kardris
 local warnToxicStorm				= mod:NewTargetAnnounce(144005, 2)
 local warnFoulGeyser				= mod:NewTargetAnnounce(143990, 4)
-local warnFallingAsh				= mod:NewCastAnnounce(143973, 4, 17)
+local warnFallingAsh				= mod:NewCastAnnounce(143973, 4, 3)
 local warnIronPrison				= mod:NewTargetAnnounce(144330, 3)
 
 --Earthbreaker Haromm
 local specWarnFroststormStrike		= mod:NewSpecialWarningStack(144215, mod:IsTank(), 5)
-local specWarnFroststormStrikeOther	= mod:NewSpecialWarningTarget(144215, mod:IsTank())
+local specWarnFroststormStrikeOther	= mod:NewSpecialWarningTaunt(144215, mod:IsTank())
 local specWarnFoulStreamYou			= mod:NewSpecialWarningYou(144090)
 local yellFoulStream				= mod:NewYell(144090)
 local specWarnFoulStream			= mod:NewSpecialWarningSpell(144090, nil, nil, nil, 2)
@@ -225,7 +225,7 @@ function mod:SPELL_AURA_APPLIED(args)
 			yellIronPrisonFades:Schedule(56, playerName, 4)
 			yellIronPrisonFades:Schedule(55, playerName, 5)
 		end
-	elseif spellId == 144215 then
+	elseif spellId == 144215 and self:CheckTankDistance(args.sourceGUID, 50) then
 		local amount = args.amount or 1
 		timerFroststormStrike:Start(args.destName)
 		if amount % 2 == 0 or amount >= 5 then
@@ -261,14 +261,15 @@ end
 function mod:OnSync(msg)
 	if msg == "FallingAsh" then
 		self.vb.ashCount = self.vb.ashCount + 1
-		warnFallingAsh:Show()
 		timerFallingAsh:Start()
 		if self:IsDifficulty("heroic10", "heroic25") then--On heroic, base spell 1 second cast, not 2.
 			timerFallingAshCD:Start(16, self.vb.ashCount+1)
+			warnFallingAsh:Schedule(13)
 			specWarnFallingAsh:Schedule(13)--Give special warning 3 seconds before happens, not cast
 			countdownFallingAsh:Start(16)
 		else
 			timerFallingAshCD:Start(nil, self.vb.ashCount+1)
+			warnFallingAsh:Schedule(14)
 			specWarnFallingAsh:Schedule(14)--Give special warning 3 seconds before happens, not cast
 			countdownFallingAsh:Start(17)
 		end
