@@ -15,3 +15,4 @@ TouchysMedia:Register("font", "Silkscreen - Regular", [[Interface\Addons\Touchys
 TouchysMedia:Register("font", "Silkscreen - Bold", [[Interface\Addons\TouchysMedia\fonts\slkscrb.ttf]])
 TouchysMedia:Register("font", "Silkscreen - Expanded", [[Interface\Addons\TouchysMedia\fonts\slkscre.ttf]])
 TouchysMedia:Register("font", "Silkscreen - Expanded Bold", [[Interface\Addons\TouchysMedia\fonts\slkscreb.ttf]])
+TouchysMedia:Register("font", "Blaster Infinite - Font", [[Interface\Addons\TouchysMedia\fonts\blastein.ttf]])
