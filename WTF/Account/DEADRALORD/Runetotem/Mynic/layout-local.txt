@@ -25,8 +25,8 @@ FrameLevel: 12
 Anchor: BOTTOM
 X: 0
 Y: 140
-W: 779
-H: 104
+W: 163
+H: 56
 Frame: HealBot_Options
 FrameLevel: 9
 Anchor: TOPLEFT
@@ -51,7 +51,7 @@ H: 22
 Frame: TukuiAchievementHolder
 FrameLevel: 1
 Anchor: CENTER
-X: -6
-Y: -30
+X: -3
+Y: -258
 W: 180
 H: 20
