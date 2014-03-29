@@ -1,0 +1,65 @@
+
+MSBTProfiles_SavedVars = {
+	["profiles"] = {
+		["Default"] = {
+			["critFontName"] = "White Rabbit",
+			["hideNames"] = true,
+			["hideFullHoTOverheals"] = false,
+			["creationVersion"] = "5.5.91",
+			["critFontSize"] = 20,
+			["normalFontAlpha"] = 70,
+			["triggers"] = {
+				["MSBT_TRIGGER_ECLIPSE_SOLAR"] = {
+					["disabled"] = true,
+				},
+				["MSBT_TRIGGER_ECLIPSE_LUNAR"] = {
+					["disabled"] = true,
+				},
+			},
+			["scrollAreas"] = {
+				["Notification"] = {
+					["disabled"] = true,
+				},
+				["Incoming"] = {
+					["stickyTextAlignIndex"] = 1,
+					["disabled"] = true,
+					["behavior"] = "MSBT_NORMAL",
+					["stickyBehavior"] = "Normal",
+					["textAlignIndex"] = 1,
+					["offsetX"] = -463,
+					["direction"] = "Up",
+					["iconAlign"] = "Right",
+					["offsetY"] = -141,
+					["animationStyle"] = "Static",
+				},
+				["Static"] = {
+					["scrollHeight"] = 55,
+					["offsetX"] = 439,
+					["offsetY"] = -132,
+					["textAlignIndex"] = 3,
+					["direction"] = "Up",
+				},
+				["Outgoing"] = {
+					["stickyTextAlignIndex"] = 3,
+					["disabled"] = true,
+					["behavior"] = "MSBT_NORMAL",
+					["textAlignIndex"] = 3,
+					["stickyBehavior"] = "Normal",
+					["stickyDirection"] = "Up",
+					["offsetX"] = 443,
+					["direction"] = "Up",
+					["offsetY"] = -44,
+					["animationStyle"] = "Static",
+				},
+			},
+			["normalFontName"] = "White Rabbit",
+			["normalFontSize"] = 14,
+		},
+	},
+}
+MSBT_SavedMedia = {
+	["fonts"] = {
+	},
+	["sounds"] = {
+	},
+}

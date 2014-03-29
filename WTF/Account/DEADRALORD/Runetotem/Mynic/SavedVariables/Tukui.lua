@@ -17,7 +17,7 @@ TukuiDataPerChar = {
 		},
 	},
 	["hidebar4"] = true,
-	["hidebar2"] = true,
+	["hidebar2"] = false,
 	["hidebar3"] = true,
 	["install"] = true,
 }
