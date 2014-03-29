@@ -58,6 +58,7 @@ TukuiBar5:SetFrameLevel(2)
 TukuiBar5:SetAlpha(0)
 G.ActionBars.Bar5 = TukuiBar5
 
+
 TukuiBar1:SetBackdrop(nil)
 TukuiBar2:SetBackdrop(nil)
 TukuiBar3:SetBackdrop(nil)
@@ -202,7 +203,7 @@ if C.chat.background then movechat = 10 ileftlv:SetAlpha(0) irightlv:SetAlpha(0)
 local ileft = CreateFrame("Frame", "TukuiInfoLeft", UIParent)
 ileft:SetTemplate()
 ileft:Size(T.InfoLeftRightWidth, 23)
-ileft:SetPoint("LEFT", ltoabl, "LEFT", 14 - movechat, 0)
+ileft:SetPoint("LEFT", ltoabl, "LEFT", -15 - movechat, 111)
 ileft:SetFrameLevel(2)
 ileft:SetFrameStrata("BACKGROUND")
 G.Panels.DataTextLeft = ileft
@@ -211,7 +212,7 @@ G.Panels.DataTextLeft = ileft
 local iright = CreateFrame("Frame", "TukuiInfoRight", UIParent)
 iright:SetTemplate()
 iright:Size(T.InfoLeftRightWidth, 23)
-iright:SetPoint("RIGHT", ltoabr, "RIGHT", -14 + movechat, 0)
+iright:SetPoint("RIGHT", ltoabr, "RIGHT", 15 + movechat, 111)
 iright:SetFrameLevel(2)
 iright:SetFrameStrata("BACKGROUND")
 G.Panels.DataTextRight = iright
@@ -300,4 +301,9 @@ if C["datatext"].battleground == true then
 	bgframe:SetFrameLevel(0)
 	bgframe:EnableMouse(true)
 	G.Panels.BattlegroundDataText = bgframe
+end
+
+local panels = { TukuiCubeLeft, TukuiCubeRight}
+for _, panel in pairs(panels) do
+        panel:Kill()
 end
