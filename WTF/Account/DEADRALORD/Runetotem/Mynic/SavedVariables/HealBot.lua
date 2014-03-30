@@ -335,10 +335,10 @@ HealBot_Config_Cures = {
 	["IgnoreClassDebuffs"] = 1,
 	["HealBot_CDCWarnRange_Bar"] = 3,
 	["HealBot_Custom_Defuffs_All"] = {
-		["Curse"] = 1,
-		["Disease"] = 0,
-		["Magic"] = 1,
 		["Poison"] = 1,
+		["Curse"] = 1,
+		["Magic"] = 1,
+		["Disease"] = 0,
 	},
 	["HealBot_CDCWarnRange_Sound"] = 3,
 	["SoundDebuffPlay"] = "Tribal Bass Drum",
@@ -365,25 +365,25 @@ HealBot_Config_Cures = {
 	["IgnoreOnCooldownDebuffs"] = 0,
 	["DebuffWatchWhenGrouped"] = 0,
 	["CDCBarColour"] = {
+		["Poison"] = {
+			["R"] = 0.063,
+			["G"] = 0.243,
+			["B"] = 0.125,
+		},
 		["Curse"] = {
 			["R"] = 0.361,
 			["G"] = 0.188,
 			["B"] = 0.039,
-		},
-		["Disease"] = {
-			["R"] = 0.22,
-			["G"] = 0.075,
-			["B"] = 0.282,
 		},
 		["Magic"] = {
 			["R"] = 0.106,
 			["G"] = 0.133,
 			["B"] = 0.337,
 		},
-		["Poison"] = {
-			["R"] = 0.063,
-			["G"] = 0.243,
-			["B"] = 0.125,
+		["Disease"] = {
+			["R"] = 0.22,
+			["G"] = 0.075,
+			["B"] = 0.282,
 		},
 	},
 	["HealBotDebuffPriority"] = {

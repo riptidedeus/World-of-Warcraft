@@ -2,7 +2,7 @@
 TukuiData = {
 	["gold"] = {
 		["Runetotem"] = {
-			["Mynic"] = 40498363,
+			["Mynic"] = 42389330,
 			["Renéw"] = 391704,
 		},
 		["Darkspear"] = {
