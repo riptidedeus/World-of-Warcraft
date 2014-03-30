@@ -1,5 +1,124 @@
 
-SkadaPerCharDB = {
-	["sets"] = {
+SkadaDB = {
+	["profileKeys"] = {
+		["Huzinkani - Darkspear"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+			["windows"] = {
+				{
+					["mode"] = "Damage",
+					["point"] = "BOTTOMRIGHT",
+					["barheight"] = 14,
+					["background"] = {
+						["height"] = 112.0000213677452,
+						["texture"] = "None",
+					},
+					["barcolor"] = {
+						["a"] = 0.5100000202655792,
+						["b"] = 0.6980392156862745,
+						["g"] = 0.7254901960784314,
+						["r"] = 0.7568627450980392,
+					},
+					["x"] = -12.00019765164257,
+					["barfontsize"] = 9,
+					["barslocked"] = true,
+					["enabletitle"] = false,
+					["classcolortext"] = true,
+					["bartexture"] = "Glaze v2",
+					["title"] = {
+						["fontsize"] = 9,
+						["font"] = "Slicker",
+						["color"] = {
+							["a"] = 0,
+							["b"] = 0.3019607843137255,
+							["g"] = 0.1019607843137255,
+							["r"] = 0.1019607843137255,
+						},
+						["texture"] = "Bars",
+					},
+					["barwidth"] = 343.9998599850384,
+					["y"] = 112.9998608987906,
+					["barfont"] = "Slicker",
+					["classcolorbars"] = false,
+				}, -- [1]
+				{
+					["point"] = "BOTTOMRIGHT",
+					["reversegrowth"] = false,
+					["barheight"] = 14,
+					["x"] = -15.99844015460417,
+					["scale"] = 1,
+					["barcolor"] = {
+						["a"] = 0.4900000095367432,
+						["b"] = 0.7176470588235294,
+						["g"] = 0.7411764705882353,
+						["r"] = 0.7647058823529411,
+					},
+					["mode"] = "Healing",
+					["barfontsize"] = 9,
+					["classcolortext"] = true,
+					["enabletitle"] = false,
+					["barslocked"] = true,
+					["buttons"] = {
+						["segment"] = true,
+						["menu"] = true,
+						["mode"] = true,
+						["report"] = true,
+						["reset"] = true,
+					},
+					["barorientation"] = 1,
+					["snapto"] = true,
+					["wipemode"] = "",
+					["barbgcolor"] = {
+						["a"] = 0.6,
+						["r"] = 0.3,
+						["g"] = 0.3,
+						["b"] = 0.3,
+					},
+					["returnaftercombat"] = false,
+					["name"] = "Window1",
+					["bartexture"] = "Glaze v2",
+					["set"] = "current",
+					["barwidth"] = 343.0003713348606,
+					["barspacing"] = 0,
+					["hidden"] = false,
+					["background"] = {
+						["borderthickness"] = 0,
+						["color"] = {
+							["a"] = 0.2,
+							["r"] = 0,
+							["g"] = 0,
+							["b"] = 0.5,
+						},
+						["height"] = 63.99998200610935,
+						["bordertexture"] = "None",
+						["margin"] = 0,
+						["texture"] = "None",
+					},
+					["y"] = 28.99977964512814,
+					["barfont"] = "Slicker",
+					["title"] = {
+						["fontsize"] = 9,
+						["font"] = "Slicker",
+						["borderthickness"] = 2,
+						["color"] = {
+							["a"] = 0,
+							["b"] = 0.3019607843137255,
+							["g"] = 0.1019607843137255,
+							["r"] = 0.1019607843137255,
+						},
+						["fontflags"] = "",
+						["bordertexture"] = "None",
+						["margin"] = 0,
+						["texture"] = "Aluminium",
+					},
+					["classcolorbars"] = false,
+					["display"] = "bar",
+					["modeincombat"] = "",
+					["barfontflags"] = "",
+					["clickthrough"] = false,
+				}, -- [2]
+			},
+		},
 	},
 }

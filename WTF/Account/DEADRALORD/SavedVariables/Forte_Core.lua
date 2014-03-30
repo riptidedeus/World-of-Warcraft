@@ -430,15 +430,15 @@ FC_Saved = {
 				1, -- [5]
 				1, -- [6]
 			},
-			["SoulstoneMsgColor"] = {
-				1, -- [1]
-				0, -- [2]
-				1, -- [3]
-			},
-			["HealthstoneStrata"] = "MEDIUM",
 			["SummonFarColor"] = {
 				1, -- [1]
 				1, -- [2]
+				1, -- [3]
+			},
+			["HealthstoneStrata"] = "MEDIUM",
+			["SoulstoneMsgColor"] = {
+				1, -- [1]
+				0, -- [2]
 				1, -- [3]
 			},
 			["OptionsColums"] = 2,
@@ -474,19 +474,16 @@ FC_Saved = {
 			},
 			["TimerResistsEnable"] = true,
 			["HealthstoneExpand"] = false,
-			["OptionsSubHeaderBackdrop"] = {
-				"Interface\\AddOns\\Forte_Core\\Textures\\Smooth", -- [1]
-				"None", -- [2]
-				false, -- [3]
-				16, -- [4]
-				2, -- [5]
-				2, -- [6]
-			},
+			["Chill"] = 0.05,
 			["HealthstoneTexture"] = "Interface\\AddOns\\Forte_Core\\Textures\\Aluminium",
 			["TimeLeftNoTarg"] = 1,
-			["SummonHeight"] = 12,
-			["Chill"] = 0.05,
 			["Output"] = true,
+			["TalentOffsetX"] = 0,
+			["HealthstoneMinColor"] = {
+				0.9300000000000001, -- [1]
+				1, -- [2]
+				0, -- [3]
+			},
 			["CustomInstances"] = {
 				["Timer"] = {
 				},
@@ -496,40 +493,43 @@ FC_Saved = {
 				0, -- [2]
 				0.54, -- [3]
 			},
+			["SoulstoneFadeSound"] = "Interface\\AddOns\\Forte_Core\\Sounds\\SoulstoneExpire.mp3",
 			["TimerClearcastingSoundVolume"] = 4,
-			["CooldownLeft"] = 1,
 			["HealthstoneUnknown"] = true,
 			["SoulstoneMax"] = 10,
 			["TimerSortOrder"] = "buff selfdebuff debuff cooldown notarget target",
-			["SoulstoneReadySoundEnable"] = true,
-			["TimerFadeSound"] = "Sound\\Spells\\ShaysBell.wav",
 			["TimerFadeSpeed"] = 0.5,
+			["TimerFadeSound"] = "Sound\\Spells\\ShaysBell.wav",
+			["SoulstoneReadySoundEnable"] = true,
+			["SoulstoneWidth"] = 100,
 			["DruidColor"] = {
 				1, -- [1]
 				0.49, -- [2]
 				0.04, -- [3]
 			},
-			["SoulstoneWidth"] = 100,
 			["FontSize"] = 11,
-			["SoulstoneFadeSound"] = "Interface\\AddOns\\Forte_Core\\Sounds\\SoulstoneExpire.mp3",
+			["CooldownLeft"] = 1,
 			["GlobalSpark"] = 0.7,
-			["HealthstoneMinColor"] = {
-				0.9300000000000001, -- [1]
-				1, -- [2]
-				0, -- [3]
+			["SummonHeight"] = 12,
+			["OptionsSubHeaderBackdrop"] = {
+				"Interface\\AddOns\\Forte_Core\\Textures\\Smooth", -- [1]
+				"None", -- [2]
+				false, -- [3]
+				16, -- [4]
+				2, -- [5]
+				2, -- [6]
 			},
 			["SummonSpace"] = 1,
-			["TalentOffsetX"] = 0,
 			["SplashStrata"] = "MEDIUM",
 			["Splash"] = {
 				["SplashGlow"] = true,
 				["SecondSplashMax"] = 4,
 				["x"] = 371.5555926826261,
 				["lock"] = true,
-				["scale"] = 2,
+				["Enable"] = false,
 				["y"] = 278.222221725517,
 				["alpha"] = 0.7,
-				["Enable"] = false,
+				["scale"] = 2,
 			},
 			["SoulstoneFadeSoundVolume"] = 1,
 			["SoulstoneStrata"] = "MEDIUM",
@@ -749,9 +749,9 @@ FC_Saved = {
 					0, -- [3]
 				},
 				["SelfDebuffEnable"] = true,
-				["OneMax"] = true,
-				["Other"] = true,
 				["TotemAirEnable"] = true,
+				["Other"] = true,
+				["OneMax"] = true,
 				["SparkEnable"] = true,
 				["Flip"] = false,
 				["ExpiredEnable"] = false,
@@ -926,7 +926,7 @@ FX_Saved = {
 		["Master Engineer Telonicus"] = 1,
 		["Fathom-Guard Sharkkis"] = 1,
 	},
-	["Update"] = 32008.509,
+	["Update"] = 33633.033,
 	["Profiles"] = {
 		["Active"] = 1,
 		["Characters"] = {
@@ -949,18 +949,18 @@ FX_Saved = {
 			["Hizi-Ravencrest"] = 1,
 			["Mynic-Runetotem"] = 1,
 			["Huzinkani-Lightbringer"] = 1,
-			["Kbg-Argent Dawn"] = 1,
-			["Urdooméd-Darkspear"] = 1,
 			["Szethqzefqgz-Darkspear"] = 1,
+			["Urdooméd-Darkspear"] = 1,
+			["Kbg-Argent Dawn"] = 1,
 			["Hizz-Darkspear"] = 1,
 			["Hùz-Darkspear"] = 1,
-			["Oneshothim-Darkspear"] = 1,
-			["Ladeedoo-Darkspear"] = 2,
+			["Tya-Darkspear"] = 1,
+			["Huzzin-Darkspear"] = 1,
 			["Arisdablack-Stormscale"] = 1,
 			["Huzinkany-Darkspear"] = 1,
 			["Huzinkany-Ravencrest"] = 1,
 			["Huzinkani-Ravencrest"] = 1,
-			["Hazimiki-Argent Dawn"] = 1,
+			["Helco-Darkspear"] = 1,
 			["Huzi-Lightbringer"] = 1,
 			["Huzz-Ravencrest"] = 1,
 			["Huzinkani-Draenor"] = 1,
@@ -968,19 +968,19 @@ FX_Saved = {
 			["Hizi-Darkspear"] = 1,
 			["Huzzi-Darkspear"] = 1,
 			["Hizinkani-Darkspear"] = 2,
-			["Huzinkani-Darkspear"] = 1,
 			["Toxyk-Darkspear"] = 1,
-			["Aazelnut-Darkspear"] = 1,
-			["Ilovehip-Darkspear"] = 1,
+			["Huzinkani-Darkspear"] = 1,
 			["Huzi-Darkspear"] = 1,
+			["Ilovehip-Darkspear"] = 1,
+			["Aazelnut-Darkspear"] = 1,
 			["Huzinkani-Silvermoon"] = 1,
 			["Vaela-Darkspear"] = 1,
-			["Helco-Darkspear"] = 1,
+			["Hazimiki-Argent Dawn"] = 1,
 			["Huzzinkany-Darkspear"] = 1,
 			["Mcfluffy-Darkspear"] = 1,
-			["Huzzin-Darkspear"] = 1,
+			["Ladeedoo-Darkspear"] = 2,
 			["Hellco-Magtheridon"] = 1,
-			["Tya-Darkspear"] = 1,
+			["Oneshothim-Darkspear"] = 1,
 			["Therealzmex-Darkspear"] = 1,
 		},
 		["Instances"] = {
@@ -1249,7 +1249,12 @@ FX_Saved = {
 								[0] = true,
 							},
 							["Tags"] = 6,
-							["y"] = 240.8552462428608,
+							["DebuffOther"] = {
+								0.5, -- [1]
+								0, -- [2]
+								0, -- [3]
+								[0] = false,
+							},
 							["BuffOther"] = {
 								0.5, -- [1]
 								0.5, -- [2]
@@ -1261,12 +1266,7 @@ FX_Saved = {
 								[0] = false,
 							},
 							["Width"] = 538,
-							["DebuffOther"] = {
-								0.5, -- [1]
-								0, -- [2]
-								0, -- [3]
-								[0] = false,
-							},
+							["y"] = 240.8552462428608,
 							["x"] = 682.4851185224861,
 							["Potion"] = {
 								0, -- [1]
@@ -1368,10 +1368,10 @@ FX_Saved = {
 										-1, -- [1]
 									},
 								},
-								["Ai-Li's Skymirror"] = {
-									[3] = {
+								["Salyin Battle Banner"] = {
+									{
 										-1, -- [1]
-									},
+									}, -- [1]
 								},
 								["Soothing Talisman of the Shado-Pan Assault"] = {
 								},
@@ -1380,10 +1380,10 @@ FX_Saved = {
 										-1, -- [1]
 									},
 								},
-								["Salyin Battle Banner"] = {
-									{
+								["Ai-Li's Skymirror"] = {
+									[3] = {
 										-1, -- [1]
-									}, -- [1]
+									},
 								},
 								["MOLL-E"] = {
 									{
@@ -1410,7 +1410,7 @@ FX_Saved = {
 										-1, -- [1]
 									},
 								},
-								["Gnomish Rocket Boots"] = {
+								["Explosive Shot"] = {
 									[3] = {
 										-1, -- [1]
 									},
@@ -1494,19 +1494,19 @@ FX_Saved = {
 								},
 								["Gloves of Enduring Renewal"] = {
 								},
+								["Blossom of Pure Snow"] = {
+									[3] = {
+										-1, -- [1]
+									},
+								},
 								["World Enlarger"] = {
 									[3] = {
 										-1, -- [1]
 									},
 								},
-								["Cranewing Cloak"] = {
-								},
 								["Displacer Beast"] = {
 								},
-								["Blossom of Pure Snow"] = {
-									[3] = {
-										-1, -- [1]
-									},
+								["Cranewing Cloak"] = {
 								},
 								["Wild charge"] = {
 								},
@@ -1514,12 +1514,15 @@ FX_Saved = {
 								},
 								["Highborne Soul Mirror"] = {
 								},
-								["Bones of Transformation"] = {
-									[3] = {
-										-1, -- [1]
-									},
+								["Flame Shock"] = {
 								},
-								["Handwraps of the Haunted Forest"] = {
+								["Mortal Coil"] = {
+									[3] = {
+										-2, -- [1]
+										0, -- [2]
+										0.63, -- [3]
+										0.05, -- [4]
+									},
 								},
 								["Demonic Circle: Teleport"] = {
 									[3] = {
@@ -1536,22 +1539,22 @@ FX_Saved = {
 										-1, -- [1]
 									}, -- [1]
 								},
-								["Foot Ball"] = {
-									{
-										-1, -- [1]
-									}, -- [1]
-								},
-								["Flame Shock"] = {
-								},
-								["Divine Plea"] = {
-									[3] = {
-										-1, -- [1]
-									},
-								},
 								["Chi Wave"] = {
 									[3] = {
 										-1, -- [1]
 									},
+								},
+								["Prayer of Mending"] = {
+								},
+								["Expel Harm"] = {
+									[3] = {
+										-1, -- [1]
+									},
+								},
+								["Foot Ball"] = {
+									{
+										-1, -- [1]
+									}, -- [1]
 								},
 								["Light's Hammer"] = {
 									[3] = {
@@ -1591,21 +1594,6 @@ FX_Saved = {
 								},
 								["Foul Gift of the Demon Lord"] = {
 								},
-								["Lay on Hands"] = {
-									[3] = {
-										-1, -- [1]
-									},
-								},
-								["Gloves of the Shattered Vale"] = {
-									[3] = {
-										-1, -- [1]
-									},
-								},
-								["Rebirth"] = {
-									[3] = {
-										-1, -- [1]
-									},
-								},
 								["Wisp Amulet"] = {
 									[3] = {
 										-1, -- [1]
@@ -1616,23 +1604,29 @@ FX_Saved = {
 										-1, -- [1]
 									}, -- [1]
 								},
-								["Girdle of Night and Day"] = {
+								["Wind-Up Train Wrecker"] = {
 								},
-								["Ritual of Souls"] = {
-								},
-								["Xing-Ho, Breath of Yu'lon"] = {
+								["Lay on Hands"] = {
 									[3] = {
 										-1, -- [1]
 									},
 								},
-								["Tree of Life"] = {
-								},
-								["Mana Tea"] = {
-									{
+								["Gloves of the Shattered Vale"] = {
+									[3] = {
 										-1, -- [1]
-									}, -- [1]
+									},
+								},
+								["Girdle of Night and Day"] = {
+								},
+								["Ritual of Souls"] = {
+								},
+								["Scroll of Revered Ancestors"] = {
 								},
 								["Cataclysmic Gladiator's Kodohide Gloves"] = {
+								},
+								["Bottled Wishes"] = {
+								},
+								["Tree of Life"] = {
 								},
 								["Deep Earth Handwraps"] = {
 								},
@@ -1658,7 +1652,10 @@ FX_Saved = {
 										-1, -- [1]
 									},
 								},
-								["Bottled Wishes"] = {
+								["Mana Tea"] = {
+									{
+										-1, -- [1]
+									}, -- [1]
 								},
 								["Cataclysmic Gladiator's Belt of Meditation"] = {
 								},
@@ -1666,9 +1663,15 @@ FX_Saved = {
 								},
 								["enter ability/spell/item name"] = {
 								},
-								["Scroll of Revered Ancestors"] = {
+								["Xing-Ho, Breath of Yu'lon"] = {
+									[3] = {
+										-1, -- [1]
+									},
 								},
-								["Wind-Up Train Wrecker"] = {
+								["Rebirth"] = {
+									[3] = {
+										-1, -- [1]
+									},
 								},
 								["Lightning Shield"] = {
 									{
@@ -1684,20 +1687,17 @@ FX_Saved = {
 								},
 								["Battle Standard of Coordination"] = {
 								},
-								["Expel Harm"] = {
+								["Divine Plea"] = {
 									[3] = {
 										-1, -- [1]
 									},
 								},
-								["Prayer of Mending"] = {
-								},
-								["Mortal Coil"] = {
+								["Bones of Transformation"] = {
 									[3] = {
-										-2, -- [1]
-										0, -- [2]
-										0.63, -- [3]
-										0.05, -- [4]
+										-1, -- [1]
 									},
+								},
+								["Handwraps of the Haunted Forest"] = {
 								},
 								["Woundlicker Cover"] = {
 								},
@@ -1729,7 +1729,7 @@ FX_Saved = {
 								},
 								["Mighty Bash"] = {
 								},
-								["Explosive Shot"] = {
+								["Gnomish Rocket Boots"] = {
 									[3] = {
 										-1, -- [1]
 									},
@@ -1760,25 +1760,13 @@ FX_Saved = {
 								[0] = false,
 							},
 							["Swing"] = false,
-							["Backdrop"] = {
-								"Interface\\AddOns\\Forte_Core\\Textures\\Background", -- [1]
-								"Interface\\AddOns\\Forte_Core\\Textures\\Border", -- [2]
-								false, -- [3]
-								16, -- [4]
-								5, -- [5]
-								3, -- [6]
-							},
+							["alpha"] = 0.3,
 							["MaxRemaining"] = {
 								480, -- [1]
 								[0] = true,
 							},
 							["scale"] = 0.7,
-							["Internal"] = {
-								0, -- [1]
-								0.6, -- [2]
-								0.85, -- [3]
-								[0] = true,
-							},
+							["IconTime"] = false,
 							["Font"] = {
 								"Interface\\Addons\\Fonter\\Fonts\\EU\\BlasterInfinite.ttf", -- [1]
 								11, -- [2]
@@ -1802,17 +1790,24 @@ FX_Saved = {
 								11, -- [2]
 								"OUTLINE", -- [3]
 							},
-							["alpha"] = 0.3,
-							["Splash"] = false,
-							["CustomTags"] = {
-								"1 10 30 60", -- [1]
-								[0] = true,
-							},
 							["BarColor"] = {
 								0.95, -- [1]
 								0.95, -- [2]
 								0.95, -- [3]
 								0.6599999999999999, -- [4]
+							},
+							["Splash"] = false,
+							["CustomTags"] = {
+								"1 10 30 60", -- [1]
+								[0] = true,
+							},
+							["Backdrop"] = {
+								"Interface\\AddOns\\Forte_Core\\Textures\\Background", -- [1]
+								"Interface\\AddOns\\Forte_Core\\Textures\\Border", -- [2]
+								false, -- [3]
+								16, -- [4]
+								5, -- [5]
+								3, -- [6]
 							},
 							["Warn"] = true,
 							["Buff"] = {
@@ -1847,7 +1842,12 @@ FX_Saved = {
 								[0] = false,
 							},
 							["IconText"] = false,
-							["IconTime"] = false,
+							["Internal"] = {
+								0, -- [1]
+								0.6, -- [2]
+								0.85, -- [3]
+								[0] = true,
+							},
 							["SplashFactor"] = 4,
 							["Height"] = 20,
 							["Soulstone"] = {
@@ -1942,7 +1942,7 @@ FX_Saved = {
 					">> Banish on %s Broke Early! <<", -- [1]
 					[0] = 1,
 				},
-				["TalentOffsetY"] = 0,
+				["HealthstoneEnable"] = true,
 				["SummonEnable"] = true,
 				["LinkProfile"] = true,
 				["SoulstoneStart"] = {
@@ -1960,16 +1960,16 @@ FX_Saved = {
 				},
 				["CooldownStrata"] = "MEDIUM",
 				["SummonOldMode"] = false,
-				["SoulstoneCancelWhisper"] = {
-					"<< Soulstoning cancelled >>", -- [1]
-					[0] = false,
-				},
+				["TimerImproveRaidTarget"] = false,
 				["OptionsHeight"] = 440,
 				["SeduceFade"] = {
 					">> Seduction on %s Fading in 3 seconds! <<", -- [1]
 					[0] = 1,
 				},
-				["TimerImproveRaidTarget"] = false,
+				["SoulstoneCancelWhisper"] = {
+					"<< Soulstoning cancelled >>", -- [1]
+					[0] = false,
+				},
 				["SeduceBreak"] = {
 					">> Seduction on %s Broke Early! <<", -- [1]
 					[0] = 1,
@@ -1978,37 +1978,37 @@ FX_Saved = {
 					">> Spell Lock ready <<", -- [1]
 					[0] = 0,
 				},
-				["SacStart"] = {
-					"+++ Sacrifice on %s (12sec) +++", -- [1]
-					[0] = 1,
-				},
-				["OptionsFontLabelColor"] = {
+				["TimerSmooth"] = 5,
+				["BloodpactLossColor"] = {
 					1, -- [1]
-					1, -- [2]
-					1, -- [3]
+					0, -- [2]
+					0, -- [3]
 				},
 				["SeduceFailed"] = {
 					">> Seduction Failed! <<", -- [1]
 					[0] = 0,
 				},
-				["TimerSmooth"] = 5,
+				["SacStart"] = {
+					"+++ Sacrifice on %s (12sec) +++", -- [1]
+					[0] = 1,
+				},
 				["BSStart"] = {
 					"+++ Barkskin (10 sec) +++", -- [1]
 					[0] = 0,
 				},
 				["ShowAll"] = true,
+				["RebirthStart"] = {
+					">>> Rebirth on %s <<<", -- [1]
+					[0] = 3,
+				},
 				["SpellTimerInterval"] = 0.2,
-				["GlobalScale"] = 1,
 				["DPStart"] = {
 					"+++ Divine Protection (10sec) +++", -- [1]
 					[0] = 1,
 				},
 				["GlobalFrameNames"] = false,
 				["LoadDelay"] = 1,
-				["RebirthStart"] = {
-					">>> Rebirth on %s <<<", -- [1]
-					[0] = 3,
-				},
+				["GlobalScale"] = 1,
 				["GOTAKStart"] = {
 					"+++ Guardian of Ancient Kings (12sec) +++", -- [1]
 					[0] = 1,
@@ -2056,9 +2056,9 @@ FX_Saved = {
 					0.1, -- [4]
 					[0] = true,
 				},
-				["TimerSmartSpace"] = {
-					10, -- [1]
-					[0] = true,
+				["RAStart"] = {
+					">>> Raise Ally on %s <<<", -- [1]
+					[0] = 1,
 				},
 				["EnslaveFade"] = {
 					">> Enslave on %s Fading in 3 seconds! <<", -- [1]
@@ -2105,17 +2105,17 @@ FX_Saved = {
 				},
 				["HealthstoneWidth"] = 100,
 				["CancelDelay"] = 0.5,
-				["DevourMagicFailed"] = {
-					">> Devour Magic Failed! <<", -- [1]
+				["SIStart"] = {
+					"+++ Survival Instincts (12 sec) +++", -- [1]
 					[0] = 0,
 				},
 				["Output"] = {
 					"MyProChannel", -- [1]
 					[0] = false,
 				},
-				["SIStart"] = {
-					"+++ Survival Instincts (12 sec) +++", -- [1]
-					[0] = 0,
+				["SummonFont"] = {
+					"Interface\\Addons\\Fonter\\Fonts\\EU\\.ttf", -- [1]
+					11, -- [2]
 				},
 				["Mix"] = 0.5,
 				["IBFStart"] = {
@@ -2165,12 +2165,12 @@ FX_Saved = {
 					["alpha"] = 1,
 				},
 				["Strata"] = "MEDIUM",
-				["SpellLockFailed"] = {
-					">> Spell Lock Failed! <<", -- [1]
-					[0] = 0,
-				},
 				["FRStart"] = {
 					"+++ Frenzied Regeneration (20 sec) +++", -- [1]
+					[0] = 0,
+				},
+				["SpellLockFailed"] = {
+					">> Spell Lock Failed! <<", -- [1]
 					[0] = 0,
 				},
 				["LinkCloneColor"] = {
@@ -2193,35 +2193,35 @@ FX_Saved = {
 					"+++ Vamparic Blood (10 sec) +++", -- [1]
 					[0] = 1,
 				},
-				["SoulstoneAuto"] = false,
-				["LBStart"] = {
-					"+++ Lichborne (10 sec) +++", -- [1]
-					[0] = 1,
-				},
 				["SeduceStart"] = {
 					"Seducing >> %s << Now", -- [1]
 					[0] = 0,
 				},
-				["EnslaveBreak"] = {
-					">> Enslave on %s Broke Early! <<", -- [1]
+				["LBStart"] = {
+					"+++ Lichborne (10 sec) +++", -- [1]
 					[0] = 1,
 				},
-				["SoulstoneExpand"] = false,
+				["HealthstoneUnknown"] = true,
 				["UseTokens"] = "pet pettarget vehicle focus mouseover",
+				["ERStart"] = {
+					"+++ Enraged Regeneration (10 sec) +++", -- [1]
+					[0] = 1,
+				},
+				["DevourMagicReady"] = {
+					">> Devour Magic ready <<", -- [1]
+					[0] = 0,
+				},
 				["TimeLeft"] = {
 					">> %s on %s is fading in %s <<", -- [1]
 					[0] = 0,
 				},
 				["TalentOffsetX"] = 0,
-				["DevourMagicReady"] = {
-					">> Devour Magic ready <<", -- [1]
-					[0] = 0,
-				},
-				["ERStart"] = {
-					"+++ Enraged Regeneration (10 sec) +++", -- [1]
+				["EnslaveBreak"] = {
+					">> Enslave on %s Broke Early! <<", -- [1]
 					[0] = 1,
 				},
-				["HealthstoneUnknown"] = true,
+				["SoulstoneExpand"] = false,
+				["SoulstoneAuto"] = false,
 				["HealthstoneTexture"] = "Interface\\Addons\\SharedMedia\\statusbar\\Empty",
 				["TimeLeftNoTarg"] = {
 					">> %s is fading in %s <<", -- [1]
@@ -2237,9 +2237,9 @@ FX_Saved = {
 					1, -- [2]
 					0, -- [3]
 				},
-				["SummonFont"] = {
-					"Interface\\Addons\\Fonter\\Fonts\\EU\\.ttf", -- [1]
-					11, -- [2]
+				["DevourMagicFailed"] = {
+					">> Devour Magic Failed! <<", -- [1]
+					[0] = 0,
 				},
 				["TimerResistsColor"] = {
 					1, -- [1]
@@ -2273,9 +2273,9 @@ FX_Saved = {
 					"+++ Intervene on %s (10 sec) +++", -- [1]
 					[0] = 1,
 				},
-				["RAStart"] = {
-					">>> Raise Ally on %s <<<", -- [1]
-					[0] = 1,
+				["TimerSmartSpace"] = {
+					10, -- [1]
+					[0] = true,
 				},
 				["InnervateStart"] = {
 					">>> Innervate on %s <<<", -- [1]
@@ -2297,10 +2297,10 @@ FX_Saved = {
 					"Want to end it all? Clicky clicky!", -- [1]
 					[0] = 0,
 				},
-				["BloodpactLossColor"] = {
+				["OptionsFontLabelColor"] = {
 					1, -- [1]
-					0, -- [2]
-					0, -- [3]
+					1, -- [2]
+					1, -- [3]
 				},
 				["SplashStrata"] = "MEDIUM",
 				["Splash"] = {
@@ -2310,9 +2310,9 @@ FX_Saved = {
 						{
 							["y"] = 283.7333039626574,
 							["x"] = 684.8000353644893,
-							["scale"] = 2,
-							["lock"] = true,
 							["Enable"] = false,
+							["lock"] = true,
+							["scale"] = 2,
 							["SplashGlow"] = true,
 							["alpha"] = 0.7,
 							["SecondSplashMax"] = 1.7,
@@ -2345,7 +2345,7 @@ FX_Saved = {
 					1, -- [2]
 					[0] = true,
 				},
-				["HealthstoneEnable"] = true,
+				["TalentOffsetY"] = 0,
 				["OptionsColums"] = 2,
 				["FearFade"] = {
 					">> Fear on %s Fading in 3 seconds! <<", -- [1]
@@ -2855,14 +2855,16 @@ FX_Saved = {
 			31316.882, -- [2]
 			"DEATHKNIGHT", -- [3]
 		},
-		["Unknown"] = {
-			-2, -- [1]
-			31057.43, -- [2]
-		},
 		["Tya"] = {
 			-2, -- [1]
 			31020.507, -- [2]
 			"WARLOCK", -- [3]
+			"v1.980.8", -- [4]
+		},
+		["Vaela"] = {
+			0, -- [1]
+			33633.033, -- [2]
+			"SHAMAN", -- [3]
 			"v1.980.8", -- [4]
 		},
 		["Guiwenneth"] = {
@@ -2870,11 +2872,9 @@ FX_Saved = {
 			31316.882, -- [2]
 			"WARLOCK", -- [3]
 		},
-		["Vaela"] = {
-			0, -- [1]
-			32008.509, -- [2]
-			"SHAMAN", -- [3]
-			"v1.980.8", -- [4]
+		["Unknown"] = {
+			-2, -- [1]
+			31057.43, -- [2]
 		},
 	},
 	["Cooldowns"] = {

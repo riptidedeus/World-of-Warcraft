@@ -204,6 +204,10 @@ ReforgeLiteDB = {
 			["targetLevel"] = 3,
 			["customMethodPresets"] = {
 			},
+			["buffs"] = {
+			},
+			["itemsLocked"] = {
+			},
 			["weights"] = {
 				0, -- [1]
 				0, -- [2]
@@ -213,10 +217,6 @@ ReforgeLiteDB = {
 				0, -- [6]
 				0, -- [7]
 				0, -- [8]
-			},
-			["itemsLocked"] = {
-			},
-			["buffs"] = {
 			},
 		},
 		["Tya - Darkspear"] = {
@@ -412,6 +412,10 @@ ReforgeLiteDB = {
 			["targetLevel"] = 3,
 			["customMethodPresets"] = {
 			},
+			["buffs"] = {
+			},
+			["itemsLocked"] = {
+			},
 			["weights"] = {
 				0, -- [1]
 				0, -- [2]
@@ -421,10 +425,6 @@ ReforgeLiteDB = {
 				0, -- [6]
 				0, -- [7]
 				0, -- [8]
-			},
-			["itemsLocked"] = {
-			},
-			["buffs"] = {
 			},
 		},
 		["Vaela - Darkspear"] = {
@@ -456,6 +456,10 @@ ReforgeLiteDB = {
 			["targetLevel"] = 3,
 			["customMethodPresets"] = {
 			},
+			["buffs"] = {
+			},
+			["itemsLocked"] = {
+			},
 			["weights"] = {
 				0, -- [1]
 				0, -- [2]
@@ -465,10 +469,6 @@ ReforgeLiteDB = {
 				0, -- [6]
 				0, -- [7]
 				0, -- [8]
-			},
-			["itemsLocked"] = {
-			},
-			["buffs"] = {
 			},
 		},
 	},

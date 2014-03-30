@@ -9,8 +9,8 @@ MasqueDB = {
 		["Renéw - Runetotem"] = "Default",
 		["Vaela - Darkspear"] = "Default",
 		["Ichica - Darkspear"] = "Default",
-		["Tya - Darkspear"] = "Default",
 		["Elékk - Darkspear"] = "Default",
+		["Tya - Darkspear"] = "Default",
 		["Riptidé - Darkspear"] = "Default",
 	},
 	["profiles"] = {
@@ -23,9 +23,17 @@ MasqueDB = {
 					["Inherit"] = false,
 					["SkinID"] = "Touchy 64px buffs",
 				},
-				["Bartender4_7"] = {
+				["Bartender4_1"] = {
+					["Colors"] = {
+						["Normal"] = {
+							0.2431372549019608, -- [1]
+							0.2431372549019608, -- [2]
+							0.2431372549019608, -- [3]
+							1, -- [4]
+						},
+					},
 					["Inherit"] = false,
-					["SkinID"] = "Touchy 64px buffs",
+					["SkinID"] = "Elegance: Light",
 				},
 				["Bartender4_3"] = {
 					["Colors"] = {
@@ -86,6 +94,20 @@ MasqueDB = {
 					["Inherit"] = false,
 					["SkinID"] = "Elegance: Light",
 				},
+				["Bartender4_8"] = {
+					["Inherit"] = false,
+					["SkinID"] = "Touchy 64px buffs",
+				},
+				["Bartender4_PetBar"] = {
+					["SkinID"] = "Touchy 64px buffs",
+				},
+				["Bartender4_MicroMenu"] = {
+					["SkinID"] = "Touchy 64px buffs",
+				},
+				["Bartender4_7"] = {
+					["Inherit"] = false,
+					["SkinID"] = "Touchy 64px buffs",
+				},
 				["Bartender4"] = {
 					["Colors"] = {
 						["Normal"] = {
@@ -97,28 +119,6 @@ MasqueDB = {
 					},
 					["Inherit"] = false,
 					["SkinID"] = "Elegance: Light",
-				},
-				["Bartender4_PetBar"] = {
-					["SkinID"] = "Touchy 64px buffs",
-				},
-				["Bartender4_MicroMenu"] = {
-					["SkinID"] = "Touchy 64px buffs",
-				},
-				["Bartender4_1"] = {
-					["Colors"] = {
-						["Normal"] = {
-							0.2431372549019608, -- [1]
-							0.2431372549019608, -- [2]
-							0.2431372549019608, -- [3]
-							1, -- [4]
-						},
-					},
-					["Inherit"] = false,
-					["SkinID"] = "Elegance: Light",
-				},
-				["Bartender4_8"] = {
-					["Inherit"] = false,
-					["SkinID"] = "Touchy 64px buffs",
 				},
 				["Bartender4_6"] = {
 					["Colors"] = {

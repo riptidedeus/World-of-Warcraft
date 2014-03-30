@@ -1,5 +1,6 @@
 
 OmniCC4Config = {
+	["version"] = "5.4.3",
 	["groupSettings"] = {
 		["base"] = {
 			["enabled"] = true,
@@ -42,22 +43,21 @@ OmniCC4Config = {
 				},
 			},
 			["effect"] = "pulse",
-			["yOff"] = 0,
+			["scaleText"] = true,
 			["mmSSDuration"] = 0,
 			["anchor"] = "TOP",
 			["spiralOpacity"] = 1.009999977424741,
-			["scaleText"] = true,
+			["minDuration"] = 3,
 			["xOff"] = 0,
 			["tenthsDuration"] = 0,
 			["fontOutline"] = "OUTLINE",
 			["minSize"] = 0.5,
 			["minEffectDuration"] = 30,
-			["minDuration"] = 3,
+			["yOff"] = 0,
 			["fontSize"] = 18,
 		},
 	},
-	["version"] = "5.4.3",
+	["engine"] = "AniUpdater",
 	["groups"] = {
 	},
-	["engine"] = "AniUpdater",
 }
