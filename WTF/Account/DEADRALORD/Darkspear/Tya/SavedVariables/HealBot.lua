@@ -2,7 +2,7 @@
 HealBot_Config = {
 	["CrashProtStartTime"] = 2,
 	["ActionVisible"] = {
-		1, -- [1]
+		0, -- [1]
 		0, -- [2]
 		0, -- [3]
 		0, -- [4]
@@ -38,14 +38,14 @@ HealBot_Config = {
 	["Current_Skin"] = "10-man",
 	["Skin_ID"] = 4,
 	["Profile"] = 1,
-	["EnableHealthy"] = 1,
+	["DisableSolo"] = 1,
 	["Version"] = "5.4.2.1",
 	["LastVersionSkinUpdate"] = "5.4.2.1",
-	["DisableSolo"] = 1,
+	["EnableHealthy"] = 1,
 	["DisableHealBot"] = 1,
 	["HealBot_BuffWatchGUID"] = {
 	},
-	["DisabledNow"] = 0,
+	["DisabledNow"] = 1,
 }
 HealBot_Config_Spells = {
 	["EnabledSpellTarget"] = {
@@ -77,13 +77,13 @@ HealBot_Config_Spells = {
 		["Ctrl-ShiftRight2"] = "HBmenu",
 		["Ctrl-ShiftLeft4"] = "Menu",
 		["Right4"] = "Assist",
-		["Ctrl-ShiftLeft3"] = "Menu",
+		["Ctrl-ShiftRight1"] = "HBmenu",
 		["ShiftLeft1"] = "Unknown",
 		["Left4"] = "Target",
 		["ShiftLeft"] = "Unknown",
 		["Right2"] = "Assist",
 		["Ctrl-ShiftLeft"] = "Menu",
-		["Ctrl-ShiftRight1"] = "HBmenu",
+		["Ctrl-ShiftLeft3"] = "Menu",
 	},
 	["EnemySpellTrinket1"] = {
 	},
@@ -106,22 +106,22 @@ HealBot_Config_Spells = {
 		["Left3"] = "Target",
 		["Left2"] = "Unknown",
 		["Ctrl-ShiftLeft1"] = "Menu",
-		["ShiftLeft3"] = "",
-		["Alt-ShiftLeft4"] = "Target",
-		["Alt-ShiftLeft1"] = "Target",
-		["Left4"] = "Unknown",
-		["Ctrl-ShiftLeft2"] = "Menu",
 		["Ctrl-ShiftLeft"] = "Menu",
-		["Ctrl-ShiftRight3"] = "HBmenu",
-		["Ctrl-ShiftRight2"] = "HBmenu",
-		["Ctrl-ShiftLeft4"] = "Menu",
-		["AltLeft3"] = "",
-		["Ctrl-ShiftLeft3"] = "Menu",
-		["Ctrl-ShiftRight1"] = "HBmenu",
-		["Alt-ShiftRight"] = "Assist",
-		["Alt-ShiftRight3"] = "Assist",
+		["Alt-ShiftLeft4"] = "Target",
 		["Ctrl-ShiftRight4"] = "HBmenu",
 		["Alt-CtrlLeft3"] = "",
+		["Ctrl-ShiftLeft2"] = "Menu",
+		["ShiftLeft3"] = "",
+		["Ctrl-ShiftRight3"] = "HBmenu",
+		["Alt-ShiftRight"] = "Assist",
+		["Ctrl-ShiftLeft4"] = "Menu",
+		["AltLeft3"] = "",
+		["Ctrl-ShiftRight1"] = "HBmenu",
+		["Ctrl-ShiftLeft3"] = "Menu",
+		["Ctrl-ShiftRight2"] = "HBmenu",
+		["Alt-ShiftRight3"] = "Assist",
+		["Alt-ShiftLeft1"] = "Target",
+		["Left4"] = "Unknown",
 		["Alt-ShiftRight2"] = "Assist",
 	},
 	["DisabledAvoidBlueCursor"] = {
@@ -152,7 +152,7 @@ HealBot_Config_Buffs = {
 	},
 	["BuffWatch"] = 1,
 	["NoAuraWhenRested"] = 0,
-	["HealBotBuffColR"] = {
+	["HealBotBuffColG"] = {
 		1, -- [1]
 		1, -- [2]
 		1, -- [3]
@@ -206,7 +206,7 @@ HealBot_Config_Buffs = {
 		["11"] = "None",
 		["32"] = "None",
 	},
-	["HealBotBuffColG"] = {
+	["HealBotBuffColR"] = {
 		1, -- [1]
 		1, -- [2]
 		1, -- [3]
@@ -316,25 +316,25 @@ HealBot_Config_Cures = {
 		["32"] = 4,
 	},
 	["CDCBarColour"] = {
-		["Poison"] = {
-			["B"] = 0.24,
-			["G"] = 0.46,
-			["R"] = 0.12,
-		},
 		["Curse"] = {
 			["B"] = 0.09,
 			["G"] = 0.43,
 			["R"] = 0.83,
+		},
+		["Disease"] = {
+			["B"] = 0.7,
+			["G"] = 0.19,
+			["R"] = 0.55,
 		},
 		["Magic"] = {
 			["B"] = 0.83,
 			["G"] = 0.33,
 			["R"] = 0.26,
 		},
-		["Disease"] = {
-			["B"] = 0.7,
-			["G"] = 0.19,
-			["R"] = 0.55,
+		["Poison"] = {
+			["B"] = 0.24,
+			["G"] = 0.46,
+			["R"] = 0.12,
 		},
 	},
 	["HealBotDebuffPriority"] = {
@@ -345,9 +345,9 @@ HealBot_Config_Cures = {
 		["Curse"] = 14,
 	},
 	["HealBot_Custom_Defuffs_All"] = {
-		["Poison"] = 0,
 		["Curse"] = 0,
-		["Magic"] = 0,
 		["Disease"] = 0,
+		["Magic"] = 0,
+		["Poison"] = 0,
 	},
 }

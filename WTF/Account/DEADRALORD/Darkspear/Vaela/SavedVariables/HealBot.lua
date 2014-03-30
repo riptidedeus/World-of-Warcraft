@@ -355,25 +355,25 @@ HealBot_Config_Cures = {
 		["23"] = 4,
 	},
 	["CDCBarColour"] = {
+		["Curse"] = {
+			["R"] = 0.992,
+			["G"] = 0,
+			["B"] = 0.525,
+		},
 		["Disease"] = {
 			["R"] = 0.55,
 			["G"] = 0.19,
 			["B"] = 0.7,
-		},
-		["Poison"] = {
-			["R"] = 0.12,
-			["G"] = 0.46,
-			["B"] = 0.24,
 		},
 		["Magic"] = {
 			["R"] = 0.2588235294117647,
 			["G"] = 0.3294117647058824,
 			["B"] = 0.8313725490196078,
 		},
-		["Curse"] = {
-			["R"] = 0.992,
-			["G"] = 0,
-			["B"] = 0.525,
+		["Poison"] = {
+			["R"] = 0.12,
+			["G"] = 0.46,
+			["B"] = 0.24,
 		},
 	},
 	["HealBotDebuffPriority"] = {
@@ -384,9 +384,9 @@ HealBot_Config_Cures = {
 		["Curse"] = 1,
 	},
 	["HealBot_Custom_Defuffs_All"] = {
-		["Disease"] = 0,
-		["Poison"] = 0,
-		["Magic"] = 1,
 		["Curse"] = 1,
+		["Disease"] = 0,
+		["Magic"] = 1,
+		["Poison"] = 0,
 	},
 }

@@ -1,0 +1,179 @@
+
+BigWigs3DB = {
+	["namespaces"] = {
+		["BigWigs_Plugins_Colors"] = {
+			["profiles"] = {
+				["Default"] = {
+					["barBackground"] = {
+						["BigWigs_Plugins_Colors"] = {
+							["default"] = {
+								0.5019607843137255, -- [1]
+								0.5019607843137255, -- [2]
+								0.5019607843137255, -- [3]
+								0, -- [4]
+							},
+						},
+					},
+					["Important"] = {
+						["BigWigs_Plugins_Colors"] = {
+							["default"] = {
+								nil, -- [1]
+								nil, -- [2]
+								nil, -- [3]
+								1, -- [4]
+							},
+						},
+					},
+					["flash"] = {
+						["BigWigs_Plugins_Colors"] = {
+							["default"] = {
+								0.8941176470588235, -- [1]
+								0.8549019607843137, -- [2]
+								nil, -- [3]
+								1, -- [4]
+							},
+						},
+					},
+					["barEmphasized"] = {
+						["BigWigs_Plugins_Colors"] = {
+							["default"] = {
+								0.3764705882352941, -- [1]
+								0.3647058823529412, -- [2]
+								0.4941176470588236, -- [3]
+								0.800000011920929, -- [4]
+							},
+						},
+					},
+					["barText"] = {
+						["BigWigs_Plugins_Colors"] = {
+							["default"] = {
+								0.6901960784313725, -- [1]
+								0.6901960784313725, -- [2]
+								0.6901960784313725, -- [3]
+							},
+						},
+					},
+					["barColor"] = {
+						["BigWigs_Plugins_Colors"] = {
+							["default"] = {
+								0.3764705882352941, -- [1]
+								0.3647058823529412, -- [2]
+								0.4941176470588236, -- [3]
+								0.800000011920929, -- [4]
+							},
+						},
+					},
+				},
+			},
+		},
+		["BigWigs_Plugins_Raid Icons"] = {
+		},
+		["LibDualSpec-1.0"] = {
+		},
+		["BigWigs_Plugins_Bars"] = {
+			["profiles"] = {
+				["Default"] = {
+					["scale"] = 1.1,
+					["BigWigsAnchor_y"] = 179.5674076856558,
+					["emphasizeGrowup"] = true,
+					["time"] = false,
+					["fill"] = false,
+					["texture"] = "Tukui4",
+					["BigWigsAnchor_x"] = 343.3732914917127,
+					["BigWigsEmphasizeAnchor_y"] = 179.3414967296121,
+					["BigWigsEmphasizeAnchor_width"] = 273.8984069824219,
+					["BigWigsEmphasizeAnchor_x"] = 674.6330969258779,
+					["font"] = "Blaster Infinite",
+					["emphasizeTime"] = 10,
+					["BigWigsAnchor_width"] = 273.2862548828125,
+					["emphasizeScale"] = 1.1,
+				},
+			},
+		},
+		["BigWigs_Plugins_Super Emphasize"] = {
+			["profiles"] = {
+				["Default"] = {
+					["fontSize"] = 30,
+					["upper"] = false,
+					["font"] = "Blaster Infinite",
+				},
+			},
+		},
+		["BigWigs_Plugins_Sounds"] = {
+			["profiles"] = {
+				["Default"] = {
+					["media"] = {
+						["Victory"] = "None",
+					},
+				},
+			},
+		},
+		["BigWigs_Bosses_Lei Shen"] = {
+			["profiles"] = {
+				["Default"] = {
+					["Helm of Command"] = 0,
+					["shock_self"] = 35,
+					["Violent Gale Winds"] = 0,
+					["Lightning Whip"] = 0,
+				},
+			},
+		},
+		["BigWigs_Plugins_Statistics"] = {
+		},
+		["BigWigs_Plugins_Proximity"] = {
+			["profiles"] = {
+				["Default"] = {
+					["fontSize"] = 40,
+					["width"] = 180.1570587158203,
+					["objects"] = {
+						["title"] = false,
+						["close"] = false,
+						["ability"] = false,
+						["sound"] = false,
+						["background"] = false,
+					},
+					["font"] = "Blaster Infinite",
+					["posy"] = 198.6266115588751,
+					["lock"] = true,
+					["height"] = 203.3255157470703,
+					["posx"] = 205.406469384543,
+					["soundName"] = "None",
+				},
+			},
+		},
+		["BigWigs_Bosses_Jin'rokh the Breaker"] = {
+		},
+		["BigWigs_Bosses_Imperial Vizier Zor'lok"] = {
+		},
+		["BigWigs_Plugins_Messages"] = {
+			["profiles"] = {
+				["Default"] = {
+					["BWEmphasizeMessageAnchor_x"] = 544.7600036834265,
+					["BWEmphasizeCountdownMessageAnchor_x"] = 597.3999282556397,
+					["usecolors"] = false,
+					["BWEmphasizeMessageAnchor_y"] = 47.66076564959258,
+					["BWMessageAnchor_y"] = 310.5802760455263,
+					["BWMessageAnchor_x"] = 531.1066189010453,
+					["BWEmphasizeCountdownMessageAnchor_y"] = 368.310966141391,
+					["font"] = "Blaster Infinite",
+					["fontSize"] = 15,
+				},
+			},
+		},
+	},
+	["profileKeys"] = {
+		["Huzinkani - Darkspear"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+			["raidicon"] = false,
+			["blockmovies"] = false,
+			["flash"] = false,
+		},
+	},
+}
+BigWigs3IconDB = {
+	["hide"] = true,
+}
+BigWigsStatisticsDB = {
+}

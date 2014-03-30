@@ -105,46 +105,48 @@ SkadaPerCharDB = {
 					{
 						["ts"] = 1396203049.59,
 						["amount"] = 62484,
+						["srcname"] = "Vaela",
 						["hp"] = 650019,
 						["spellid"] = 114942,
-						["srcname"] = "Vaela",
 					}, -- [1]
 					{
 						["ts"] = 1396203051.163,
 						["amount"] = 32024,
+						["srcname"] = "Vaela",
 						["hp"] = 682043,
 						["spellid"] = 114942,
-						["srcname"] = "Vaela",
 					}, -- [2]
 					{
 						["ts"] = 1396203052.928,
 						["amount"] = 0,
+						["srcname"] = "Vaela",
 						["hp"] = 682043,
 						["spellid"] = 114942,
-						["srcname"] = "Vaela",
 					}, -- [3]
 					{
 						["ts"] = 1396203054.609,
 						["amount"] = 0,
+						["srcname"] = "Vaela",
 						["hp"] = 682043,
 						["spellid"] = 114942,
-						["srcname"] = "Vaela",
 					}, -- [4]
 					{
 						["ts"] = 1396203056.246,
 						["amount"] = 0,
+						["srcname"] = "Vaela",
 						["hp"] = 682043,
 						["spellid"] = 114942,
-						["srcname"] = "Vaela",
 					}, -- [5]
 					["pos"] = 6,
 				},
 				["id"] = "0x060000000049EF0F",
-				["power"] = {
-				},
+				["healing"] = 94508,
 				["damagetakenspells"] = {
 				},
+				["power"] = {
+				},
 				["overhealing"] = 596781,
+				["name"] = "Vaela",
 				["healingspells"] = {
 					["Healing Tide"] = {
 						["shielding"] = 0,
@@ -152,16 +154,14 @@ SkadaPerCharDB = {
 						["healing"] = 94508,
 						["min"] = 0,
 						["name"] = "Healing Tide",
-						["max"] = 62484,
-						["critical"] = 2,
 						["absorbed"] = 0,
+						["critical"] = 2,
+						["max"] = 62484,
 						["overhealing"] = 596781,
 						["hits"] = 13,
 					},
 				},
-				["name"] = "Vaela",
 				["shielding"] = 0,
-				["healing"] = 94508,
 				["healed"] = {
 					["Unclesausage"] = {
 						["shielding"] = 0,
