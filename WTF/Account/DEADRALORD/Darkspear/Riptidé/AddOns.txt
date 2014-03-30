@@ -7,3 +7,6 @@ Dominos_XP: disabled
 Bartender4: enabled
 ButtonFacade: enabled
 Tukui: enabled
+Forte_Healthstone: disabled
+Forte_Summon: disabled
+Forte_Soulstone: disabled

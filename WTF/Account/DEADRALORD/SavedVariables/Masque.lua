@@ -7,11 +7,11 @@ MasqueDB = {
 	["profileKeys"] = {
 		["Mynic - Runetotem"] = "Default",
 		["Renéw - Runetotem"] = "Default",
-		["Vaela - Darkspear"] = "Default",
-		["Ichica - Darkspear"] = "Default",
+		["Riptidé - Darkspear"] = "Default",
 		["Elékk - Darkspear"] = "Default",
 		["Tya - Darkspear"] = "Default",
-		["Riptidé - Darkspear"] = "Default",
+		["Ichica - Darkspear"] = "Default",
+		["Vaela - Darkspear"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
@@ -45,7 +45,7 @@ MasqueDB = {
 						},
 					},
 					["Inherit"] = false,
-					["SkinID"] = "Touchy 64px buffs",
+					["SkinID"] = "Elegance: Light",
 				},
 				["Bartender4_2"] = {
 					["Inherit"] = false,
@@ -64,11 +64,19 @@ MasqueDB = {
 						},
 					},
 					["Inherit"] = false,
-					["SkinID"] = "Touchy 64px buffs",
+					["SkinID"] = "Elegance: Light",
 				},
 				["Bartender4_10"] = {
+					["Colors"] = {
+						["Normal"] = {
+							0.203921568627451, -- [1]
+							0.203921568627451, -- [2]
+							0.203921568627451, -- [3]
+							1, -- [4]
+						},
+					},
 					["Inherit"] = false,
-					["SkinID"] = "Touchy 64px buffs",
+					["SkinID"] = "Elegance: Light",
 				},
 				["Bartender4_9"] = {
 					["Inherit"] = false,
@@ -84,21 +92,7 @@ MasqueDB = {
 						},
 					},
 					["Inherit"] = false,
-					["SkinID"] = "Touchy 64px buffs",
-				},
-				["Bartender4_8"] = {
-					["Inherit"] = false,
-					["SkinID"] = "Touchy 64px buffs",
-				},
-				["Bartender4_PetBar"] = {
-					["SkinID"] = "Touchy 64px buffs",
-				},
-				["Bartender4_MicroMenu"] = {
-					["SkinID"] = "Touchy 64px buffs",
-				},
-				["Bartender4_7"] = {
-					["Inherit"] = false,
-					["SkinID"] = "Touchy 64px buffs",
+					["SkinID"] = "Elegance: Light",
 				},
 				["Bartender4"] = {
 					["Colors"] = {
@@ -112,6 +106,20 @@ MasqueDB = {
 					["Inherit"] = false,
 					["SkinID"] = "Elegance: Light",
 				},
+				["Bartender4_MicroMenu"] = {
+					["SkinID"] = "Touchy 64px buffs",
+				},
+				["Bartender4_PetBar"] = {
+					["SkinID"] = "Touchy 64px buffs",
+				},
+				["Bartender4_8"] = {
+					["Inherit"] = false,
+					["SkinID"] = "Touchy 64px buffs",
+				},
+				["Bartender4_7"] = {
+					["Inherit"] = false,
+					["SkinID"] = "Touchy 64px buffs",
+				},
 				["Bartender4_6"] = {
 					["Colors"] = {
 						["Normal"] = {
@@ -122,7 +130,7 @@ MasqueDB = {
 						},
 					},
 					["Inherit"] = false,
-					["SkinID"] = "Touchy 64px buffs",
+					["SkinID"] = "Elegance: Light",
 				},
 			},
 		},
