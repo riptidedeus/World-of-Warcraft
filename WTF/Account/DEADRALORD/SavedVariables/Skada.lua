@@ -5,14 +5,14 @@ SkadaDB = {
 		},
 	},
 	["profileKeys"] = {
-		["Vaela - Darkspear"] = "Default",
+		["Riptidé - Darkspear"] = "Default",
 		["Mynic - Runetotem"] = "Default",
 		["Renéw - Runetotem"] = "Default",
-		["Elékk - Darkspear"] = "Default",
+		["Ichica - Darkspear"] = "Default",
 		["Aluná - Darkspear"] = "Default",
 		["Tya - Darkspear"] = "Default",
-		["Ichica - Darkspear"] = "Default",
-		["Riptidé - Darkspear"] = "Default",
+		["Elékk - Darkspear"] = "Default",
+		["Vaela - Darkspear"] = "Default",
 	},
 	["profiles"] = {
 		["Mynic - Runetotem"] = {
@@ -30,24 +30,24 @@ SkadaDB = {
 					["title"] = {
 						["color"] = {
 							["a"] = 0,
-							["b"] = 0.3019607843137255,
-							["g"] = 0.1019607843137255,
 							["r"] = 0.1019607843137255,
+							["g"] = 0.1019607843137255,
+							["b"] = 0.3019607843137255,
 						},
-						["borderthickness"] = 1,
-						["height"] = 25,
 						["fontsize"] = 15,
+						["height"] = 25,
+						["borderthickness"] = 1,
 					},
 					["point"] = "BOTTOMRIGHT",
 					["barbgcolor"] = {
 						["a"] = 0,
-						["b"] = 0.3019607843137255,
-						["g"] = 0.3019607843137255,
 						["r"] = 0.3019607843137255,
+						["g"] = 0.3019607843137255,
+						["b"] = 0.3019607843137255,
 					},
-					["mode"] = "Healing",
 					["barwidth"] = 301.9998779296875,
 					["barfontsize"] = 12,
+					["mode"] = "Healing",
 				}, -- [1]
 			},
 			["report"] = {
@@ -75,13 +75,13 @@ SkadaDB = {
 					["title"] = {
 						["color"] = {
 							["a"] = 0,
-							["r"] = 0.1019607843137255,
-							["g"] = 0.1019607843137255,
 							["b"] = 0.3019607843137255,
+							["g"] = 0.1019607843137255,
+							["r"] = 0.1019607843137255,
 						},
-						["height"] = 25,
 						["fontsize"] = 15,
 						["borderthickness"] = 1,
+						["height"] = 25,
 					},
 					["background"] = {
 						["height"] = 211.0000152587891,

@@ -35,7 +35,7 @@ Y: 60
 W: 860
 H: 750
 Frame: TukuiWatchFrameAnchor
-FrameLevel: 20
+FrameLevel: 8
 Anchor: TOPLEFT
 X: 0
 Y: 0
