@@ -10,8 +10,8 @@ SkadaDB = {
 		["Renéw - Runetotem"] = "Default",
 		["Ichica - Darkspear"] = "Default",
 		["Aluná - Darkspear"] = "Default",
-		["Tya - Darkspear"] = "Default",
 		["Elékk - Darkspear"] = "Default",
+		["Tya - Darkspear"] = "Default",
 		["Vaela - Darkspear"] = "Default",
 	},
 	["profiles"] = {
@@ -79,16 +79,16 @@ SkadaDB = {
 							["g"] = 0.1019607843137255,
 							["r"] = 0.1019607843137255,
 						},
-						["fontsize"] = 15,
 						["borderthickness"] = 1,
+						["fontsize"] = 15,
 						["height"] = 25,
 					},
-					["mode"] = "Healing",
 					["enabletitle"] = false,
-					["point"] = "BOTTOMRIGHT",
 					["background"] = {
 						["height"] = 211.0000152587891,
 					},
+					["point"] = "BOTTOMRIGHT",
+					["mode"] = "Healing",
 				}, -- [1]
 			},
 			["icon"] = {
