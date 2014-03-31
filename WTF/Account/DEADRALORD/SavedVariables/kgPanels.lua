@@ -57,14 +57,14 @@ kgPanelsDB = {
 					["anchorTo"] = "CENTER",
 					["scale"] = 1,
 					["absolute_bg"] = {
-						["ULx"] = 0,
-						["ULy"] = 0,
 						["LLy"] = 1,
 						["LLx"] = 0,
+						["LRy"] = 1,
+						["LRx"] = 1,
 						["URx"] = 1,
 						["URy"] = 0,
-						["LRx"] = 1,
-						["LRy"] = 1,
+						["ULy"] = 0,
+						["ULx"] = 0,
 					},
 					["crop"] = false,
 					["scripts"] = {
@@ -117,6 +117,7 @@ kgPanelsDB = {
 		},
 	},
 	["profileKeys"] = {
+		["Elékk - Darkspear"] = "Default",
 		["Mynic - Runetotem"] = "Default",
 		["Tya - Darkspear"] = "Default",
 		["Vaela - Darkspear"] = "Default",

@@ -106,17 +106,17 @@ MasqueDB = {
 					["Inherit"] = false,
 					["SkinID"] = "Elegance: Light",
 				},
-				["Bartender4_MicroMenu"] = {
-					["SkinID"] = "Touchy 64px buffs",
-				},
 				["Bartender4_PetBar"] = {
 					["SkinID"] = "Touchy 64px buffs",
 				},
-				["Bartender4_8"] = {
-					["Inherit"] = false,
+				["Bartender4_MicroMenu"] = {
 					["SkinID"] = "Touchy 64px buffs",
 				},
 				["Bartender4_7"] = {
+					["Inherit"] = false,
+					["SkinID"] = "Touchy 64px buffs",
+				},
+				["Bartender4_8"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Touchy 64px buffs",
 				},

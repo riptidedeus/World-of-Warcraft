@@ -100,8 +100,8 @@ BigWigs3DB = {
 					["media"] = {
 						["Long"] = "BigWigs: [DBM] Beware (Algalon)",
 						["Warning"] = "BigWigs: [DBM] Beware (Algalon)",
-						["Victory"] = "None",
 						["Alert"] = "BigWigs: Raid Boss Whisper",
+						["Victory"] = "None",
 					},
 				},
 				["Default"] = {
@@ -167,22 +167,15 @@ BigWigs3DB = {
 				},
 			},
 		},
-		["BigWigs_Bosses_Ra-den Assist"] = {
+		["BigWigs_Bosses_Iron Juggernaut"] = {
 			["profiles"] = {
 				["Default"] = {
-					["posx"] = 7.511739512380132,
-					["posy"] = 744.1833216550294,
-					["group1icon"] = 1,
-					["lock"] = true,
-					["height"] = 31.00397300720215,
-					["group2icon"] = 3,
-					["redkillcount"] = {
-						4, -- [1]
-						2, -- [2]
-						3, -- [3]
-						2, -- [4]
-					},
-					["width"] = 99.99999237060547,
+					[-8183] = 0,
+					["Laser Burn"] = 0,
+					["Ignite Armor"] = 0,
+					["Shock Pulse"] = 515,
+					[-8179] = 0,
+					["Explosive Tar"] = 0,
 				},
 			},
 		},
@@ -215,45 +208,43 @@ BigWigs3DB = {
 				},
 			},
 		},
-		["BigWigs_Bosses_Sha of Pride"] = {
+		["BigWigs_Bosses_Lei Shen"] = {
 			["profiles"] = {
 				["Default"] = {
-					["Swelling Pride"] = 515,
-					[-8257] = 0,
-					["Weakened Resolve"] = 0,
-					["Aura of Pride"] = 0,
-					["Wounded Pride"] = 0,
-					["Mark of Arrogance"] = 0,
-					["Gift of the Titans"] = 0,
-					["Self-Reflection"] = 0,
-					[-8258] = 0,
-					[-8349] = 0,
-					[-8262] = 0,
-					[-8270] = 0,
+					["Helm of Command"] = 651,
+					["Bouncing Bolt"] = 0,
+					["Thunderstruck"] = 515,
+					["aoe_grip"] = 0,
+					["Static Shock"] = 0,
+					["stuns"] = 0,
+					["Violent Gale Winds"] = 0,
+					["Summon Ball Lightning"] = 579,
+					["Crashing Thunder"] = 0,
 				},
 			},
 		},
-		["BigWigs_Bosses_Horridon"] = {
+		["BigWigs_Bosses_Garrosh Hellscream"] = {
 			["profiles"] = {
 				["Default"] = {
-					[-7078] = 0,
-					[-7086] = 0,
-					["adds"] = 0,
-					[-7125] = 0,
-					["Cracked Shell"] = 0,
-					[-7119] = 0,
-					["venom_bolt_volley"] = 0,
-					["Frozen Bolt"] = 0,
-					[-7092] = 0,
-					["fireball"] = 0,
-					[-7090] = 0,
-					["Double Swipe"] = 0,
-					["Lightning Nova"] = 0,
-					["chain_lightning"] = 0,
-					[-7120] = 0,
-					["Sand Trap"] = 0,
-					[-7109] = 0,
-					["Living Poison"] = 0,
+					["Gripping Despair"] = 0,
+					["Power Iron Star"] = 0,
+					["Desecrate"] = 679,
+					[-8294] = 0,
+					["Malice"] = 911,
+					["Annihilate"] = 0,
+					[-8292] = 0,
+					["chain_heal"] = 0,
+				},
+				["Ranged Dps"] = {
+					["Gripping Despair"] = 0,
+					["Power Iron Star"] = 0,
+					["Touch of Y'Shaarj"] = 0,
+					["Desecrate"] = 679,
+					["Malice"] = 911,
+					[-8294] = 0,
+					["Annihilate"] = 0,
+					[-8292] = 0,
+					["chain_heal"] = 0,
 				},
 			},
 		},
@@ -629,28 +620,21 @@ BigWigs3DB = {
 		},
 		["BigWigs_Plugins_Raid Icons"] = {
 		},
-		["BigWigs_Bosses_Garrosh Hellscream"] = {
+		["BigWigs_Bosses_Sha of Pride"] = {
 			["profiles"] = {
 				["Default"] = {
-					["Gripping Despair"] = 0,
-					["Power Iron Star"] = 0,
-					["Desecrate"] = 679,
-					[-8294] = 0,
-					["Malice"] = 911,
-					["Annihilate"] = 0,
-					[-8292] = 0,
-					["chain_heal"] = 0,
-				},
-				["Ranged Dps"] = {
-					["Gripping Despair"] = 0,
-					["Power Iron Star"] = 0,
-					["Touch of Y'Shaarj"] = 0,
-					["Desecrate"] = 679,
-					["Malice"] = 911,
-					[-8294] = 0,
-					["Annihilate"] = 0,
-					[-8292] = 0,
-					["chain_heal"] = 0,
+					["Swelling Pride"] = 515,
+					[-8257] = 0,
+					["Weakened Resolve"] = 0,
+					["Aura of Pride"] = 0,
+					["Wounded Pride"] = 0,
+					["Mark of Arrogance"] = 0,
+					["Gift of the Titans"] = 0,
+					["Self-Reflection"] = 0,
+					[-8258] = 0,
+					[-8349] = 0,
+					[-8262] = 0,
+					[-8270] = 0,
 				},
 			},
 		},
@@ -667,7 +651,7 @@ BigWigs3DB = {
 					["emphasizeGrowup"] = false,
 					["BigWigsAnchor_x"] = 371.9600350484507,
 					["icon"] = false,
-					["fill"] = false,
+					["emphasizeTime"] = 10,
 					["interceptMouse"] = false,
 					["growup"] = false,
 					["monochrome"] = false,
@@ -681,8 +665,8 @@ BigWigs3DB = {
 					},
 					["BigWigsEmphasizeAnchor_width"] = 257.3331909179688,
 					["onlyInterceptOnKeypress"] = false,
-					["emphasizeTime"] = 10,
 					["texture"] = "Smudge",
+					["fill"] = false,
 				},
 				["Default"] = {
 					["BigWigsEmphasizeAnchor_y"] = 276.621035344042,
@@ -757,10 +741,10 @@ BigWigs3DB = {
 					["useicons"] = false,
 					["BWEmphasizeMessageAnchor_y"] = 447.5902255672627,
 					["BWMessageAnchor_y"] = 307.1669128198028,
-					["sink20OutputSink"] = "RaidWarning",
-					["font"] = "Blaster Infinite - Font",
-					["BWEmphasizeMessageAnchor_x"] = 974.555636466408,
 					["monochrome"] = false,
+					["BWEmphasizeMessageAnchor_x"] = 974.555636466408,
+					["font"] = "Blaster Infinite - Font",
+					["sink20OutputSink"] = "RaidWarning",
 				},
 				["Default"] = {
 					["outline"] = "NONE",
@@ -840,6 +824,30 @@ BigWigs3DB = {
 				},
 			},
 		},
+		["BigWigs_Bosses_Horridon"] = {
+			["profiles"] = {
+				["Default"] = {
+					[-7078] = 0,
+					[-7086] = 0,
+					["adds"] = 0,
+					[-7125] = 0,
+					["Cracked Shell"] = 0,
+					[-7119] = 0,
+					["venom_bolt_volley"] = 0,
+					["Frozen Bolt"] = 0,
+					[-7092] = 0,
+					["fireball"] = 0,
+					[-7090] = 0,
+					["Double Swipe"] = 0,
+					["Lightning Nova"] = 0,
+					["chain_lightning"] = 0,
+					[-7120] = 0,
+					["Sand Trap"] = 0,
+					[-7109] = 0,
+					["Living Poison"] = 0,
+				},
+			},
+		},
 		["BigWigs_Bosses_Thok the Bloodthirsty"] = {
 			["profiles"] = {
 				["Default"] = {
@@ -847,21 +855,6 @@ BigWigs3DB = {
 					["Wrecking Ball"] = 515,
 					[-7963] = 515,
 					["Tail Lash"] = 0,
-				},
-			},
-		},
-		["BigWigs_Bosses_Lei Shen"] = {
-			["profiles"] = {
-				["Default"] = {
-					["Helm of Command"] = 651,
-					["Bouncing Bolt"] = 0,
-					["Thunderstruck"] = 515,
-					["aoe_grip"] = 0,
-					["Static Shock"] = 0,
-					["stuns"] = 0,
-					["Violent Gale Winds"] = 0,
-					["Summon Ball Lightning"] = 579,
-					["Crashing Thunder"] = 0,
 				},
 			},
 		},
@@ -877,15 +870,10 @@ BigWigs3DB = {
 				},
 			},
 		},
-		["BigWigs_Bosses_Iron Juggernaut"] = {
+		["BigWigs_Bosses_Council of Elders"] = {
 			["profiles"] = {
 				["Default"] = {
-					[-8183] = 0,
-					["Laser Burn"] = 0,
-					["Ignite Armor"] = 0,
-					["Shock Pulse"] = 515,
-					[-8179] = 0,
-					["Explosive Tar"] = 0,
+					["Frostbite"] = 515,
 				},
 			},
 		},
@@ -944,13 +932,6 @@ BigWigs3DB = {
 				},
 			},
 		},
-		["BigWigs_Bosses_Council of Elders"] = {
-			["profiles"] = {
-				["Default"] = {
-					["Frostbite"] = 515,
-				},
-			},
-		},
 		["BigWigs_Bosses_General Nazgrim"] = {
 			["profiles"] = {
 				["Default"] = {
@@ -982,6 +963,25 @@ BigWigs3DB = {
 				},
 			},
 		},
+		["BigWigs_Bosses_Ra-den Assist"] = {
+			["profiles"] = {
+				["Default"] = {
+					["posx"] = 7.511739512380132,
+					["posy"] = 744.1833216550294,
+					["group1icon"] = 1,
+					["lock"] = true,
+					["height"] = 31.00397300720215,
+					["group2icon"] = 3,
+					["redkillcount"] = {
+						4, -- [1]
+						2, -- [2]
+						3, -- [3]
+						2, -- [4]
+					},
+					["width"] = 99.99999237060547,
+				},
+			},
+		},
 	},
 	["global"] = {
 		["seenmovies"] = {
@@ -1001,10 +1001,10 @@ BigWigs3DB = {
 		["BigWigsSetup"] = {
 			["showZoneMessages"] = false,
 			["blockmovies"] = false,
-			["Barkskin"] = 0,
+			["raidicon"] = false,
 			["Bear Form"] = 0,
 			["flash"] = false,
-			["raidicon"] = false,
+			["Barkskin"] = 0,
 		},
 		["Default"] = {
 			["showZoneMessages"] = false,
@@ -1770,8 +1770,8 @@ BigWigsStatisticsDB = {
 				["best"] = 431.0060000000012,
 			},
 			["10"] = {
-				["kills"] = 6,
-				["wipes"] = 14,
+				["kills"] = 7,
+				["wipes"] = 15,
 				["best"] = 221.5230000000011,
 			},
 		},
@@ -1839,8 +1839,8 @@ BigWigsStatisticsDB = {
 				["best"] = 337.900999999998,
 			},
 			["10"] = {
-				["kills"] = 11,
-				["wipes"] = 11,
+				["kills"] = 12,
+				["wipes"] = 14,
 				["best"] = 134.2430000000004,
 			},
 		},

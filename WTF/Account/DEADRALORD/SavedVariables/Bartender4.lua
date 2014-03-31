@@ -9,14 +9,14 @@ Bartender4DB = {
 							["hideequipped"] = true,
 							["fadeoutdelay"] = 0,
 							["padding"] = 0,
-							["version"] = 3,
+							["fadeoutalpha"] = 0.75,
 							["position"] = {
 								["y"] = -308.3,
 								["x"] = -196.2451325152142,
 								["point"] = "TOP",
 								["scale"] = 0.8899999856948853,
 							},
-							["fadeoutalpha"] = 0.75,
+							["version"] = 3,
 							["hidemacrotext"] = true,
 							["visibility"] = {
 								["always"] = true,
@@ -34,9 +34,9 @@ Bartender4DB = {
 						{
 							["rows"] = 12,
 							["hideequipped"] = true,
-							["fadeoutdelay"] = 0.5,
-							["padding"] = 0,
 							["fadeout"] = true,
+							["padding"] = 0,
+							["fadeoutdelay"] = 0.5,
 							["fadeoutalpha"] = 0,
 							["position"] = {
 								["y"] = 280,
@@ -64,6 +64,7 @@ Bartender4DB = {
 							["visibility"] = {
 								["always"] = true,
 								["vehicle"] = false,
+								["overridebar"] = false,
 							},
 						}, -- [4]
 						{
@@ -129,7 +130,6 @@ Bartender4DB = {
 							["buttons"] = 11,
 							["alpha"] = 0.35,
 							["version"] = 3,
-							["hidehotkey"] = true,
 							["position"] = {
 								["y"] = -166,
 								["x"] = -195.9600140380859,
@@ -140,6 +140,10 @@ Bartender4DB = {
 							["visibility"] = {
 								["always"] = false,
 								["vehicleui"] = false,
+							},
+							["states"] = {
+								["enabled"] = true,
+								["possess"] = true,
 							},
 						}, -- [10]
 					},
@@ -287,10 +291,10 @@ Bartender4DB = {
 								["point"] = "BOTTOM",
 								["scale"] = 0.8899999856948853,
 							},
-							["version"] = 3,
+							["hidemacrotext"] = true,
 							["padding"] = 0,
 							["fadeoutalpha"] = 0.9,
-							["hidemacrotext"] = true,
+							["version"] = 3,
 						}, -- [1]
 						{
 							["enabled"] = false,
@@ -303,19 +307,19 @@ Bartender4DB = {
 						}, -- [2]
 						{
 							["rows"] = 12,
-							["fadeoutdelay"] = 0.5,
+							["fadeout"] = true,
 							["hideequipped"] = true,
-							["fadeoutalpha"] = 0,
+							["fadeoutdelay"] = 0.5,
 							["position"] = {
 								["y"] = 163.1372054952371,
 								["x"] = -36.49016210989794,
 								["point"] = "RIGHT",
 								["scale"] = 0.8899999856948853,
 							},
-							["version"] = 3,
-							["padding"] = 0,
 							["hidemacrotext"] = true,
-							["fadeout"] = true,
+							["padding"] = 0,
+							["version"] = 3,
+							["fadeoutalpha"] = 0,
 						}, -- [3]
 						{
 							["hideequipped"] = true,
@@ -882,13 +886,13 @@ Bartender4DB = {
 					},
 				},
 				["Elékk - Darkspear"] = {
-					["artLayout"] = "ONEBAR",
-					["version"] = 3,
 					["position"] = {
 						["y"] = 47,
 						["x"] = -256,
 						["point"] = "BOTTOM",
 					},
+					["version"] = 3,
+					["artLayout"] = "ONEBAR",
 				},
 				["Tya - Darkspear"] = {
 					["enabled"] = true,

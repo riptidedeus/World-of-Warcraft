@@ -36,3 +36,4 @@ DBM-SiegeOfOrgrimmar: disabled
 DBM-ThroneFourWinds: disabled
 DBM-ThroneofThunder: disabled
 DBM-WorldEvents: disabled
+Doom_CooldownPulse: disabled
