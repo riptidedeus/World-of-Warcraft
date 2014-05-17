@@ -6,75 +6,59 @@ ReforgeLiteDB = {
 		0, -- [2]
 		0, -- [3]
 	},
-	["windowY"] = 821.9999389648438,
+	["windowY"] = 819.9999389648438,
 	["reforgeCheat"] = 5,
 	["profiles"] = {
 		["Mynic - Runetotem"] = {
 			["method"] = {
 				["items"] = {
 					{
-						["dst"] = 8,
-						["src"] = 6,
-						["amount"] = 438,
-						["reforge"] = 42,
 					}, -- [1]
 					{
+						["dst"] = 6,
+						["src"] = 8,
+						["reforge"] = 55,
+						["amount"] = 284,
 					}, -- [2]
 					{
-						["dst"] = 8,
-						["src"] = 5,
-						["amount"] = 464,
-						["reforge"] = 35,
+						["dst"] = 6,
+						["src"] = 8,
+						["reforge"] = 55,
+						["amount"] = 357,
 					}, -- [3]
 					{
-						["dst"] = 8,
-						["src"] = 6,
-						["amount"] = 244,
-						["reforge"] = 42,
 					}, -- [4]
 					{
+						["dst"] = 6,
+						["src"] = 8,
+						["reforge"] = 55,
+						["amount"] = 476,
 					}, -- [5]
 					{
-						["dst"] = 8,
+						["dst"] = 6,
 						["src"] = 5,
+						["reforge"] = 33,
 						["amount"] = 275,
-						["reforge"] = 35,
 					}, -- [6]
 					{
-						["dst"] = 8,
-						["src"] = 6,
-						["amount"] = 396,
-						["reforge"] = 42,
 					}, -- [7]
 					{
-						["dst"] = 8,
-						["src"] = 6,
-						["amount"] = 400,
-						["reforge"] = 42,
 					}, -- [8]
 					{
-						["dst"] = 8,
-						["src"] = 5,
-						["amount"] = 270,
-						["reforge"] = 35,
+						["dst"] = 6,
+						["src"] = 8,
+						["reforge"] = 55,
+						["amount"] = 492,
 					}, -- [9]
 					{
-						["dst"] = 8,
-						["src"] = 6,
-						["amount"] = 399,
-						["reforge"] = 42,
 					}, -- [10]
 					{
-						["dst"] = 8,
-						["src"] = 5,
-						["amount"] = 227,
-						["reforge"] = 35,
 					}, -- [11]
 					{
-						["dst"] = 8,
-						["src"] = 6,
-						["amount"] = 263,
-						["reforge"] = 42,
+						["dst"] = 6,
+						["src"] = 8,
+						["reforge"] = 55,
+						["amount"] = 254,
 					}, -- [12]
 					{
 					}, -- [13]
@@ -83,21 +67,21 @@ ReforgeLiteDB = {
 					{
 						["dst"] = 1,
 						["src"] = 5,
-						["amount"] = 606,
 						["reforge"] = 29,
+						["amount"] = 606,
 					}, -- [15]
 					{
 					}, -- [16]
 				},
 				["stats"] = {
-					16535, -- [1]
+					16645, -- [1]
 					0, -- [2]
 					0, -- [3]
 					0, -- [4]
-					2870, -- [5]
-					3939, -- [6]
+					1424, -- [5]
+					10422, -- [6]
 					0, -- [7]
-					10358, -- [8]
+					6221, -- [8]
 				},
 			},
 			["weights"] = {
@@ -115,7 +99,7 @@ ReforgeLiteDB = {
 					["stat"] = 6,
 					["points"] = {
 						{
-							["value"] = 3043,
+							["value"] = 13163,
 							["preset"] = 1,
 							["method"] = 3,
 							["after"] = 120,
@@ -136,12 +120,6 @@ ReforgeLiteDB = {
 			},
 			["ilvlCap"] = 0,
 			["targetLevel"] = 3,
-			["customMethodPresets"] = {
-			},
-			["buffs"] = {
-			},
-			["itemsLocked"] = {
-			},
 			["prio"] = {
 				{
 					["value"] = 0,
@@ -150,7 +128,7 @@ ReforgeLiteDB = {
 					["stat"] = 1,
 				}, -- [1]
 				{
-					["value"] = 3043,
+					["value"] = 13163,
 					["preset"] = 1,
 					["stat"] = 6,
 					["capped"] = true,
@@ -173,6 +151,12 @@ ReforgeLiteDB = {
 					["capped"] = false,
 					["stat"] = 6,
 				}, -- [5]
+			},
+			["buffs"] = {
+			},
+			["itemsLocked"] = {
+			},
+			["customMethodPresets"] = {
 			},
 		},
 		["Renéw - Runetotem"] = {
@@ -202,7 +186,11 @@ ReforgeLiteDB = {
 			},
 			["ilvlCap"] = 0,
 			["targetLevel"] = 3,
+			["customMethodPresets"] = {
+			},
 			["buffs"] = {
+			},
+			["itemsLocked"] = {
 			},
 			["weights"] = {
 				0, -- [1]
@@ -214,9 +202,171 @@ ReforgeLiteDB = {
 				0, -- [7]
 				0, -- [8]
 			},
+		},
+		["Vaela - Darkspear"] = {
+			["method"] = {
+				["items"] = {
+					{
+						["dst"] = 5,
+						["src"] = 6,
+						["reforge"] = 40,
+						["amount"] = 544,
+					}, -- [1]
+					{
+						["dst"] = 5,
+						["src"] = 6,
+						["reforge"] = 40,
+						["amount"] = 366,
+					}, -- [2]
+					{
+						["dst"] = 5,
+						["src"] = 8,
+						["reforge"] = 54,
+						["amount"] = 407,
+					}, -- [3]
+					{
+						["dst"] = 5,
+						["src"] = 8,
+						["reforge"] = 54,
+						["amount"] = 396,
+					}, -- [4]
+					{
+						["dst"] = 5,
+						["src"] = 8,
+						["reforge"] = 54,
+						["amount"] = 544,
+					}, -- [5]
+					{
+					}, -- [6]
+					{
+					}, -- [7]
+					{
+						["dst"] = 5,
+						["src"] = 8,
+						["reforge"] = 54,
+						["amount"] = 513,
+					}, -- [8]
+					{
+					}, -- [9]
+					{
+						["dst"] = 5,
+						["src"] = 6,
+						["reforge"] = 40,
+						["amount"] = 488,
+					}, -- [10]
+					{
+						["dst"] = 5,
+						["src"] = 8,
+						["reforge"] = 54,
+						["amount"] = 288,
+					}, -- [11]
+					{
+						["dst"] = 5,
+						["src"] = 6,
+						["reforge"] = 40,
+						["amount"] = 341,
+					}, -- [12]
+					{
+					}, -- [13]
+					{
+					}, -- [14]
+					{
+						["dst"] = 6,
+						["src"] = 8,
+						["reforge"] = 55,
+						["amount"] = 328,
+					}, -- [15]
+					{
+						["dst"] = 1,
+						["src"] = 5,
+						["reforge"] = 29,
+						["amount"] = 360,
+					}, -- [16]
+				},
+				["stats"] = {
+					18495, -- [1]
+					0, -- [2]
+					0, -- [3]
+					0, -- [4]
+					8542, -- [5]
+					6496, -- [6]
+					0, -- [7]
+					8079, -- [8]
+				},
+			},
+			["weights"] = {
+				200, -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+				140, -- [5]
+				180, -- [6]
+				0, -- [7]
+				160, -- [8]
+			},
+			["caps"] = {
+				{
+					["stat"] = 6,
+					["points"] = {
+						{
+							["value"] = 5676,
+							["preset"] = 1,
+							["method"] = 3,
+							["after"] = 120,
+						}, -- [1]
+					},
+				}, -- [1]
+				{
+					["stat"] = 8,
+					["points"] = {
+						{
+							["value"] = 5400,
+							["preset"] = 1,
+							["method"] = 3,
+							["after"] = 0,
+						}, -- [1]
+					},
+				}, -- [2]
+			},
+			["ilvlCap"] = 0,
+			["targetLevel"] = 3,
+			["customMethodPresets"] = {
+			},
+			["buffs"] = {
+			},
 			["itemsLocked"] = {
 			},
-			["customMethodPresets"] = {
+			["prio"] = {
+				{
+					["value"] = 0,
+					["preset"] = 1,
+					["capped"] = false,
+					["stat"] = 1,
+				}, -- [1]
+				{
+					["value"] = 5676,
+					["preset"] = 1,
+					["stat"] = 6,
+					["capped"] = true,
+				}, -- [2]
+				{
+					["value"] = 5400,
+					["preset"] = 1,
+					["stat"] = 8,
+					["capped"] = true,
+				}, -- [3]
+				{
+					["value"] = 0,
+					["preset"] = 1,
+					["capped"] = false,
+					["stat"] = 5,
+				}, -- [4]
+				{
+					["value"] = 0,
+					["preset"] = 1,
+					["capped"] = false,
+					["stat"] = 6,
+				}, -- [5]
 			},
 		},
 		["Tya - Darkspear"] = {
@@ -227,68 +377,68 @@ ReforgeLiteDB = {
 					{
 						["dst"] = 6,
 						["src"] = 4,
-						["amount"] = 357,
 						["reforge"] = 26,
+						["amount"] = 357,
 					}, -- [2]
 					{
 						["dst"] = 8,
 						["src"] = 5,
-						["amount"] = 216,
 						["reforge"] = 35,
+						["amount"] = 216,
 					}, -- [3]
 					{
 						["dst"] = 8,
 						["src"] = 5,
-						["amount"] = 218,
 						["reforge"] = 35,
+						["amount"] = 218,
 					}, -- [4]
 					{
 						["dst"] = 6,
 						["src"] = 5,
-						["amount"] = 505,
 						["reforge"] = 33,
+						["amount"] = 505,
 					}, -- [5]
 					{
 						["dst"] = 8,
 						["src"] = 5,
-						["amount"] = 218,
 						["reforge"] = 35,
+						["amount"] = 218,
 					}, -- [6]
 					{
 						["dst"] = 8,
 						["src"] = 4,
-						["amount"] = 209,
 						["reforge"] = 28,
+						["amount"] = 209,
 					}, -- [7]
 					{
 						["dst"] = 8,
 						["src"] = 4,
-						["amount"] = 418,
 						["reforge"] = 28,
+						["amount"] = 418,
 					}, -- [8]
 					{
 						["dst"] = 6,
 						["src"] = 5,
-						["amount"] = 488,
 						["reforge"] = 33,
+						["amount"] = 488,
 					}, -- [9]
 					{
 						["dst"] = 6,
 						["src"] = 5,
-						["amount"] = 326,
 						["reforge"] = 33,
+						["amount"] = 326,
 					}, -- [10]
 					{
 						["dst"] = 8,
 						["src"] = 4,
-						["amount"] = 295,
 						["reforge"] = 28,
+						["amount"] = 295,
 					}, -- [11]
 					{
 						["dst"] = 8,
 						["src"] = 4,
-						["amount"] = 316,
 						["reforge"] = 28,
+						["amount"] = 316,
 					}, -- [12]
 					{
 					}, -- [13]
@@ -297,8 +447,8 @@ ReforgeLiteDB = {
 					{
 						["dst"] = 8,
 						["src"] = 5,
-						["amount"] = 224,
 						["reforge"] = 35,
+						["amount"] = 224,
 					}, -- [15]
 					{
 					}, -- [16]
@@ -350,12 +500,6 @@ ReforgeLiteDB = {
 			},
 			["ilvlCap"] = 0,
 			["targetLevel"] = 3,
-			["customMethodPresets"] = {
-			},
-			["buffs"] = {
-			},
-			["itemsLocked"] = {
-			},
 			["prio"] = {
 				{
 					["value"] = 4760,
@@ -381,6 +525,12 @@ ReforgeLiteDB = {
 					["capped"] = false,
 					["stat"] = 5,
 				}, -- [4]
+			},
+			["buffs"] = {
+			},
+			["itemsLocked"] = {
+			},
+			["customMethodPresets"] = {
 			},
 		},
 		["Elékk - Darkspear"] = {
@@ -410,7 +560,51 @@ ReforgeLiteDB = {
 			},
 			["ilvlCap"] = 0,
 			["targetLevel"] = 3,
+			["customMethodPresets"] = {
+			},
 			["buffs"] = {
+			},
+			["itemsLocked"] = {
+			},
+			["weights"] = {
+				0, -- [1]
+				0, -- [2]
+				0, -- [3]
+				0, -- [4]
+				0, -- [5]
+				0, -- [6]
+				0, -- [7]
+				0, -- [8]
+			},
+		},
+		["Ichica - Darkspear"] = {
+			["caps"] = {
+				{
+					["stat"] = 0,
+					["points"] = {
+						{
+							["value"] = 0,
+							["preset"] = 1,
+							["method"] = 1,
+							["after"] = 0,
+						}, -- [1]
+					},
+				}, -- [1]
+				{
+					["stat"] = 0,
+					["points"] = {
+						{
+							["value"] = 0,
+							["preset"] = 1,
+							["method"] = 1,
+							["after"] = 0,
+						}, -- [1]
+					},
+				}, -- [2]
+			},
+			["ilvlCap"] = 0,
+			["targetLevel"] = 3,
+			["customMethodPresets"] = {
 			},
 			["weights"] = {
 				0, -- [1]
@@ -424,10 +618,10 @@ ReforgeLiteDB = {
 			},
 			["itemsLocked"] = {
 			},
-			["customMethodPresets"] = {
+			["buffs"] = {
 			},
 		},
-		["Vaela - Darkspear"] = {
+		["Riptidé - Darkspear"] = {
 			["caps"] = {
 				{
 					["stat"] = 0,
@@ -474,13 +668,15 @@ ReforgeLiteDB = {
 	},
 	["windowWidth"] = 800,
 	["itemSize"] = 24,
-	["openOnReforge"] = true,
-	["windowX"] = 560.0000610351563,
+	["methodWindowY"] = 787.5,
+	["methodWindowX"] = 810,
+	["customPresets"] = {
+	},
 	["inactiveWindowTitle"] = {
 		0.5, -- [1]
 		0.5, -- [2]
 		0.5, -- [3]
 	},
-	["customPresets"] = {
-	},
+	["windowX"] = 551.0000610351563,
+	["openOnReforge"] = true,
 }

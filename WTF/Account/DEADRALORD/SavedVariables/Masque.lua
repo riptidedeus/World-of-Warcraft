@@ -7,17 +7,26 @@ MasqueDB = {
 	["profileKeys"] = {
 		["Mynic - Runetotem"] = "Default",
 		["Renéw - Runetotem"] = "Default",
-		["Riptidé - Darkspear"] = "Default",
+		["Vaela - Darkspear"] = "Default",
+		["Ichica - Darkspear"] = "Default",
 		["Elékk - Darkspear"] = "Default",
 		["Tya - Darkspear"] = "Default",
-		["Ichica - Darkspear"] = "Default",
-		["Vaela - Darkspear"] = "Default",
+		["Riptidé - Darkspear"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
 			["Groups"] = {
 				["Bartender4_StanceBar"] = {
-					["SkinID"] = "Touchy 64px buffs",
+					["Colors"] = {
+						["Normal"] = {
+							0.2431372549019608, -- [1]
+							0.2431372549019608, -- [2]
+							0.2431372549019608, -- [3]
+							1, -- [4]
+						},
+					},
+					["SkinID"] = "Elegance: Light",
+					["Inherit"] = false,
 				},
 				["Bartender4_Vehicle"] = {
 					["Inherit"] = false,
@@ -52,7 +61,16 @@ MasqueDB = {
 					["SkinID"] = "Touchy 64px buffs",
 				},
 				["Bartender4_BagBar"] = {
-					["SkinID"] = "Touchy 64px buffs",
+					["Colors"] = {
+						["Normal"] = {
+							0.2431372549019608, -- [1]
+							0.2431372549019608, -- [2]
+							0.2431372549019608, -- [3]
+							1, -- [4]
+						},
+					},
+					["SkinID"] = "Elegance: Light",
+					["Inherit"] = false,
 				},
 				["Bartender4_4"] = {
 					["Colors"] = {
@@ -106,17 +124,35 @@ MasqueDB = {
 					["Inherit"] = false,
 					["SkinID"] = "Elegance: Light",
 				},
-				["Bartender4_PetBar"] = {
-					["SkinID"] = "Touchy 64px buffs",
-				},
 				["Bartender4_MicroMenu"] = {
-					["SkinID"] = "Touchy 64px buffs",
+					["Colors"] = {
+						["Normal"] = {
+							0.2431372549019608, -- [1]
+							0.2431372549019608, -- [2]
+							0.2431372549019608, -- [3]
+							1, -- [4]
+						},
+					},
+					["SkinID"] = "Elegance: Light",
+					["Inherit"] = false,
 				},
-				["Bartender4_7"] = {
+				["Bartender4_PetBar"] = {
+					["Colors"] = {
+						["Normal"] = {
+							0.2431372549019608, -- [1]
+							0.2431372549019608, -- [2]
+							0.2431372549019608, -- [3]
+							1, -- [4]
+						},
+					},
+					["SkinID"] = "Elegance: Light",
+					["Inherit"] = false,
+				},
+				["Bartender4_8"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Touchy 64px buffs",
 				},
-				["Bartender4_8"] = {
+				["Bartender4_7"] = {
 					["Inherit"] = false,
 					["SkinID"] = "Touchy 64px buffs",
 				},
