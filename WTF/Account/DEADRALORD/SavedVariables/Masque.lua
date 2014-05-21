@@ -9,8 +9,8 @@ MasqueDB = {
 		["Renéw - Runetotem"] = "Default",
 		["Vaela - Darkspear"] = "Default",
 		["Ichica - Darkspear"] = "Default",
-		["Elékk - Darkspear"] = "Default",
 		["Tya - Darkspear"] = "Default",
+		["Elékk - Darkspear"] = "Default",
 		["Riptidé - Darkspear"] = "Default",
 	},
 	["profiles"] = {
@@ -32,17 +32,9 @@ MasqueDB = {
 					["Inherit"] = false,
 					["SkinID"] = "Touchy 64px buffs",
 				},
-				["Bartender4_1"] = {
-					["Colors"] = {
-						["Normal"] = {
-							0.2431372549019608, -- [1]
-							0.2431372549019608, -- [2]
-							0.2431372549019608, -- [3]
-							1, -- [4]
-						},
-					},
+				["Bartender4_7"] = {
 					["Inherit"] = false,
-					["SkinID"] = "Elegance: Light",
+					["SkinID"] = "Touchy 64px buffs",
 				},
 				["Bartender4_3"] = {
 					["Colors"] = {
@@ -112,17 +104,9 @@ MasqueDB = {
 					["Inherit"] = false,
 					["SkinID"] = "Elegance: Light",
 				},
-				["Bartender4"] = {
-					["Colors"] = {
-						["Normal"] = {
-							0.2431372549019608, -- [1]
-							0.2431372549019608, -- [2]
-							0.2431372549019608, -- [3]
-							1, -- [4]
-						},
-					},
+				["Bartender4_8"] = {
 					["Inherit"] = false,
-					["SkinID"] = "Elegance: Light",
+					["SkinID"] = "Touchy 64px buffs",
 				},
 				["Bartender4_MicroMenu"] = {
 					["Colors"] = {
@@ -148,13 +132,29 @@ MasqueDB = {
 					["SkinID"] = "Elegance: Light",
 					["Inherit"] = false,
 				},
-				["Bartender4_8"] = {
+				["Bartender4"] = {
+					["Colors"] = {
+						["Normal"] = {
+							0.2431372549019608, -- [1]
+							0.2431372549019608, -- [2]
+							0.2431372549019608, -- [3]
+							1, -- [4]
+						},
+					},
 					["Inherit"] = false,
-					["SkinID"] = "Touchy 64px buffs",
+					["SkinID"] = "Elegance: Light",
 				},
-				["Bartender4_7"] = {
+				["Bartender4_1"] = {
+					["Colors"] = {
+						["Normal"] = {
+							0.2431372549019608, -- [1]
+							0.2431372549019608, -- [2]
+							0.2431372549019608, -- [3]
+							1, -- [4]
+						},
+					},
 					["Inherit"] = false,
-					["SkinID"] = "Touchy 64px buffs",
+					["SkinID"] = "Elegance: Light",
 				},
 				["Bartender4_6"] = {
 					["Colors"] = {

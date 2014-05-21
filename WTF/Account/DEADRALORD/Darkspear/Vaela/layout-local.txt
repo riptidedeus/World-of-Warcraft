@@ -4,8 +4,8 @@ FrameLevel: 1
 Anchor: CENTER
 X: -367
 Y: -53
-W: 201
-H: 242
+W: 246
+H: 298
 Frame: HealBot_Options
 FrameLevel: 6
 Anchor: CENTER
