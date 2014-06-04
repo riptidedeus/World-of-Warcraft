@@ -92,3 +92,6 @@ WeakAuras: enabled
 WeakAurasModelPaths: enabled
 WeakAurasOptions: enabled
 WeakAurasTutorials: enabled
+iCPU: disabled
+ChocolateBar_Options: disabled
+ChocolateBar: disabled

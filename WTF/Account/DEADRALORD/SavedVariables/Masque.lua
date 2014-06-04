@@ -7,11 +7,11 @@ MasqueDB = {
 	["profileKeys"] = {
 		["Mynic - Runetotem"] = "Default",
 		["Renéw - Runetotem"] = "Default",
-		["Riptidé - Darkspear"] = "Default",
-		["Tya - Darkspear"] = "Default",
-		["Elékk - Darkspear"] = "Default",
-		["Ichica - Darkspear"] = "Default",
 		["Vaela - Darkspear"] = "Default",
+		["Ichica - Darkspear"] = "Default",
+		["Elékk - Darkspear"] = "Default",
+		["Tya - Darkspear"] = "Default",
+		["Riptidé - Darkspear"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
@@ -112,11 +112,7 @@ MasqueDB = {
 					["Inherit"] = false,
 					["SkinID"] = "Elegance: Light",
 				},
-				["Bartender4_8"] = {
-					["Inherit"] = false,
-					["SkinID"] = "Touchy 64px buffs",
-				},
-				["Bartender4_PetBar"] = {
+				["Bartender4"] = {
 					["Colors"] = {
 						["Normal"] = {
 							0.2431372549019608, -- [1]
@@ -125,8 +121,8 @@ MasqueDB = {
 							1, -- [4]
 						},
 					},
-					["SkinID"] = "Elegance: Light",
 					["Inherit"] = false,
+					["SkinID"] = "Elegance: Light",
 				},
 				["Bartender4_MicroMenu"] = {
 					["Colors"] = {
@@ -140,11 +136,7 @@ MasqueDB = {
 					["SkinID"] = "Elegance: Light",
 					["Inherit"] = false,
 				},
-				["Bartender4_7"] = {
-					["Inherit"] = false,
-					["SkinID"] = "Touchy 64px buffs",
-				},
-				["Bartender4"] = {
+				["Bartender4_PetBar"] = {
 					["Colors"] = {
 						["Normal"] = {
 							0.2431372549019608, -- [1]
@@ -153,8 +145,16 @@ MasqueDB = {
 							1, -- [4]
 						},
 					},
-					["Inherit"] = false,
 					["SkinID"] = "Elegance: Light",
+					["Inherit"] = false,
+				},
+				["Bartender4_8"] = {
+					["Inherit"] = false,
+					["SkinID"] = "Touchy 64px buffs",
+				},
+				["Bartender4_7"] = {
+					["Inherit"] = false,
+					["SkinID"] = "Touchy 64px buffs",
 				},
 				["Bartender4_6"] = {
 					["Colors"] = {
