@@ -4,8 +4,8 @@ FrameLevel: 8
 Anchor: LEFT
 X: 311
 Y: -6
-W: 246
-H: 312
+W: 128
+H: 64
 Frame: FloatingBattlePetTooltip
 FrameLevel: 6
 Anchor: LEFT

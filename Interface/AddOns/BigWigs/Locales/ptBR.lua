@@ -80,6 +80,7 @@ L["profiles"] = "Perfis"
 L["PROXIMITY"] = "Janela de aproximação"
 L["PROXIMITY_desc"] = "Algumas habilidades requerem que você se espalhe, a janela de aproximação será ajustada especificadamente para essas habilidades, então você terá tempo de correr."
 L["PULSE"] = "Pulsar"
+L["PULSE_desc"] = "Além de piscar a tela, você pode associar um ícone a esta habilidade específica. Ele será exibido momentaneamente no meio de sua tela para tentar chamar sua atenção." -- Needs review
 L["raidIcons"] = "Ícones de Raide"
 L["raidIconsDesc"] = [=[Alguns encontros usam os icones de raide para marcar jogadores que são de interesse especial para seu grupo. Por exemplo, os efeitos tipo 'bomba' e controle mental. Se estiver desativado, não marcará nada.
 
@@ -121,4 +122,5 @@ L["upToDate"] = "Atualizado:"
 L["website"] = "Website"
 L["wipes"] = "Wipes:"
 L["zoneMessages"] = "Mostrar mensagens do local"
+L["zoneMessagesDesc"] = "Desmarcar isto vai fazer com que parem de ser exibidas mensagens quando você entrar em uma zona na qual Big Wigs possui contadores, mas você não os têm instalado. Recomendamos deixar isto marcado já que é o único aviso que você terá caso criemos contadores para uma nova zona que lhe interesse." -- Needs review
 

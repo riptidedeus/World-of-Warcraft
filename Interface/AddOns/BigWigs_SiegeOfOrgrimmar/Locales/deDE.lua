@@ -46,6 +46,8 @@ L["north_tower"] = "Nördlicher Turm"
 L["north_tower_trigger"] = "Das Tor zum Nordturm ist durchbrochen!"
 L["south_tower"] = "Südlicher Turm"
 L["south_tower_trigger"] = "Das Tor zum Südturm ist durchbrochen!"
+L["start_trigger_alliance"] = "Gut gemacht! Landungstrupps, angetreten! Infanterie nach vorn!"
+L["start_trigger_horde"] = "Gute Arbeit. Die erste Kompanie ist an Land." -- Needs review
 L["tower_defender"] = "Turmverteidiger"
 L["towers"] = "Türme"
 L["towers_desc"] = "Warnungen für das Durchbrechen der Tore zu den Türmen."
@@ -82,7 +84,7 @@ if L then
 	L.defensive = "Verteidigung"
 
 	L.adds_trigger1 = "Verteidigt das Tor!"
-	L.adds_trigger2 = "Truppen, sammelt euch!"
+	L.adds_trigger2 = "Truppen, sammelt Euch!"
 	L.adds_trigger3 = "Nächste Staffel, nach vorn!"
 	L.adds_trigger4 = "Krieger, im Laufschritt!"
 	L.adds_trigger5 = "Kor'kron, zu mir!"

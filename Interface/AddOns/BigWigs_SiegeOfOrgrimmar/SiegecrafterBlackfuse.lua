@@ -111,7 +111,9 @@ function mod:OnBossEnable()
 	self:Log("SPELL_AURA_APPLIED_DOSE", "Overload", 145444)
 	self:Log("SPELL_AURA_APPLIED", "Overload", 145444)
 	-- Siegecrafter Blackfuse
-	self:Log("SPELL_AURA_APPLIED_DOSE", "ElectrostaticCharge", 143385)
+	self:Log("SPELL_CAST_SUCCESS", "ElectrostaticCharge", 143385)
+	self:Log("SPELL_AURA_APPLIED", "ElectrostaticChargeApplied", 143385)
+	self:Log("SPELL_AURA_APPLIED_DOSE", "ElectrostaticChargeApplied", 143385)
 	self:Log("SPELL_AURA_APPLIED", "ProtectiveFrenzy", 145365)
 	self:Log("SPELL_CAST_START", "Sawblade", 143265)
 	self:Log("SPELL_CAST_SUCCESS", "SawbladeFallback", 143265)
@@ -320,7 +322,12 @@ end
 
 function mod:ElectrostaticCharge(args)
 	self:CDBar(args.spellId, 17)
-	self:StackMessage(args.spellId, args.destName, args.amount, "Attention", "Info")
+end
+
+function mod:ElectrostaticChargeApplied(args)
+	if UnitIsPlayer(args.destName) then -- Shows up for pets, etc.
+		self:StackMessage(args.spellId, args.destName, args.amount, "Attention", "Info")
+	end
 end
 
 function mod:ProtectiveFrenzy(args)

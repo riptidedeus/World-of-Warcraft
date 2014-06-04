@@ -73,7 +73,7 @@ function mod:GetOptions()
 		{143502, "TANK_HEALER", "FLASH"}, {-7947, "FLASH", "ICON"},
 		143484, {143716, "FLASH"}, 143536, {143872, "FLASH", "SAY"}, 143503,
 		"custom_off_bonecracker_marks",
-		-7920, {-7933, "FLASH"}, {143475, "FLASH", "ICON"}, "chain_heal", 143474, {143431, "DISPEL"}, 143432,
+		-7920, {-7933, "FLASH"}, {143475, "FLASH", "ICON"}, "chain_heal", 143474, {143431, "DISPEL"}, "arcane_shock",
 		{143494, "TANK_HEALER"}, {143638, "HEALER"}, -7915, "proximity", "berserk", "bosskill",
 	}, {
 		[143502] = "heroic",
@@ -320,6 +320,6 @@ end
 
 function mod:SunderingBlow(args)
 	self:StackMessage(args.spellId, args.destName, args.amount, "Attention", "Info")
-	self:CDBar(args.spellId, self:LFR() and 8 or 10)
+	self:CDBar(args.spellId, 8)
 end
 

@@ -1,0 +1,73 @@
+------------------------------------------------------------------------
+r11765 | funkydude | 2014-05-15 12:54:34 +0000 (Thu, 15 May 2014) | 1 line
+Changed paths:
+   A /tags/r11765-release (from /trunk:11764)
+
+Tagging as r11765-release
+------------------------------------------------------------------------
+r11764 | funkydude | 2014-05-13 21:18:53 +0000 (Tue, 13 May 2014) | 1 line
+Changed paths:
+   M /trunk/SiegeOfOrgrimmar/SiegecrafterBlackfuse.lua
+
+SiegecrafterBlackfuse: Add UnitIsPlayer check for electrostatic charge warning, broken by showing 1 stack players last commit.
+------------------------------------------------------------------------
+r11763 | funkydude | 2014-05-12 16:23:31 +0000 (Mon, 12 May 2014) | 1 line
+Changed paths:
+   M /trunk/Core/BossPrototype.lua
+
+BossPrototype: Don't just die after printing an invalid id. Print them all and process any that are valid.
+------------------------------------------------------------------------
+r11762 | funkydude | 2014-05-11 21:24:42 +0000 (Sun, 11 May 2014) | 1 line
+Changed paths:
+   M /trunk/SiegeOfOrgrimmar/SiegecrafterBlackfuse.lua
+
+SiegecrafterBlackfuse: Sometimes Electrostatic Charge can be dodged, or misses, or something. Use the SUCCESS event to track the cooldown instead.
+------------------------------------------------------------------------
+r11761 | funkydude | 2014-05-11 21:13:16 +0000 (Sun, 11 May 2014) | 1 line
+Changed paths:
+   M /trunk/SiegeOfOrgrimmar/GeneralNazgrim.lua
+
+GeneralNazgrim: Sundering Blow is more like 8sec on all difficulties.
+------------------------------------------------------------------------
+r11760 | funkydude | 2014-05-11 21:07:55 +0000 (Sun, 11 May 2014) | 1 line
+Changed paths:
+   M /trunk/SiegeOfOrgrimmar/IronJuggernaut.lua
+
+IronJuggernaut: stop the Ricochet bar in p2.
+------------------------------------------------------------------------
+r11759 | nebula169 | 2014-04-26 13:21:02 +0000 (Sat, 26 Apr 2014) | 1 line
+Changed paths:
+   M /trunk/SiegeOfOrgrimmar/ParagonsOfTheKlaxxi.lua
+
+ParagonsOfTheKlaxxi: fix Reave
+------------------------------------------------------------------------
+r11758 | nebula169 | 2014-04-24 09:29:10 +0000 (Thu, 24 Apr 2014) | 1 line
+Changed paths:
+   M /trunk/SiegeOfOrgrimmar/Immerseus.lua
+
+Immerseus: Win on Reform
+------------------------------------------------------------------------
+r11757 | nebula169 | 2014-04-24 09:27:01 +0000 (Thu, 24 Apr 2014) | 7 lines
+Changed paths:
+   M /trunk/SiegeOfOrgrimmar/ParagonsOfTheKlaxxi.lua
+
+ParagonsOfTheKlaxxi: suppose I should start pushing my local changes
+ - cleanup boss engage stuff
+ - message for when a paragon joins the fight
+ - fix Fiery Edge tracking for 10h
+ - stop bar for Aim when debuff is dropped
+ - tank message for the initial application of Injection
+ - stop Death from Above scanning when Reave happens
+------------------------------------------------------------------------
+r11756 | funkydude | 2014-04-16 07:42:55 +0000 (Wed, 16 Apr 2014) | 1 line
+Changed paths:
+   M /trunk/Loader.lua
+
+bump DBM faker.
+------------------------------------------------------------------------
+r11755 | funkydude | 2014-04-11 17:39:04 +0000 (Fri, 11 Apr 2014) | 1 line
+Changed paths:
+   M /trunk/SiegeOfOrgrimmar/GarroshHellscream.lua
+
+GarroshHellscream: bump berserk to 18min.
+------------------------------------------------------------------------

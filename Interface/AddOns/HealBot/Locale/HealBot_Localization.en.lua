@@ -16,11 +16,13 @@
 function HealBot_Lang_enUK()
     HEALBOT_enWORD_COLOUR_SUFFIX = "our"
     HealBot_Lang_enALL()
+    HEALBOT_WORDS_CUSTOMNAME                = "Customise name"
 end
 
 function HealBot_Lang_enUS()
     HEALBOT_enWORD_COLOUR_SUFFIX = "or"
     HealBot_Lang_enALL()
+    HEALBOT_WORDS_CUSTOMNAME                = "Customize name"
 end
 
 function HealBot_Lang_enALL()
@@ -679,9 +681,10 @@ function HealBot_Lang_enALL()
             [HEALBOT_CUSTOM_CAT_CUSTOM_EFFECT]     = 1,
             [HEALBOT_CUSTOM_CAT_CUSTOM_MISC]       = 1,
 
-			--Class Debuffs
+			--Class Profession Debuffs
 			[HEALBOT_DARK_BARGAIN]             = 3, --Warlock
 			[HEALBOT_SHROUD_OF_PURGATORY]      = 11, --Death Knight
+			[HEALBOT_DEBUFF_ROCKET_FUEL_LEAK]  = 10, --Engineering
 			
 			--Scenario, Proving Grounds
 			[HEALBOT_DEBUFF_CHOMP]             = 3, -- Healer Challenge 
@@ -730,6 +733,7 @@ function HealBot_Lang_enALL()
 			--[[Updated 5.2 Mists of Pandaria Expansion by Ariá - Silvermoon EU
 			= GetMapNameByID(896) or "--Mogu'shan Vaults"]]
 			[HEALBOT_DEBUFF_SUNDERING_BITE]    = 11, -- Trash       
+			[HEALBOT_DEBUFF_FULLY_PETRIFIED]   = 4, -- Trash
 			[HEALBOT_DEBUFF_FOCUSED_ASSAULT]   = 4, -- Trash        
 			[HEALBOT_DEBUFF_GROUND_SLAM]       = 5, -- Trash         
 			[HEALBOT_DEBUFF_IMPALE]            = 6, -- Trash         
@@ -776,7 +780,8 @@ function HealBot_Lang_enALL()
 			[HEALBOT_DEBUFF_MORTAL_REND]      = 8, -- Trash        
 			[HEALBOT_DEBUFF_GRIEVOUS_WHIRL]   = 5, -- Trash        
 			[HEALBOT_DEBUFF_BURNING_STING]    = 2, -- Trash         
-			[HEALBOT_DEBUFF_SLAM]             = 11, -- Trash     
+			[HEALBOT_DEBUFF_SLAM]             = 11, -- Trash 
+			[HEALBOT_DEBUFF_ZEALOUS_PARASITE] = 14, -- Trash
 			[HEALBOT_DEBUFF_EXHALE]           = 4, -- Imperial Vizier Zor'lok       
 			[HEALBOT_DEBUFF_CONVERT]          = 3, -- Imperial Vizier Zor'lok          
 			--[HEALBOT_DEBUFF_PHEROMONES_OF_ZEAL] = 9, -- Imperial Vizier Zor'lok  
@@ -812,10 +817,10 @@ function HealBot_Lang_enALL()
 			[HEALBOT_DEBUFF_NAKED_AND_AFRAID]  = 8, -- Sha of Fear Heroic 
 			[HEALBOT_DEBUFF_HUDDLE_IN_TERROR]  = 5, -- Sha of Fear Heroic 
 			[HEALBOT_DEBUFF_CHAMPION_OF_THE_LIGHT] = 3, -- Sha of Fear Heroic 
-			--[[[HEALBOT_DEBUFF_DREAD_SPRAY]       = 3, -- Sha of Fear 
-			[HEALBOT_DEBUFF_OMINOUS_CACKLE]    = 9, -- Sha of Fear]] 
+			[HEALBOT_DEBUFF_OMINOUS_CACKLE]    = 9, -- Sha of Fear 
+			--[HEALBOT_DEBUFF_DREAD_SPRAY]       = 3, -- Sha of Fear 
 			
-			--[[Updated 5.3 by Ariá - Silvermoon EU      
+			--[[Updated 5.3 Mists of Pandaria Expansion by Ariá - Silvermoon EU      
 			= GetMapNameByID(930) or "--Throne of Thunder"]]
 			[HEALBOT_DEBUFF_WOUNDING_STRIKE]   = 13, -- Trash
 			[HEALBOT_DEBUFF_STORM_ENERGY]      = 11, -- Trash
@@ -830,9 +835,11 @@ function HealBot_Lang_enALL()
 			[HEALBOT_DEBUFF_COCOON]            = 3, -- Trash   
 			[HEALBOT_DEBUFF_CHOKING_GAS]       = 3, -- Trash
 			[HEALBOT_DEBUFF_GNAWED_UPON]       = 5, -- Trash
+			[HEALBOT_DEBUFF_RETRIEVE_SPEAR]    = 10, -- Trash
 			[HEALBOT_DEBUFF_STATIC_WOUND]      = 11, -- Jin'rokh the Breaker
 			[HEALBOT_DEBUFF_THUNDERING_THROW]  = 11, -- Jin'rokh the Breaker
 			[HEALBOT_DEBUFF_FOCUSED_LIGHTNING] = 4, -- Jin'rokh the Breaker
+			[HEALBOT_DEBUFF_ELECTRIFIED_WATERS] = 4, -- Jin'rokh the Breaker 
 			[HEALBOT_DEBUFF_TRIPLE_PUNCTURE]   = 11, -- Horridon
 			[HEALBOT_DEBUFF_RENDING_CHARGE]    = 10, -- Horridon
 			[HEALBOT_DEBUFF_FROZEN_BOLT]       = 4, -- Horridon
@@ -844,13 +851,14 @@ function HealBot_Lang_enALL()
 			[HEALBOT_DEBUFF_SOUL_FRAGMENT]     = 11, -- Council of Elders Heroic
 			--[HEALBOT_DEBUFF_SHADOWED_SOUL]     = 11, -- Council of Elders Heroic
 			[HEALBOT_DEBUFF_ENTRAPPED]         = 4, -- Council of Elders Magic
+			[HEALBOT_DEBUFF_QUAKE_STOMP]       = 10, -- Tortos
 			[HEALBOT_DEBUFF_CRYSTAL_SHELL]     = 3, -- Tortos
 			[HEALBOT_DEBUFF_CRYSTAL_SHELL_FULL_CAPACITY] = 3, -- Tortos 
 			[HEALBOT_DEBUFF_IGNITE_FLESH]      = 6, -- Megaera  
 			[HEALBOT_DEBUFF_ARCTIC_FREEZE]     = 2, -- Megaera  
 			[HEALBOT_DEBUFF_ROT_ARMOR]         = 10, -- Megaera 
 			[HEALBOT_DEBUFF_TORRENT_OF_ICE]    = 11, -- Megaera
-			[HEALBOT_DEBUFF_ICY_GROUND]        = 6, -- Megaera  		
+			--[HEALBOT_DEBUFF_ICY_GROUND]        = 6, -- Megaera  		
 			[HEALBOT_DEBUFF_TALON_RAKE]        = 11, -- Ji-Kun
 			[HEALBOT_DEBUFF_INFECTED_TALONS]   = 6, -- ji-Kun
 			[HEALBOT_DEBUFF_FEED_POOL]         = 4, -- ji-Kun
@@ -876,28 +884,29 @@ function HealBot_Lang_enALL()
 			[HEALBOT_DEBUFF_STORM_CLOUD]       = 11, -- Iron Qon
 			--[HEALBOT_DEBUFF_ARCING_LIGHTNING]  = 2, -- Iron Qon   
 			[HEALBOT_DEBUFF_FAN_OF_FLAMES]     = 4, -- Twin Consorts 
-			[HEALBOT_DEBUFF_FLAMES_OF_PASSION] = 4, -- Twin Consorts
 			[HEALBOT_DEBUFF_BEAST_OF_NIGHTMARES] = 2, -- Twin Consorts
 			[HEALBOT_DEBUFF_CORRUPTED_HEALING] = 3, -- Twin Consorts 
+			--[HEALBOT_DEBUFF_FLAMES_OF_PASSION] = 4, -- Twin Consorts
 			[HEALBOT_DEBUFF_DECAPITATE]        = 3, -- Lei Shen 
-			[HEALBOT_DEBUFF_CRASHING_THUNDER]  = 3, -- Lei Shen
 			[HEALBOT_DEBUFF_STATIC_SHOCK]      = 11, -- Lei Shen
 			[HEALBOT_DEBUFF_OVERCHARGED]       = 9, -- Lei Shen
 			[HEALBOT_DEBUFF_HELM_OF_COMMAND]   = 5, -- Lei Shen Heroic
 			[HEALBOT_DEBUFF_ELECTRICAL_SHOCK]  = 4, -- Lei Shen 
-			--[[[HEALBOT_DEBUFF_DISCHARGED_ENERGY  = 3, -- Lei Shen        
-			HEALBOT_DEBUFF_WINDBURN            = 13, -- Lei Shen]]
+			--[[[HEALBOT_DEBUFF_CRASHING_THUNDER]  = 3, -- Lei Shen
+			[HEALBOT_DEBUFF_DISCHARGED_ENERGY] = 3, -- Lei Shen        
+			[HEALBOT_DEBUFF_WINDBURN]          = 13, -- Lei Shen]]
 			[HEALBOT_DEBUFF_UNSTABLE_VITA]     = 12, -- Ra-Den
-			--[HEALBOT_DEBUFF_VITA_SENSITIVITY]  = 12, -- Ra-Den
+			[HEALBOT_DEBUFF_VITA_SENSITIVITY]  = 12, -- Ra-Den
 			
-			--[[Updated 5.4 by Ariá - Silvermoon EU 	   			
+			--[[Updated 5.4 Mists of Pandaria Expansion by Ariá - Silvermoon EU 	   			
 			= GetMapNameByID(953) or "--Siege of Orgrimmar"]]                       
 			[HEALBOT_DEBUFF_LOCKED_ON]         = 7, -- Trash        
 			[HEALBOT_DEBUFF_OBLITERATING_STRIKE] = 9,-- Trash
 			[HEALBOT_DEBUFF_PIERCE]            = 9, --Trash 
 			[HEALBOT_DEBUFF_BLOOD_OF_YSHAARJ]  = 2, -- Trash
 			[HEALBOT_DEBUFF_REAPING_WHIRLWIND] = 10, -- Trash 
-			--[[HEALBOT_DEBUFF_OVERCONFIDENCE]    = 9, -- Trash            
+			[HEALBOT_DEBUFF_FIRE_PIT]          = 4, -- Trash
+			[HEALBOT_DEBUFF_OVERCONFIDENCE]    = 9, -- Trash            
 			[HEALBOT_DEBUFF_JEALOUSY]          = 6, -- Trash  			
 			[HEALBOT_DEBUFF_GROWING_OVERCONFIDENCE] = 5, -- Trash
 			[HEALBOT_DEBUFF_BRIBE]             = 2, -- Trash 
@@ -905,8 +914,8 @@ function HealBot_Lang_enALL()
 			[HEALBOT_DEBUFF_FULL_OF_MEAT]      = 4, -- Trash
 			[HEALBOT_DEBUFF_SCORCHED_EARTH]    = 11, -- Trash
 			[HEALBOT_DEBUFF_DREAD_HOWL]        = 3, -- Trash  
-			[HEALBOT_DEBUFF_RESONATING_AMBER]  = 10, -- Trash
-			[HEALBOT_DEBUFF_FIRE_PIT]          = 4, -- Trash]] 
+			[HEALBOT_DEBUFF_SLOW_AND_STEADY]   = 11, -- Trash 
+			[HEALBOT_DEBUFF_RESONATING_AMBER]  = 10, -- Trash 
 			[HEALBOT_DEBUFF_CORROSIVE_BLAST]   = 3, -- Immerseus 
 			[HEALBOT_DEBUFF_SHA_POOL]          = 11, -- Immerseus
 			--[HEALBOT_DEBUFF_SHA_SPLASH]        = 11, -- Immerseus  
@@ -933,7 +942,7 @@ function HealBot_Lang_enALL()
 			[HEALBOT_DEBUFF_CORRUPTED_PRISON]  = 3, -- Sha of Pride  
 			[HEALBOT_DEBUFF_BANISHMENT]        = 2, -- Sha of Pride Heroic            
 			[HEALBOT_DEBUFF_REACHING_ATTACK]   = 10, -- Sha of Pride 
-			--[HEALBOT_DEBUFF_AURA_OF_PRIDE]     = 2, -- Sha of Pride 
+			[HEALBOT_DEBUFF_AURA_OF_PRIDE]     = 2, -- Sha of Pride 
 			[HEALBOT_DEBUFF_MARK_OF_ARROGANCE] = 8, -- Sha of Pride Magic   
 			[HEALBOT_DEBUFF_FRACTURE]          = 4, -- Galakras
 			[HEALBOT_DEBUFF_POISON_CLOUD]      = 9, -- Galakras
@@ -954,10 +963,10 @@ function HealBot_Lang_enALL()
 			[HEALBOT_DEBUFF_ASSASSINS_MARK]    = 2, -- General Nazgrim
 			[HEALBOT_DEBUFF_HUNTERS_MARK]      = 5, -- General Nazgrim Heroic
 			[HEALBOT_DEBUFF_FATAL_STRIKE]      = 4, -- Malkorok                         
-			[HEALBOT_STRONG_ANCIENT_BARRIER]   = 11, -- Malkorok   
-			--[[HEALBOT_DEBUFF_ANCIENT_MIASMA]    = 2, -- Malkorok       
 			[HEALBOT_WEEK_ANCIENT_BARRIER]     = 13, -- Malkorok       
-			[HEALBOT_ANCIENT_BARRIER]          = 2, -- Malkorok          
+			[HEALBOT_ANCIENT_BARRIER]          = 2, -- Malkorok 
+			[HEALBOT_STRONG_ANCIENT_BARRIER]   = 11, -- Malkorok   
+			--[[HEALBOT_DEBUFF_ANCIENT_MIASMA]    = 2, -- Malkorok               
 			[HEALBOT_DEBUFF_LANGUISH]          = 7, -- Malkorok Heroic]] 
 			[HEALBOT_DEBUFF_SET_TO_BLOW]       = 11, -- Spoils of Pandaria
 			[HEALBOT_DEBUFF_CARNIVOROUS_BITE]  = 3, -- Spoils of Pandaria
@@ -972,7 +981,8 @@ function HealBot_Lang_enALL()
 			[HEALBOT_DEBUFF_FREEZING_BREATH]   = 4, -- Thok the Bloodthirsty         
 			[HEALBOT_DEBUFF_SCORCHING_BREATH]  = 11, -- Thok the Bloodthirsty    
 			--[[[HEALBOT_DEBUFF_BURNING_BLOOD]     = 2, -- Thok the Bloodthirsty 
-			[HEALBOT_DEBUFF_ICY_BLOOD]         = 6, -- Thok the Bloodthirsty]]     
+			[HEALBOT_DEBUFF_ICY_BLOOD]         = 6, -- Thok the Bloodthirsty
+			[HEALBOT_DEBUFF_BLOODIED]          = 2, -- Thok the Bloodthirsty]]     
 			[HEALBOT_DEBUFF_ELECTROSTATIC_CHARGE] = 4, --Siegecrafter Blackfuse
 			[HEALBOT_DEBUFF_OVERLOAD]          = 9, -- Siegecrafter Blackfuse           
 			[HEALBOT_DEBUFF_SUPERHEATED]       = 11, -- Siegecrafter Blackfuse          
@@ -997,30 +1007,22 @@ function HealBot_Lang_enALL()
 			[HEALBOT_DEBUFF_EERIE_FOG]         = 4, -- Paragons of the Klaxxi Heroic
 			--[[[HEALBOT_DEBUFF_CHILLED_TO_THE_BONE] = 3, -- Paragons of the Klaxxi Heroic 
 			[HEALBOT_DEBUFF_HUNGER]            = 5, -- Paragons of the Klaxxi]]
-			[HEALBOT_DEBUFF_HAMSTRING]         = 5, -- Garrosh Hellscream
-			[HEALBOT_DEBUFF_DESECRATED]        = 3, -- Garrosh Hellscream   
+			[HEALBOT_DEBUFF_HAMSTRING]         = 5, -- Garrosh Hellscream   
+			[HEALBOT_DEBUFF_EMBODIED_DOUBT]    = 4, -- Garrosh Hellscream
 			[HEALBOT_DEBUFF_TOUCH_OF_YSHAARJ]  = 11, -- Garrosh Hellscream 
 			[HEALBOT_DEBUFF_EMPOWERED_TOUCH_OF_YSHAARJ] = 4, -- Garrosh Hellscream
 			[HEALBOT_DEBUFF_GRIPPING_DESPAIR]  = 5, -- Garrosh Hellscream
 			[HEALBOT_DEBUFF_EMPOWERED_GRIPPING_DESPAIR] = 4, -- Garrosh Hellscream
-            [HEALBOT_DEBUFF_MALICE]            = 8, -- Garrosh Hellscream
-			--[[[HEALBOT_DEBUFF_EMBODIED_DOUBT]    = 4, -- Garrosh Hellscream
-			[HEALBOT_DEBUFF_EXPLOSIVE_DESPAIR] = 4, -- Garrosh Hellscream]] 
+            [HEALBOT_DEBUFF_MALICE]            = 8, -- Garrosh Hellscream Heroic
+			[HEALBOT_DEBUFF_MALICIOUS_BLAST]   = 8, -- Garrosh Hellscream Heroic 
+			[HEALBOT_DEBUFF_FIXATE]            = 4, -- Garrosh Hellscream Heroic 
+			[HEALBOT_DEBUFF_NAPALM]            = 8, -- Garrosh Hellscream Heroic
+			[HEALBOT_DEBUFF_EXPLOSIVE_DESPAIR] = 4, -- Garrosh Hellscream
+			[HEALBOT_DEBUFF_FAITH]             = 4, -- Garrosh Hellscream Buff
+			[HEALBOT_DEBUFF_HOPE]              = 5, -- Garrosh Hellscream Buff 
+			[HEALBOT_DEBUFF_COURAGE]           = 3, -- Garrosh Hellscream Buff 
+			--[HEALBOT_DEBUFF_DESECRATED]        = 3, -- Garrosh Hellscream]] 
 			}
-			
-			--[[ A-B 2
-			 C-D 3
-			 E-F 4
-             G-H 5
-			 I-J 6
-			 K-L 7
-			 M-N 8 
-			 O-P 9
-			 Q-R 10
-             S-T 11
-			 U-V 12
-			 W-X 13
-			 Y-Z 14]]
 
     HEALBOT_ABOUT_DESC1                    = "Add frames with skinable bars for healing, decursive, buffing, ressing, aggro tracking"
     HEALBOT_ABOUT_WEBSITE                  = "Website:"
@@ -1037,7 +1039,7 @@ function HealBot_Lang_enALL()
     HEALBOT_ABOUT_FAQ_ANSWER               = "Answer"
 
     HEALBOT_ABOUT_FAQ_QUESTIONS = {   [1]   = "Buffs - All the bars are White, what happened",
-                                      [2]   = "Casting - Sometimes the cursor turns blue and I can't do anything",
+									  [2]   = "Casting - Sometimes the cursor turns blue and I can't do anything",
                                       [3]   = "Macros - Do you have any cooldown examples",
                                       [4]   = "Macros - Do you have any spell casting examples",
                                       [5]   = "Mouse - How do I use my mouseover macros with the mouse wheel",
@@ -1045,7 +1047,7 @@ function HealBot_Lang_enALL()
                                       [7]   = "Options - Can I hide all the bars and only show those needing a debuff removed",
                                       [8]   = "Options - Can I hide the incoming heals",
                                       [9]   = "Options - Healbot does not save my options when i logout/logon",
-                                      [10]   = "Options - How do I always use enabled settings",
+                                      [10]  = "Options - How do I always use enabled settings",
                                       [11]  = "Options - How do I disable healbot automatically",
                                       [12]  = "Options - How do I make the bars grow a different direction",
                                       [13]  = "Options - How do I setup 'My Targets'",
@@ -1058,13 +1060,13 @@ function HealBot_Lang_enALL()
 
     HEALBOT_ABOUT_FAQ_SPELLS_ANSWER01       = "This is due to options set on the Spells tab \n" ..
                                               "try changing the following and testing: \n\n" ..
-                                              "     1: On the spells tab: Turn on Always Use Enabled \n" ..
-                                              "     2: On the spells tab: Turn off SmartCast \n\n" ..
+                                              "1: On the spells tab: Turn on Always Use Enabled \n" ..
+                                              "2: On the spells tab: Turn off SmartCast \n\n" ..
                                               "Note: It is expected that most users will want to \n"..
-                                              "          turn SmartCast back on \n\n" ..
+                                              "turn SmartCast back on \n\n" ..
                                               "Note: It is expected that experienced users will want to \n" ..
-                                              "          turn off Always Use Enabled  \n" ..
-                                              "          and set the spells for disabled bars"
+                                              "turn off Always Use Enabled  \n" ..
+                                              "and set the spells for disabled bars"
                                               
     HEALBOT_ABOUT_FAQ_ANSWERS = {     [1]   = "You are monitoring for missing buffs \n\n" .. 
                                               "This can be turned off on the buffs tab \n" ..
@@ -1074,108 +1076,109 @@ function HealBot_Lang_enALL()
                                               "try casting a spell thats on Cooldown \n" ..
                                               "Notice how the cursor turns blue. \n\n" ..
                                               "On the spells tab, use Avoid Blue Cursor",
-                                      [3]   = "Yes \n\n"..
+									  [3]   = "Yes \n\n"..
                                               "Paladin Hand of Salvation cooldown macro example: \n\n" ..
-                                              "    #show Hand of Salvation \n" ..
-                                              '    /script local n=UnitName("hbtarget"); ' .. "\n" ..
-                                              '    if GetSpellCooldown("Hand of Salvation")==0 then ' .. " \n" ..
-                                              '        SendChatMessage("Hand of Salvation on "..n,"YELL") ' .. "\n" ..
-                                              '        SendChatMessage("Hand of Salvation!","WHISPER",nil,n) ' .. "\n" ..
-                                              "    end; \n" ..
-                                              "    /cast [@hbtarget] Hand of Salvation",
+                                              "#show Hand of Salvation \n" ..
+                                              '/script local n=UnitName("hbtarget"); ' .. "\n" ..
+                                              'if GetSpellCooldown("Hand of Salvation")==0 then ' .. " \n" ..
+                                              'SendChatMessage("Hand of Salvation on "..n,"YELL") ' .. "\n" ..
+                                              'SendChatMessage("Hand of Salvation!","WHISPER",nil,n) ' .. "\n" ..
+                                              "end; \n" ..
+                                              "/cast [@hbtarget] Hand of Salvation",
                                       [4]   = "Yes \n\n"..
-                                              "Preist Flash Heal, example using both trinkets: \n\n" ..
-                                              "    #show Flash Heal \n" ..
-                                              "    /script UIErrorsFrame:Hide() \n" ..
-                                              "    /console Sound_EnableSFX 0 \n" ..
-                                              "    /use 13 \n" ..
-                                              "    /use 14 \n" ..
-                                              "    /console Sound_EnableSFX 1 \n" ..
-                                              "    /cast [@hbtarget] Flash Heal \n" ..
-                                              "    /script UIErrorsFrame:Clear(); UIErrorsFrame:Show()",
+											  "Preist Flash Heal, example using both trinkets: \n\n" ..
+                                              "#show Flash Heal \n" ..
+                                              "/script UIErrorsFrame:Hide() \n" ..
+                                              "/console Sound_EnableSFX 0 \n" ..
+                                              "/use 13 \n" ..
+                                              "/use 14 \n" ..
+                                              "/console Sound_EnableSFX 1 \n" ..
+                                              "/cast [@hbtarget] Flash Heal \n" ..
+                                              "/script UIErrorsFrame:Clear(); UIErrorsFrame:Show()",
                                       [5]   = "1: On the Mouse Wheel tab: Turn off Use Mouse Wheel \n" ..
-                                              "2: Bind your macros to blizzard's bindings with [@mouseover] \n\n\n" ..
+                                              "2: Bind your macros to blizzard's bindings with\n[@mouseover] \n\n\n" ..
                                               "Eample macro: \n\n" ..
-                                              "    #showtooltip Flash Heal \n" ..
-                                              "    /cast [@mouseover] Flash Heal \n",
+                                              "#showtooltip Flash Heal \n" ..
+                                              "/cast [@mouseover] Flash Heal \n",
                                       [6]   = "Yes \n\n\n"..
                                               "With Headers: \n" ..
-                                              "     1: On the Skins>Headers tab, switch on Show Headers \n" ..
-                                              "     2: On the Skins>Bars tab, set Number of Groups per column \n\n" ..
+                                              "1: On the Skins>Headers tab, switch on Show Headers \n" ..
+                                              "2: On the Skins>Bars tab, set Number of Groups per\ncolumn \n\n" ..
                                               "Without Headers: \n" ..
-                                              "     1: On the Skins>Bars tab, switch on Use Groups per Column \n" ..
-                                              "     2: On the Skins>Bars tab, set Number of Groups per column ",
+                                              "1: On the Skins>Bars tab, switch on Use Groups per\nColumn \n" ..
+                                              "2: On the Skins>Bars tab, set Number of Groups per\ncolumn ",
                                       [7]   = "Yes \n\n"..
                                               "1: On the Skins>Healing>Alert tab, set Alert Level to 0 \n" ..
                                               "2: On the Skins>Aggro tab, turn off the Aggro Monitor \n" .. 
                                               "3: On the Skins>Bars tab, set Disabled opacity to 0 \n" ..
                                               "4: On the Skins>Bars tab, set Background opacity to 0 \n" ..
                                               "5: On the Skins>Bar Text tab, click on the bar Disabled \n" ..
-                                              "     and set the Disabled text opacity to 0 \n" ..
-                                              "6: On the Skins>General tab, click on the bar Background \n" ..
-                                              "     and set the Background opacity to 0 \n" ..
+                                              "and set the Disabled text opacity to 0 \n" ..
+                                              "6: On the Skins>General tab, click on the bar\n" ..
+                                              "Background and set the Background opacity to 0 \n" ..
                                               "7: On the Cure tab, Turn on debuff monitoring",
                                       [8]   = "Yes \n\n"..
-                                              "1: On the Skins>Bars tab, set Incoming Heals to Dont Show \n" ..
+                                              "1: On the Skins>Bars tab, set Incoming Heals to Dont\nShow\n" ..
                                               "2: On the Skins>Bar Text tab, \n" ..
-                                              "          set Show Health on Bar to No Incoming Heals",
+                                              "set Show Health on Bar to No Incoming Heals",
                                       [9]   = "This has been present since a change in WoW 3.2, \n" ..
                                               "it can affects characters with weird letters in their name \n\n" ..
                                               "If your on Vista or Win7, try the follow: \n"..
-                                              "     change system locale to English (for non-unicode programs) \n" ..
-                                              "     in Control Panel > Region and Language > Administrative Tab",
-
+                                              "change system locale to English\n(for non-unicode programs) \n" ..
+                                              "in Control Panel > Region and Language >\nAdministrative Tab",
                                       [10]   = "On the spells tab turn on Always Use Enabled \n\n" ..
                                               "Some my also want to set the Alert Level to 100 \n" ..
                                               "This can be done on the Skins>Healing>Alert tab",
                                       [11]  = "Disable for a character: \n\n" ..
-                                              "     1: Open the General tab \n" ..
-                                              "     2: Turn on the Disable option \n\n\n" ..
+                                              "1: Open the General tab \n" ..
+                                              "2: Turn on the Disable option \n\n\n" ..
                                               "Disable when solo: \n\n" ..
-                                              "     1: Open the General tab \n" ..
-                                              "     2: To the right of the Disable option, Select only when solo \n" ..
-                                              "     3: Turn on the Disable option",
-                                      [12]  = "Change the Bars Anchor setting on the Skins>General tab  \n\n" ..
-                                              "     Top Right:        the bars will grow Down and Left \n" ..
-                                              "     Top Left:          the bars will grow Down and Right \n" ..
-                                              "     Bottom Right:  the bars will grow Up and Left \n" ..
-                                              "     Bottom Left:     the bars will grow Up and Right",
-                                      [13]  = "My Targets allows you to create a list of Targets you want to \n" ..
-                                              "group separately from others, similar to the MT group \n\n" ..
+                                              "1: Open the General tab \n" ..
+                                              "2: To the right of the Disable option, Select only when\nsolo \n" ..
+                                              "3: Turn on the Disable option",
+                                      [12]  = "Change the Bars Anchor setting on the Skins>General\ntab  \n\n" ..
+                                              "Top Right: the bars will grow Down and Left \n" ..
+                                              "Top Left: the bars will grow Down and Right \n" ..
+                                              "Bottom Right: the bars will grow Up and Left \n" ..
+                                              "Bottom Left: the bars will grow Up and Right",
+                                      [13]  = "My Targets allows you to create a list of Targets you \n" ..
+                                              "want to group separately from others, similar to the\nMT group \n\n" ..
                                               "The following options are available for \n" .. 
                                               "adding/removing people to/from the My Targets group \n\n" ..
-                                              "     - Shift+Ctrl+Alt+Right click on the bar \n" ..
-                                              '     - Use the Healbot Menu, enter "hbmenu" on the spells tab ' .. "\n" ..
-                                              "     - Use the Mouse Wheel, set on the Mouse Wheel tab",
+                                              "- Shift+Ctrl+Alt+Right click on the bar \n" ..
+                                              '- Use the Healbot Menu, enter "hbmenu" on the spells\ntab ' .. "\n" ..
+                                              "- Use the Mouse Wheel, set on the Mouse Wheel tab",
                                       [14]  = "Private Tanks can be added to the Main Tanks list, \n" ..
                                               "the Private tanks are only visible in your Healbot \n" ..
                                               "and do not affect other players or addons \n\n" ..
                                               "The following options are available for \n" ..
                                               "adding/removing people to/from the Tanks list \n\n" ..
-                                              '     - Use the Healbot Menu, enter "hbmenu" on the spells tab ' .. "\n" ..
-                                              "     - Use the Mouse Wheel, set on the Mouse Wheel tab",
-                                      
+                                              '- Use the Healbot Menu, enter "hbmenu" on the spells\ntab ' .. "\n" ..
+                                              "- Use the Mouse Wheel, set on the Mouse Wheel tab",                                     
                                       [15]  = "Yes \n\n"..
-                                              "     1: On the Skins>Healing tab, turn on Focus \n" ..
-                                              "     2: set your focus on the NPC (or PC not in raid/party) \n" ..
-                                              "          Healbot will create a bar in your My Targets list \n\n" ..
-                                              "Note: If in a combat situation where you zone in and out while \n" ..
-                                              "          in combat and need to reset focus on an NPC \n" ..
-                                              "          on the Skins>Healing tab set Focus: always show to on \n" ..
-                                              "          This will keep the bar available during combat. \n\n" ..
-                                              "Note: The HealBot Menu has the option 'Set HealBot Focus' \n" ..
-                                              "          This can make setting focus easy on NPC's and \n" ..
-                                              "          serves as a reminder to set focus. \n\n" ..
-                                              "          Enter 'hbmenu' on the spells tab to use HealBot Menu \n" ..
-                                              "          or use the Mouse Wheel tab to and set HealBot Menu",
-                                      [16]  = "1:  On the Skins>Bars tab, adjust the disabled bar opacity \n" ..
-                                              "2:  On the Skins>Bars Text tab, adjust the disabled text opacity \n" ..
-                                              "       To do this click on the bar labeled Disabled. \n\n" ..
+                                              "1: On the Skins>Healing tab, turn on Focus \n" ..
+                                              "2: set your focus on the NPC (or PC not in raid/party) \n" ..
+                                              "Healbot will create a bar in your My Targets list \n\n" ..
+                                              "Note: If in a combat situation where you zone in and out\nwhile \n" ..
+                                              "in combat and need to reset focus on an NPC \n" ..
+                                              "on the Skins>Healing tab set Focus: always show to on \n" ..
+                                              "This will keep the bar available during combat. \n\n" ..
+                                              "Note: The HealBot Menu has the option\n'Set HealBot Focus' \n" ..
+                                              "This can make setting focus easy on NPC's and \n" ..
+                                              "serves as a reminder to set focus. \n\n" ..
+                                              "Enter 'hbmenu' on the spells tab to use HealBot Menu \n" ..
+                                              "or use the Mouse Wheel tab to and set HealBot Menu",
+                                      [16]  = "1: On the Skins>Bars tab, adjust the disabled bar\nopacity \n" ..
+                                              "2: On the Skins>Bars Text tab, adjust the disabled text \n" ..
+                                              "opacity to do this click on the bar labeled Disabled. \n\n" ..
                                               "Some my also want to set the Alert Level to 100 \n" ..
                                               "This can be done on the Skins>Healing>Alert tab",
                                       [17]  = "Actually Healbot is casting exacly as the setup. \n\n" .. HEALBOT_ABOUT_FAQ_SPELLS_ANSWER01,
                                       [18]  = HEALBOT_ABOUT_FAQ_SPELLS_ANSWER01,
                                   }
+								  
+	HEALBOT_ABOUT_FAQ_ANSWERS_BUTTON = { [1] = "Not used - Buttons!",
+	                                   }
 
     HEALBOT_OPTIONS_SKINAUTHOR              = "Skin Author"
     HEALBOT_OPTIONS_AVOIDBLUECURSOR         = "Avoid\nBlue Cursor"
@@ -1269,8 +1272,15 @@ function HealBot_Lang_enALL()
     HEALBOT_OPTIONS_PROFILE_CLASS           = "Class"
     HEALBOT_OPTIONS_INCOMBATALERTLEVEL      = "Alert Level - In Combat";
     HEALBOT_OPTIONS_OUTCOMBATALERTLEVEL     = "Alert Level - Out of Combat";
-    HEALBOT_OPTION_NUMENEMYS                = "Number of Enemys"
+    HEALBOT_OPTION_NUMENEMYS                = "Number of Enemies"
     HEALBOT_WORD_AUTO                       = "Auto"
+	HEALBOT_OPTIONS_ENABLEAUTOCOMBAT        = "Enable HealBot autoCombat"
+    HEALBOT_WORDS_REMOVETEMPCUSTOMNAME      = "Remove temporary custom name"
+    HEALBOT_WORDS_REMOVEPERMCUSTOMNAME      = "Remove permanent custom name"
+    HEALBOT_WORDS_ADDTEMPCUSTOMNAME         = "Add temporary custom name"
+    HEALBOT_WORDS_ADDPERMCUSTOMNAME         = "Add permanent custom name"
+    HEALBOT_OPTIONS_ENABLELIBUTF8           = "Enable UTF8 library"
+    HEALBOT_OPTIONS_SHOWDIRECTION           = "Show Out of Range Direction";
 end
 
 if (GetLocale() == "enUK") then

@@ -21,7 +21,6 @@ AtlasLootDB = {
 				["Aluná - Darkspear"] = {
 					["instance"] = "BlackTemple",
 					["module"] = "AtlasLootBurningCrusade",
-					["DefaultFrameLocked"] = true,
 					["NEWpoint"] = {
 						nil, -- [1]
 						nil, -- [2]
@@ -29,6 +28,7 @@ AtlasLootDB = {
 						-6.999986527713826, -- [4]
 						-16.00008753566651, -- [5]
 					},
+					["DefaultFrameLocked"] = true,
 				},
 				["Elékk - Darkspear"] = {
 					["module"] = "AtlasLootMoP",
@@ -150,8 +150,8 @@ AtlasLootDB = {
 							["DODGE_RATING"] = false,
 							["RESILIENCE_RATING"] = false,
 							["EXPERTISE_RATING"] = false,
-							["AGILITY"] = false,
 							["STRENGTH"] = false,
+							["AGILITY"] = false,
 						},
 						["Armor"] = {
 							["#a2#"] = false,
@@ -203,8 +203,8 @@ AtlasLootDB = {
 			["ShowLootTablePrice"] = false,
 		},
 		["Vaela - Darkspear"] = {
-			["LootTableType"] = "Heroic",
 			["LastSearch"] = "Picnic",
+			["LootTableType"] = "Heroic",
 		},
 		["Riptidé - Runetotem"] = {
 			["LastSearch"] = "Renevant",
