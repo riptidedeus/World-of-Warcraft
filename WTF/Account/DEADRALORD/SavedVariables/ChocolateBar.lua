@@ -1,6 +1,7 @@
 
 ChocolateBarDB = {
 	["profileKeys"] = {
+		["Mynic - Runetotem"] = "Default",
 		["Vaela - Darkspear"] = "Default",
 	},
 	["profiles"] = {
@@ -34,8 +35,8 @@ ChocolateBarDB = {
 					["align"] = "right",
 					["index"] = 2,
 				},
-				["WeakAuras"] = {
-					["index"] = 3,
+				["iCPU"] = {
+					["index"] = 2,
 					["barName"] = "ChocolateBar1",
 				},
 				["kgPanels"] = {
@@ -44,8 +45,8 @@ ChocolateBarDB = {
 					["align"] = "right",
 					["index"] = 3,
 				},
-				["iCPU"] = {
-					["index"] = 2,
+				["WeakAuras"] = {
+					["index"] = 3,
 					["barName"] = "ChocolateBar1",
 				},
 				["Masque"] = {

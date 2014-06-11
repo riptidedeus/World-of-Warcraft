@@ -37,3 +37,8 @@ DBM-ThroneFourWinds: disabled
 DBM-ThroneofThunder: disabled
 DBM-WorldEvents: disabled
 Doom_CooldownPulse: disabled
+ChocolateBar: disabled
+ChocolateBar_Options: disabled
+iCPU: disabled
+kgPanels: disabled
+kgPanelsConfig: disabled

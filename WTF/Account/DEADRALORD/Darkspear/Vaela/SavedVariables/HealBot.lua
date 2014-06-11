@@ -24,8 +24,8 @@ HealBot_Config = {
 		["10-Man Two Rows"] = 1,
 		["13-man"] = 1,
 	},
-	["CurrentSpec"] = 3,
-	["Current_Skin"] = "25-man",
+	["CurrentSpec"] = 1,
+	["Current_Skin"] = "13-man",
 	["ShowDebuffIcon"] = 1,
 	["LastVersionSkinUpdate"] = "5.4.8.0",
 	["EnableHealthy"] = 1,
@@ -46,7 +46,7 @@ HealBot_Config = {
 	},
 	["CrashProtMacroName"] = "hbCrashProt",
 	["Profile"] = 1,
-	["Skin_ID"] = 3,
+	["Skin_ID"] = 2,
 	["Version"] = "4.3.0.0",
 	["DisableHealBot"] = 0,
 	["DisableSolo"] = 0,
@@ -78,8 +78,8 @@ HealBot_Config_Spells = {
 		["Right"] = "Assist",
 		["Left"] = "Target",
 		["Ctrl-ShiftRight"] = "HBmenu",
-		["Ctrl-ShiftLeft3"] = "Menu",
 		["Ctrl-ShiftRight1"] = "HBmenu",
+		["Ctrl-ShiftLeft3"] = "Menu",
 		["Right1"] = "Assist",
 		["Ctrl-ShiftRight2"] = "HBmenu",
 		["Left3"] = "Target",
@@ -154,7 +154,7 @@ HealBot_Config_Spells = {
 		["ShiftMiddle"] = "Healing Surge",
 		["Right3"] = "Healing Wave",
 		["ShiftLeft"] = "Chain Heal",
-		["Ctrl-ShiftLeft"] = "Menu",
+		["ShiftLeft3"] = "Riptide",
 		["AltRight3"] = "Healing Surge",
 		["Alt-ShiftRight"] = "Assist",
 		["Button43"] = "Target",
@@ -162,7 +162,7 @@ HealBot_Config_Spells = {
 		["Alt-ShiftButton53"] = "",
 		["Alt-ShiftMiddle3"] = "",
 		["Middle3"] = "Unleash Elements",
-		["ShiftLeft3"] = "Riptide",
+		["Ctrl-ShiftLeft"] = "Menu",
 		["CtrlMiddle3"] = "",
 		["Ctrl-ShiftLeft3"] = "Menu",
 		["CtrlLeft2"] = "Cleanse Spirit",
@@ -197,7 +197,7 @@ HealBot_Config_Buffs = {
 	},
 	["BuffWatch"] = 0,
 	["NoAuraWhenRested"] = 0,
-	["HealBotBuffColG"] = {
+	["HealBotBuffColR"] = {
 		1, -- [1]
 		1, -- [2]
 		1, -- [3]
@@ -251,7 +251,7 @@ HealBot_Config_Buffs = {
 		["22"] = "None",
 		["23"] = "None",
 	},
-	["HealBotBuffColR"] = {
+	["HealBotBuffColG"] = {
 		1, -- [1]
 		1, -- [2]
 		1, -- [3]
@@ -355,25 +355,25 @@ HealBot_Config_Cures = {
 		["23"] = 4,
 	},
 	["CDCBarColour"] = {
-		["Curse"] = {
-			["R"] = 0.992,
-			["G"] = 0,
-			["B"] = 0.525,
-		},
 		["Disease"] = {
 			["R"] = 0.55,
 			["G"] = 0.19,
 			["B"] = 0.7,
+		},
+		["Poison"] = {
+			["R"] = 0.12,
+			["G"] = 0.46,
+			["B"] = 0.24,
 		},
 		["Magic"] = {
 			["R"] = 0.2588235294117647,
 			["G"] = 0.3294117647058824,
 			["B"] = 0.8313725490196078,
 		},
-		["Poison"] = {
-			["R"] = 0.12,
-			["G"] = 0.46,
-			["B"] = 0.24,
+		["Curse"] = {
+			["R"] = 0.992,
+			["G"] = 0,
+			["B"] = 0.525,
 		},
 	},
 	["HealBotDebuffPriority"] = {
@@ -384,9 +384,9 @@ HealBot_Config_Cures = {
 		["Curse"] = 1,
 	},
 	["HealBot_Custom_Defuffs_All"] = {
-		["Curse"] = 1,
 		["Disease"] = 0,
-		["Magic"] = 1,
 		["Poison"] = 0,
+		["Magic"] = 1,
+		["Curse"] = 1,
 	},
 }

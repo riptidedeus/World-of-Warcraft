@@ -62,8 +62,8 @@ Forte_Timer: enabled
 Forte_Talent: enabled
 HealBot: enabled
 HealBot_Tips: enabled
-kgPanels: enabled
-kgPanelsConfig: enabled
+kgPanels: disabled
+kgPanelsConfig: disabled
 LibSharedMedia-3.0: enabled
 Masque: enabled
 Masque_Elegance: enabled
