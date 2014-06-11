@@ -8,7 +8,7 @@ Bartender4DB = {
 						{
 							["hideequipped"] = true,
 							["fadeoutdelay"] = 0,
-							["hidemacrotext"] = true,
+							["padding"] = 0,
 							["fadeoutalpha"] = 0.75,
 							["position"] = {
 								["y"] = -308.3,
@@ -17,7 +17,7 @@ Bartender4DB = {
 								["scale"] = 0.8899999856948853,
 							},
 							["version"] = 3,
-							["padding"] = 0,
+							["hidemacrotext"] = true,
 							["visibility"] = {
 								["always"] = true,
 							},
@@ -35,17 +35,17 @@ Bartender4DB = {
 							["rows"] = 12,
 							["hideequipped"] = true,
 							["fadeout"] = true,
-							["hidemacrotext"] = true,
+							["padding"] = 0,
 							["fadeoutdelay"] = 0.5,
-							["version"] = 3,
+							["fadeoutalpha"] = 0,
 							["position"] = {
 								["y"] = 280,
 								["x"] = -36.5,
 								["point"] = "RIGHT",
 								["scale"] = 0.8899999856948853,
 							},
-							["fadeoutalpha"] = 0,
-							["padding"] = 0,
+							["version"] = 3,
+							["hidemacrotext"] = true,
 							["visibility"] = {
 								["always"] = false,
 							},
@@ -63,8 +63,8 @@ Bartender4DB = {
 							["hidemacrotext"] = true,
 							["visibility"] = {
 								["always"] = true,
-								["overridebar"] = false,
 								["vehicle"] = false,
+								["overridebar"] = false,
 							},
 						}, -- [4]
 						{
@@ -169,8 +169,8 @@ Bartender4DB = {
 							},
 						}, -- [2]
 						{
-							["rows"] = 12,
 							["padding"] = 5,
+							["rows"] = 12,
 							["version"] = 3,
 							["position"] = {
 								["y"] = 610,
@@ -179,8 +179,8 @@ Bartender4DB = {
 							},
 						}, -- [3]
 						{
-							["rows"] = 12,
 							["padding"] = 5,
+							["rows"] = 12,
 							["version"] = 3,
 							["position"] = {
 								["y"] = 610,
@@ -214,225 +214,7 @@ Bartender4DB = {
 						},
 					},
 				},
-				["Vaela - Darkspear"] = {
-					["actionbars"] = {
-						{
-							["padding"] = 0,
-							["version"] = 3,
-							["position"] = {
-								["y"] = 123.6778564453125,
-								["x"] = 61.39998245239258,
-								["point"] = "LEFT",
-							},
-						}, -- [1]
-						{
-							["enabled"] = false,
-							["version"] = 3,
-							["position"] = {
-								["y"] = -189.4999084472656,
-								["x"] = -231.5001831054688,
-								["point"] = "CENTER",
-							},
-						}, -- [2]
-						{
-							["rows"] = 12,
-							["padding"] = 0,
-							["version"] = 3,
-							["position"] = {
-								["y"] = 248.0000610351563,
-								["x"] = 262.6781616210938,
-								["point"] = "CENTER",
-							},
-						}, -- [3]
-						{
-							["rows"] = 12,
-							["padding"] = 0,
-							["version"] = 3,
-							["position"] = {
-								["y"] = 248.0000610351563,
-								["x"] = 315.3223876953125,
-								["point"] = "CENTER",
-							},
-						}, -- [4]
-						{
-							["padding"] = 0,
-							["version"] = 3,
-							["position"] = {
-								["y"] = -1.54437255859375,
-								["x"] = 98.80007171630859,
-								["point"] = "LEFT",
-							},
-						}, -- [5]
-						{
-							["padding"] = 0,
-							["version"] = 3,
-							["position"] = {
-								["y"] = 222.7223510742188,
-								["x"] = 46.22220993041992,
-								["point"] = "LEFT",
-							},
-						}, -- [6]
-						{
-							["enabled"] = true,
-							["padding"] = 0,
-							["version"] = 3,
-							["position"] = {
-								["y"] = 0.5001220703125,
-								["x"] = -231.5001831054688,
-								["point"] = "CENTER",
-							},
-						}, -- [7]
-						{
-							["enabled"] = true,
-							["padding"] = 0,
-							["version"] = 3,
-							["position"] = {
-								["y"] = 38.5001220703125,
-								["x"] = -231.5001831054688,
-								["point"] = "CENTER",
-							},
-						}, -- [8]
-						{
-							["version"] = 3,
-							["position"] = {
-								["y"] = 76.50006103515625,
-								["x"] = -231.5001831054688,
-								["point"] = "CENTER",
-							},
-						}, -- [9]
-						{
-						}, -- [10]
-					},
-				},
-				["Ichica - Darkspear"] = {
-					["actionbars"] = {
-						{
-							["hideequipped"] = true,
-							["fadeout"] = true,
-							["position"] = {
-								["y"] = 40.3,
-								["x"] = -196.6899696779256,
-								["point"] = "BOTTOM",
-								["scale"] = 0.8899999856948853,
-							},
-							["version"] = 3,
-							["hidemacrotext"] = true,
-							["fadeoutalpha"] = 0.9,
-							["padding"] = 0,
-						}, -- [1]
-						{
-							["enabled"] = false,
-							["version"] = 3,
-							["position"] = {
-								["y"] = -189.4999084472656,
-								["x"] = -231.5001831054688,
-								["point"] = "CENTER",
-							},
-						}, -- [2]
-						{
-							["rows"] = 12,
-							["fadeoutalpha"] = 0,
-							["fadeout"] = true,
-							["hideequipped"] = true,
-							["fadeoutdelay"] = 0.5,
-							["position"] = {
-								["y"] = 163.1372054952371,
-								["x"] = -36.49016210989794,
-								["point"] = "RIGHT",
-								["scale"] = 0.8899999856948853,
-							},
-							["padding"] = 0,
-							["hidemacrotext"] = true,
-							["visibility"] = {
-								["always"] = false,
-							},
-							["version"] = 3,
-						}, -- [3]
-						{
-							["hideequipped"] = true,
-							["version"] = 3,
-							["position"] = {
-								["y"] = -278.3,
-								["x"] = -196.6899696779256,
-								["point"] = "TOP",
-								["scale"] = 0.8899999856948853,
-							},
-							["padding"] = 0,
-							["visibility"] = {
-								["always"] = true,
-								["vehicle"] = false,
-							},
-							["hidemacrotext"] = true,
-						}, -- [4]
-						{
-							["hideequipped"] = true,
-							["version"] = 3,
-							["position"] = {
-								["y"] = -246.3,
-								["x"] = -196.6899696779256,
-								["point"] = "TOP",
-								["scale"] = 0.8899999856948853,
-							},
-							["padding"] = 0,
-							["visibility"] = {
-								["always"] = true,
-							},
-							["hidemacrotext"] = true,
-						}, -- [5]
-						{
-							["hideequipped"] = true,
-							["version"] = 3,
-							["position"] = {
-								["y"] = -214.3,
-								["x"] = -196.2451325152142,
-								["point"] = "TOP",
-								["scale"] = 0.8899999856948853,
-							},
-							["padding"] = 0,
-							["visibility"] = {
-								["always"] = true,
-							},
-							["hidemacrotext"] = true,
-						}, -- [6]
-						{
-							["padding"] = 0,
-							["version"] = 3,
-							["position"] = {
-								["y"] = -182.3,
-								["x"] = -196.6899696779256,
-								["point"] = "TOP",
-								["scale"] = 0.8899999856948853,
-							},
-						}, -- [7]
-						{
-							["padding"] = 0,
-							["version"] = 3,
-							["position"] = {
-								["y"] = -150,
-								["x"] = -196.2449152300615,
-								["point"] = "TOP",
-								["scale"] = 0.8899999856948853,
-							},
-						}, -- [8]
-						{
-							["version"] = 3,
-							["position"] = {
-								["y"] = 76.50006103515625,
-								["x"] = -231.5001831054688,
-								["point"] = "CENTER",
-							},
-						}, -- [9]
-						{
-							["version"] = 3,
-							["position"] = {
-								["y"] = 114.5001220703125,
-								["x"] = -231.5001831054688,
-								["point"] = "CENTER",
-							},
-						}, -- [10]
-					},
-				},
-				["Tya - Darkspear"] = {
+				["Riptidé - Darkspear"] = {
 					["actionbars"] = {
 						{
 							["padding"] = 6,
@@ -494,8 +276,9 @@ Bartender4DB = {
 						}, -- [7]
 						{
 						}, -- [8]
-						[10] = {
-						},
+						nil, -- [9]
+						{
+						}, -- [10]
 					},
 				},
 				["Elékk - Darkspear"] = {
@@ -509,10 +292,10 @@ Bartender4DB = {
 								["point"] = "BOTTOM",
 								["scale"] = 0.8899999856948853,
 							},
-							["padding"] = 0,
-							["hidemacrotext"] = true,
-							["fadeoutalpha"] = 0.9,
 							["version"] = 3,
+							["padding"] = 0,
+							["fadeoutalpha"] = 0.9,
+							["hidemacrotext"] = true,
 						}, -- [1]
 						{
 							["enabled"] = false,
@@ -525,19 +308,19 @@ Bartender4DB = {
 						}, -- [2]
 						{
 							["rows"] = 12,
-							["fadeout"] = true,
+							["fadeoutdelay"] = 0.5,
 							["hideequipped"] = true,
-							["fadeoutalpha"] = 0,
+							["fadeout"] = true,
 							["position"] = {
 								["y"] = 163.1372054952371,
 								["x"] = -36.49016210989794,
 								["point"] = "RIGHT",
 								["scale"] = 0.8899999856948853,
 							},
+							["version"] = 3,
 							["padding"] = 0,
 							["hidemacrotext"] = true,
-							["version"] = 3,
-							["fadeoutdelay"] = 0.5,
+							["fadeoutalpha"] = 0,
 						}, -- [3]
 						{
 							["hideequipped"] = true,
@@ -624,7 +407,7 @@ Bartender4DB = {
 						}, -- [10]
 					},
 				},
-				["Riptidé - Darkspear"] = {
+				["Tya - Darkspear"] = {
 					["actionbars"] = {
 						{
 							["padding"] = 6,
@@ -686,7 +469,224 @@ Bartender4DB = {
 						}, -- [7]
 						{
 						}, -- [8]
-						nil, -- [9]
+						[10] = {
+						},
+					},
+				},
+				["Ichica - Darkspear"] = {
+					["actionbars"] = {
+						{
+							["hideequipped"] = true,
+							["fadeout"] = true,
+							["position"] = {
+								["y"] = 40.3,
+								["x"] = -196.6899696779256,
+								["point"] = "BOTTOM",
+								["scale"] = 0.8899999856948853,
+							},
+							["padding"] = 0,
+							["hidemacrotext"] = true,
+							["fadeoutalpha"] = 0.9,
+							["version"] = 3,
+						}, -- [1]
+						{
+							["enabled"] = false,
+							["version"] = 3,
+							["position"] = {
+								["y"] = -189.4999084472656,
+								["x"] = -231.5001831054688,
+								["point"] = "CENTER",
+							},
+						}, -- [2]
+						{
+							["rows"] = 12,
+							["version"] = 3,
+							["fadeoutdelay"] = 0.5,
+							["hideequipped"] = true,
+							["fadeoutalpha"] = 0,
+							["position"] = {
+								["y"] = 163.1372054952371,
+								["x"] = -36.49016210989794,
+								["point"] = "RIGHT",
+								["scale"] = 0.8899999856948853,
+							},
+							["hidemacrotext"] = true,
+							["padding"] = 0,
+							["visibility"] = {
+								["always"] = false,
+							},
+							["fadeout"] = true,
+						}, -- [3]
+						{
+							["hideequipped"] = true,
+							["version"] = 3,
+							["position"] = {
+								["y"] = -278.3,
+								["x"] = -196.6899696779256,
+								["point"] = "TOP",
+								["scale"] = 0.8899999856948853,
+							},
+							["padding"] = 0,
+							["visibility"] = {
+								["always"] = true,
+								["vehicle"] = false,
+							},
+							["hidemacrotext"] = true,
+						}, -- [4]
+						{
+							["hideequipped"] = true,
+							["version"] = 3,
+							["position"] = {
+								["y"] = -246.3,
+								["x"] = -196.6899696779256,
+								["point"] = "TOP",
+								["scale"] = 0.8899999856948853,
+							},
+							["padding"] = 0,
+							["visibility"] = {
+								["always"] = true,
+							},
+							["hidemacrotext"] = true,
+						}, -- [5]
+						{
+							["hideequipped"] = true,
+							["version"] = 3,
+							["position"] = {
+								["y"] = -214.3,
+								["x"] = -196.2451325152142,
+								["point"] = "TOP",
+								["scale"] = 0.8899999856948853,
+							},
+							["padding"] = 0,
+							["visibility"] = {
+								["always"] = true,
+							},
+							["hidemacrotext"] = true,
+						}, -- [6]
+						{
+							["padding"] = 0,
+							["version"] = 3,
+							["position"] = {
+								["y"] = -182.3,
+								["x"] = -196.6899696779256,
+								["point"] = "TOP",
+								["scale"] = 0.8899999856948853,
+							},
+						}, -- [7]
+						{
+							["padding"] = 0,
+							["version"] = 3,
+							["position"] = {
+								["y"] = -150,
+								["x"] = -196.2449152300615,
+								["point"] = "TOP",
+								["scale"] = 0.8899999856948853,
+							},
+						}, -- [8]
+						{
+							["version"] = 3,
+							["position"] = {
+								["y"] = 76.50006103515625,
+								["x"] = -231.5001831054688,
+								["point"] = "CENTER",
+							},
+						}, -- [9]
+						{
+							["version"] = 3,
+							["position"] = {
+								["y"] = 114.5001220703125,
+								["x"] = -231.5001831054688,
+								["point"] = "CENTER",
+							},
+						}, -- [10]
+					},
+				},
+				["Vaela - Darkspear"] = {
+					["actionbars"] = {
+						{
+							["padding"] = 0,
+							["version"] = 3,
+							["position"] = {
+								["y"] = 123.6778564453125,
+								["x"] = 61.39998245239258,
+								["point"] = "LEFT",
+							},
+						}, -- [1]
+						{
+							["enabled"] = false,
+							["version"] = 3,
+							["position"] = {
+								["y"] = -189.4999084472656,
+								["x"] = -231.5001831054688,
+								["point"] = "CENTER",
+							},
+						}, -- [2]
+						{
+							["padding"] = 0,
+							["rows"] = 12,
+							["version"] = 3,
+							["position"] = {
+								["y"] = 248.0000610351563,
+								["x"] = 262.6781616210938,
+								["point"] = "CENTER",
+							},
+						}, -- [3]
+						{
+							["padding"] = 0,
+							["rows"] = 12,
+							["version"] = 3,
+							["position"] = {
+								["y"] = 248.0000610351563,
+								["x"] = 315.3223876953125,
+								["point"] = "CENTER",
+							},
+						}, -- [4]
+						{
+							["padding"] = 0,
+							["version"] = 3,
+							["position"] = {
+								["y"] = -1.54437255859375,
+								["x"] = 98.80007171630859,
+								["point"] = "LEFT",
+							},
+						}, -- [5]
+						{
+							["padding"] = 0,
+							["version"] = 3,
+							["position"] = {
+								["y"] = 222.7223510742188,
+								["x"] = 46.22220993041992,
+								["point"] = "LEFT",
+							},
+						}, -- [6]
+						{
+							["enabled"] = true,
+							["padding"] = 0,
+							["version"] = 3,
+							["position"] = {
+								["y"] = 0.5001220703125,
+								["x"] = -231.5001831054688,
+								["point"] = "CENTER",
+							},
+						}, -- [7]
+						{
+							["enabled"] = true,
+							["padding"] = 0,
+							["version"] = 3,
+							["position"] = {
+								["y"] = 38.5001220703125,
+								["x"] = -231.5001831054688,
+								["point"] = "CENTER",
+							},
+						}, -- [8]
+						{
+							["version"] = 3,
+							["position"] = {
+								["y"] = 76.50006103515625,
+								["x"] = -231.5001831054688,
+								["point"] = "CENTER",
+							},
+						}, -- [9]
 						{
 						}, -- [10]
 					},
@@ -713,23 +713,7 @@ Bartender4DB = {
 						["point"] = "BOTTOM",
 					},
 				},
-				["Vaela - Darkspear"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = -157.7221984863281,
-						["x"] = 284.0887756347656,
-						["point"] = "LEFT",
-					},
-				},
-				["Ichica - Darkspear"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = -64.25006103515625,
-						["x"] = 377.5576477050781,
-						["point"] = "LEFT",
-					},
-				},
-				["Tya - Darkspear"] = {
+				["Riptidé - Darkspear"] = {
 					["version"] = 3,
 					["position"] = {
 						["y"] = 223.0000152587891,
@@ -745,12 +729,28 @@ Bartender4DB = {
 						["point"] = "LEFT",
 					},
 				},
-				["Riptidé - Darkspear"] = {
+				["Tya - Darkspear"] = {
 					["version"] = 3,
 					["position"] = {
 						["y"] = 223.0000152587891,
 						["x"] = -31.50006103515625,
 						["point"] = "BOTTOM",
+					},
+				},
+				["Ichica - Darkspear"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = -64.25006103515625,
+						["x"] = 377.5576477050781,
+						["point"] = "LEFT",
+					},
+				},
+				["Vaela - Darkspear"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = -157.7221984863281,
+						["x"] = 284.0887756347656,
+						["point"] = "LEFT",
 					},
 				},
 			},
@@ -776,8 +776,7 @@ Bartender4DB = {
 						["y"] = 41.75,
 					},
 				},
-				["Vaela - Darkspear"] = {
-					["enabled"] = false,
+				["Riptidé - Darkspear"] = {
 					["version"] = 3,
 					["position"] = {
 						["y"] = 41.75,
@@ -786,7 +785,7 @@ Bartender4DB = {
 						["scale"] = 1,
 					},
 				},
-				["Ichica - Darkspear"] = {
+				["Elékk - Darkspear"] = {
 					["enabled"] = false,
 					["version"] = 3,
 					["position"] = {
@@ -805,7 +804,7 @@ Bartender4DB = {
 						["y"] = 41.75,
 					},
 				},
-				["Elékk - Darkspear"] = {
+				["Ichica - Darkspear"] = {
 					["enabled"] = false,
 					["version"] = 3,
 					["position"] = {
@@ -815,7 +814,8 @@ Bartender4DB = {
 						["scale"] = 0.800000011920929,
 					},
 				},
-				["Riptidé - Darkspear"] = {
+				["Vaela - Darkspear"] = {
+					["enabled"] = false,
 					["version"] = 3,
 					["position"] = {
 						["y"] = 41.75,
@@ -837,7 +837,7 @@ Bartender4DB = {
 					},
 					["version"] = 3,
 				},
-				["Elékk - Darkspear"] = {
+				["Ichica - Darkspear"] = {
 					["version"] = 3,
 					["position"] = {
 						["y"] = 52,
@@ -846,7 +846,7 @@ Bartender4DB = {
 						["scale"] = 0.4900000095367432,
 					},
 				},
-				["Ichica - Darkspear"] = {
+				["Elékk - Darkspear"] = {
 					["version"] = 3,
 					["position"] = {
 						["y"] = 52,
@@ -877,7 +877,8 @@ Bartender4DB = {
 						["point"] = "BOTTOM",
 					},
 				},
-				["Vaela - Darkspear"] = {
+				["Riptidé - Darkspear"] = {
+					["enabled"] = true,
 					["version"] = 3,
 					["position"] = {
 						["y"] = 47,
@@ -885,7 +886,7 @@ Bartender4DB = {
 						["point"] = "BOTTOM",
 					},
 				},
-				["Ichica - Darkspear"] = {
+				["Elékk - Darkspear"] = {
 					["artLayout"] = "ONEBAR",
 					["version"] = 3,
 					["position"] = {
@@ -903,7 +904,7 @@ Bartender4DB = {
 						["point"] = "BOTTOM",
 					},
 				},
-				["Elékk - Darkspear"] = {
+				["Ichica - Darkspear"] = {
 					["position"] = {
 						["y"] = 47,
 						["x"] = -256,
@@ -912,8 +913,7 @@ Bartender4DB = {
 					["version"] = 3,
 					["artLayout"] = "ONEBAR",
 				},
-				["Riptidé - Darkspear"] = {
-					["enabled"] = true,
+				["Vaela - Darkspear"] = {
 					["version"] = 3,
 					["position"] = {
 						["y"] = 47,
@@ -943,26 +943,7 @@ Bartender4DB = {
 						["point"] = "BOTTOM",
 					},
 				},
-				["Vaela - Darkspear"] = {
-					["enabled"] = false,
-					["onebag"] = true,
-					["version"] = 3,
-					["position"] = {
-						["y"] = 41.75,
-						["x"] = 463.5,
-						["point"] = "BOTTOM",
-					},
-				},
-				["Ichica - Darkspear"] = {
-					["enabled"] = false,
-					["version"] = 3,
-					["position"] = {
-						["y"] = 1.50006103515625,
-						["x"] = 58.4998779296875,
-						["point"] = "CENTER",
-					},
-				},
-				["Tya - Darkspear"] = {
+				["Riptidé - Darkspear"] = {
 					["onebag"] = true,
 					["version"] = 3,
 					["position"] = {
@@ -980,7 +961,7 @@ Bartender4DB = {
 						["point"] = "CENTER",
 					},
 				},
-				["Riptidé - Darkspear"] = {
+				["Tya - Darkspear"] = {
 					["onebag"] = true,
 					["version"] = 3,
 					["position"] = {
@@ -989,67 +970,23 @@ Bartender4DB = {
 						["point"] = "BOTTOM",
 					},
 				},
-			},
-		},
-		["Vehicle"] = {
-			["profiles"] = {
-				["Mynic - Runetotem"] = {
+				["Ichica - Darkspear"] = {
 					["enabled"] = false,
 					["version"] = 3,
 					["position"] = {
-						["y"] = -81.29458618164063,
-						["x"] = 212.2465057373047,
-						["point"] = "LEFT",
-					},
-				},
-				["Renéw - Runetotem"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 47.50003051757813,
-						["x"] = 99.5,
+						["y"] = 1.50006103515625,
+						["x"] = 58.4998779296875,
 						["point"] = "CENTER",
 					},
 				},
 				["Vaela - Darkspear"] = {
 					["enabled"] = false,
+					["onebag"] = true,
 					["version"] = 3,
 					["position"] = {
-						["y"] = 47.50003051757813,
-						["x"] = 99.5,
-						["point"] = "CENTER",
-					},
-				},
-				["Ichica - Darkspear"] = {
-					["enabled"] = false,
-					["version"] = 3,
-					["position"] = {
-						["y"] = -81.29458618164063,
-						["x"] = 212.2465057373047,
-						["point"] = "LEFT",
-					},
-				},
-				["Tya - Darkspear"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 47.50003051757813,
-						["x"] = 99.5,
-						["point"] = "CENTER",
-					},
-				},
-				["Elékk - Darkspear"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = -81.29458618164063,
-						["x"] = 212.2465057373047,
-						["point"] = "LEFT",
-					},
-				},
-				["Riptidé - Darkspear"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 47.50003051757813,
-						["x"] = 99.5,
-						["point"] = "CENTER",
+						["y"] = 41.75,
+						["x"] = 463.5,
+						["point"] = "BOTTOM",
 					},
 				},
 			},
@@ -1074,24 +1011,7 @@ Bartender4DB = {
 						["y"] = 116,
 					},
 				},
-				["Vaela - Darkspear"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = -14.99996185302734,
-						["x"] = -82.5,
-						["point"] = "CENTER",
-					},
-				},
-				["Ichica - Darkspear"] = {
-					["enabled"] = false,
-					["version"] = 3,
-					["position"] = {
-						["y"] = 14.25010681152344,
-						["x"] = -207.750114440918,
-						["point"] = "CENTER",
-					},
-				},
-				["Tya - Darkspear"] = {
+				["Riptidé - Darkspear"] = {
 					["version"] = 3,
 					["position"] = {
 						["y"] = -14.99996185302734,
@@ -1108,11 +1028,91 @@ Bartender4DB = {
 						["point"] = "CENTER",
 					},
 				},
-				["Riptidé - Darkspear"] = {
+				["Tya - Darkspear"] = {
 					["version"] = 3,
 					["position"] = {
 						["y"] = -14.99996185302734,
 						["x"] = -82.5,
+						["point"] = "CENTER",
+					},
+				},
+				["Ichica - Darkspear"] = {
+					["enabled"] = false,
+					["version"] = 3,
+					["position"] = {
+						["y"] = 14.25010681152344,
+						["x"] = -207.750114440918,
+						["point"] = "CENTER",
+					},
+				},
+				["Vaela - Darkspear"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = -14.99996185302734,
+						["x"] = -82.5,
+						["point"] = "CENTER",
+					},
+				},
+			},
+		},
+		["Vehicle"] = {
+			["profiles"] = {
+				["Mynic - Runetotem"] = {
+					["enabled"] = false,
+					["version"] = 3,
+					["position"] = {
+						["y"] = -81.29458618164063,
+						["x"] = 212.2465057373047,
+						["point"] = "LEFT",
+					},
+				},
+				["Renéw - Runetotem"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 47.50003051757813,
+						["x"] = 99.5,
+						["point"] = "CENTER",
+					},
+				},
+				["Riptidé - Darkspear"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 47.50003051757813,
+						["x"] = 99.5,
+						["point"] = "CENTER",
+					},
+				},
+				["Elékk - Darkspear"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = -81.29458618164063,
+						["x"] = 212.2465057373047,
+						["point"] = "LEFT",
+					},
+				},
+				["Tya - Darkspear"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 47.50003051757813,
+						["x"] = 99.5,
+						["point"] = "CENTER",
+					},
+				},
+				["Ichica - Darkspear"] = {
+					["enabled"] = false,
+					["version"] = 3,
+					["position"] = {
+						["y"] = -81.29458618164063,
+						["x"] = 212.2465057373047,
+						["point"] = "LEFT",
+					},
+				},
+				["Vaela - Darkspear"] = {
+					["enabled"] = false,
+					["version"] = 3,
+					["position"] = {
+						["y"] = 47.50003051757813,
+						["x"] = 99.5,
 						["point"] = "CENTER",
 					},
 				},
@@ -1137,25 +1137,7 @@ Bartender4DB = {
 						["point"] = "BOTTOM",
 					},
 				},
-				["Vaela - Darkspear"] = {
-					["enabled"] = false,
-					["version"] = 3,
-					["position"] = {
-						["y"] = 116,
-						["x"] = -460,
-						["point"] = "BOTTOM",
-					},
-				},
-				["Ichica - Darkspear"] = {
-					["enabled"] = false,
-					["version"] = 3,
-					["position"] = {
-						["y"] = -222.4221801757813,
-						["x"] = 54.84432601928711,
-						["point"] = "TOPLEFT",
-					},
-				},
-				["Tya - Darkspear"] = {
+				["Riptidé - Darkspear"] = {
 					["version"] = 3,
 					["position"] = {
 						["y"] = 116,
@@ -1172,7 +1154,25 @@ Bartender4DB = {
 						["point"] = "TOPLEFT",
 					},
 				},
-				["Riptidé - Darkspear"] = {
+				["Tya - Darkspear"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 116,
+						["x"] = -460,
+						["point"] = "BOTTOM",
+					},
+				},
+				["Ichica - Darkspear"] = {
+					["enabled"] = false,
+					["version"] = 3,
+					["position"] = {
+						["y"] = -222.4221801757813,
+						["x"] = 54.84432601928711,
+						["point"] = "TOPLEFT",
+					},
+				},
+				["Vaela - Darkspear"] = {
+					["enabled"] = false,
 					["version"] = 3,
 					["position"] = {
 						["y"] = 116,
@@ -1193,7 +1193,7 @@ Bartender4DB = {
 					},
 					["version"] = 3,
 				},
-				["Elékk - Darkspear"] = {
+				["Ichica - Darkspear"] = {
 					["version"] = 3,
 					["position"] = {
 						["y"] = -119.9604295221216,
@@ -1202,7 +1202,7 @@ Bartender4DB = {
 						["scale"] = 0.4399999976158142,
 					},
 				},
-				["Ichica - Darkspear"] = {
+				["Elékk - Darkspear"] = {
 					["version"] = 3,
 					["position"] = {
 						["y"] = -119.9604295221216,
@@ -1217,11 +1217,11 @@ Bartender4DB = {
 	["profileKeys"] = {
 		["Mynic - Runetotem"] = "Mynic - Runetotem",
 		["Renéw - Runetotem"] = "Renéw - Runetotem",
-		["Vaela - Darkspear"] = "Mynic - Runetotem",
-		["Ichica - Darkspear"] = "Mynic - Runetotem",
-		["Tya - Darkspear"] = "Mynic - Runetotem",
-		["Elékk - Darkspear"] = "Elékk - Darkspear",
 		["Riptidé - Darkspear"] = "Riptidé - Darkspear",
+		["Elékk - Darkspear"] = "Elékk - Darkspear",
+		["Tya - Darkspear"] = "Mynic - Runetotem",
+		["Ichica - Darkspear"] = "Mynic - Runetotem",
+		["Vaela - Darkspear"] = "Mynic - Runetotem",
 	},
 	["profiles"] = {
 		["Mynic - Runetotem"] = {
@@ -1238,20 +1238,7 @@ Bartender4DB = {
 			["blizzardVehicle"] = true,
 			["outofrange"] = "hotkey",
 		},
-		["Vaela - Darkspear"] = {
-			["focuscastmodifier"] = false,
-			["blizzardVehicle"] = true,
-			["outofrange"] = "hotkey",
-		},
-		["Ichica - Darkspear"] = {
-			["focuscastmodifier"] = false,
-			["minimapIcon"] = {
-				["hide"] = true,
-			},
-			["onkeydown"] = false,
-			["outofrange"] = "hotkey",
-		},
-		["Tya - Darkspear"] = {
+		["Riptidé - Darkspear"] = {
 			["focuscastmodifier"] = false,
 			["blizzardVehicle"] = true,
 			["outofrange"] = "hotkey",
@@ -1264,7 +1251,20 @@ Bartender4DB = {
 			["onkeydown"] = false,
 			["outofrange"] = "hotkey",
 		},
-		["Riptidé - Darkspear"] = {
+		["Tya - Darkspear"] = {
+			["focuscastmodifier"] = false,
+			["blizzardVehicle"] = true,
+			["outofrange"] = "hotkey",
+		},
+		["Ichica - Darkspear"] = {
+			["focuscastmodifier"] = false,
+			["minimapIcon"] = {
+				["hide"] = true,
+			},
+			["onkeydown"] = false,
+			["outofrange"] = "hotkey",
+		},
+		["Vaela - Darkspear"] = {
 			["focuscastmodifier"] = false,
 			["blizzardVehicle"] = true,
 			["outofrange"] = "hotkey",
